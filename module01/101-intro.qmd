@@ -1,0 +1,34 @@
+---
+author: Januar Harianto
+---
+
+# **Module 1 (Weeks 1 -- 3)** {.unnumbered}
+
+## Preamble
+
+**Science is a process of asking the right questions in the right way, such that we can draw meaningful conclusions when we collect data to answer them.** 
+This is not as easy as it sounds, but it remains a fundamental skill in scientific enquiry. We want to be able to ask questions in a quantitative manner to draw distinctions between different explanations for the phenomena we observe.
+
+*Before* we can start performing t-tests, regressions and ANOVAs; before we can start implementing *fancy* machine learning algorithms; before we can start using the *latest* and *greatest* tools for data analysis, **we need to be able to ask the right questions**. 
+
+So let's (re)-start with the fundamentals.
+
+## What this module is about
+
+**Module 1** is designed to help you develop the fundamental skills in scientific enquiry. Together, we will cover experimental design, model formulation and sampling design. Each week, we start off with a short **30-minute workshop** to introduce you to the concepts and techniques. You will then work through the practical.
+
+
+## Outline
+
+#### [Week 1 Designing studies](102-week01.qmd)
+- **Workshop 1:** Introduction
+- **Activity**: Create a cheatsheet for data analysis, and an introduction to models.
+
+#### Week 2 Data collection
+- **Workshop 2:** Model formulation and data validation
+- **Activity**: Sample data from images and determine the best model for the data.
+
+
+#### Week 3 Data analysis
+- **Workshop 3:** Model assumptions and model fitting
+- **Activity**: Test your model and analyse the data.

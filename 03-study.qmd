@@ -1,0 +1,38 @@
+# How to study for BEDA {.unnumbered}
+
+## Important tips
+
+To many students, BEDA can be a *daunting* subject as it involves dreaded statistics. But we believe that you can master this subject with the right approach. We have provided some tips to help you study for this unit, below.
+
+### 1. Keep up with lectures
+Attending lectures in-person puts you in a routine to go through the material regularly and allows interaction with the lecturer. **If you cannot attend lectures on campus, please watch the recordings as soon as possible.** This is extremely important because we expect you to know the material covered in the lectures when we do the practicals.
+
+### 2. Do not skip content
+This may be an *obvious* tip, but this applies more to BEDA than *any* other subject you have done so far. **Statistics is a subject that requires regular practice.** Unlike other Biology subjects, you cannot *possibly* cram all our material in one week. You need to practice regularly to understand the concepts and to be able to **apply them to different scenarios**, which is what we will be testing you on during the exams. Importantly, **do not skip the content**. Skipping one week of lectures, for example, will make it harder for you to understand the following week's content as the material builds on itself.
+
+### 3. Ask silly questions
+
+There are many channels available for you to ask questions. You can ask questions during the **lectures** (if you attend it), practicals (where the lecturer and many demonstrators are available to help), or in the Ed discussion forums. Do not be afraid to ask away, as we are here to help you! For those of you who are shy, you can also ask questions **anonymously on Ed** or request a consultation with the lecturer. Januar (your coordinator) also runs **weekly drop-in sessions** where you can jump in to address any queries you may have.
+
+### 4. Have faith in the GLM
+
+**Module 1** goes through the general linear model (GLM) approach to study design, which is the foundation of all the statistical tests you will learn in this unit. Understand it well, as it will greatly simplify the rationale behind all the statistics that you have done, and will do. **Modules 2 and 3 will build on this foundation but mention it only in passing.** Importantly, if you have the GLM approach down pat, you will find these modules a lot *easier* to digest.
+
+## Study plan
+
+For BEDA, we recommend the following study plan:
+
+- Lectures (or recordings): 2 hours per week *by attendance*
+- Practical sessions: 2 hours per week *by attendance*
+- Reading and understanding the content: minimum of 2 hours per week by *self study*. 
+
+For self-study we recommend that you spend an hour after each lecture to revise the content and write your notes, and if possible an hour at the end of the week to consolidate both the lectures and practicals.
+
+### Assignments
+
+The above excludes the time you will spend on assignments and preparing for the exams. We recommend that you **start your assignments early and not leave them to the last minute**. This will give you time to ask questions if you are stuck and to revise your work before submission. 
+
+
+### Cheatsheet
+
+Starting from your first practical, we will all be working on a cheatsheet that focuses on data analysis in the different software platforms that you have chosen. Note that this cheatsheet is not a replacement for your notes, but a quick reference guide to help you with data analysis.

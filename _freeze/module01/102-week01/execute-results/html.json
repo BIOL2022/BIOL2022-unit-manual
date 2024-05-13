@@ -1,0 +1,15 @@
+{
+  "hash": "3d291bc454ca364cb437f0aae777c1e7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Week 1 -- Designing studies\n---\n\n\n\n\n\n\n\n\n::: {.callout-note}\n## {{< fa list >}} Outline\n\n:::\n\n## {{< fa chalkboard >}} Workshop\n\nIn today's workshop we will go through:\n\n- Experimental design basics\n- Introduction to R, SPSS, Jamovi and JASP\n- Generative AI use and misuse\n\n\n## {{< fa computer >}} Exercise 1: Possums\n\nWe will use the dataset presented in the first lecture to help you come up with a data analysis toolkit. Note that you may alter the analytical tools you as you progress through the course, but it is important to have an initial plan in place and get organised!\n\n### About the data\n\nThis is a relatively small dataset.\n\n\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\npossums <- readxl::read_excel(\"possums.xlsx\", sheet =  2)\ndplyr::glimpse(possums)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nRows: 20\nColumns: 18\n$ PossID       <chr> \"0447107\", \"0447356\", \"0447525\", \"0447841\", \"0447947\", \"1…\n$ Sex          <chr> \"F\", \"M\", \"F\", \"F\", \"M\", \"F\", \"M\", \"M\", \"F\", \"M\", \"F\", \"M…\n$ BW           <dbl> 2.15, 2.55, 2.95, 2.70, 2.20, 1.85, 2.55, 2.60, 2.00, 2.2…\n$ Age          <chr> \"ADULT\", \"ADULT\", \"ADULT\", \"ADULT\", \"ADULT\", \"ADULT\", \"AD…\n$ BC           <dbl> 3.0, 2.0, 4.0, 3.0, 3.0, 1.0, 2.5, 3.0, 2.0, 3.0, 3.0, 4.…\n$ Albumin      <chr> \"NA\", \"36.151000000000003\", \"34.389000000000003\", \"32.110…\n$ Creatinine   <chr> \"NA\", \"81.817999999999998\", \"107.684\", \"96.21599999999999…\n$ Protein      <chr> \"NA\", \"59.012999999999998\", \"64.19\", \"55.115000000000002\"…\n$ Phosphorus   <chr> \"NA\", \"1.329\", \"1.5940000000000001\", \"1.284\", \"0.86099999…\n$ WiggleBLUP   <dbl> 0.26762001, -0.02836713, -0.20826098, -0.27284660, 0.1624…\n$ BoldBLUP     <dbl> -0.51837769, 0.03818304, -0.03702787, 0.91062958, -0.5183…\n$ ExpBLUP      <dbl> 0.31499847, 0.24511490, 0.21987917, 0.26258579, -0.224657…\n$ VigilBLUP    <dbl> 0.31033001, 0.27834232, 0.39029922, 0.45427459, 0.9916677…\n$ AmoveTBLUP   <dbl> 0.38024890, 0.45427877, 0.45106008, 0.38990497, 0.2869068…\n$ AactiveTBLUP <dbl> 0.30249472, 0.36063946, 0.20856860, -0.32144307, -0.02177…\n$ Cohort       <chr> \"OLD\", \"OLD\", \"OLD\", \"OLD\", \"NEW\", \"OLD\", \"NEW\", \"NEW\", \"…\n$ Solved       <dbl> 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0\n$ TTS          <chr> \"NA\", \"50\", \"14\", \"45\", \"48\", \"12\", \"18\", \"272\", \"90\", \"N…\n```\n\n\n:::\n:::\n\n\n\n\n\n\n\n\n\n## {{< fa computer >}} Exercise 2: Penguins\n\n\n![](penguins.png)\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,69 @@
+project:
+  type: book
+
+date: today
+date-format: "[Semester 2,] YYYY"
+
+
+book:
+  title: Biology Experimental Design and Analysis
+  subtitle: BIOL2022 Unit Manual
+  author: 
+    - Dr. Januar Harianto
+    - Prof. Clare McArthur
+    - Prof. Matthew Crowther
+  date: today
+  sidebar:
+    background: "#EEE5E9"
+    logo: usyd_black.png
+    search: true
+  chapters: 
+    - index.qmd
+    - 01-outline.qmd
+    - 02-policies.qmd
+    - 03-study.qmd
+    - "---"
+    - module01/101-intro.qmd
+    - module01/102-week01.qmd
+    - module01/103-week02.qmd
+    - module01/104-week03.qmd
+    - "---"
+    - module02/201-intro.qmd
+    - module02/202-week04-08.qmd
+    - "---"
+    - module03/301-intro.qmd
+    - module03/302-week09.qmd
+    - module03/303-week10.qmd
+    - module03/304-week11.qmd
+    - module03/305-week12.qmd
+bibliography: references.bib
+
+format:
+  html:
+    number-sections: true
+    number-depth: 1
+    toc: true
+    toc-expand: true
+    toc-depth: 3
+    code-link: true
+    theme: cosmo # cosmo zephyr
+    html-math-method: katex
+    published-title: "Last updated"
+    grid:
+      sidebar-width: 350px
+  pdf:
+    toc: true
+    number-sections: false
+    number-depth: 1
+    documentclass: scrbook # scrreport scrbook
+    papersize: a4
+    fontsize: 11pt
+    block-headings: false
+    colorlinks: true
+    # linestretch: 1.5
+    template-partials:
+        - "before-title.tex"
+
+
+execute: 
+  freeze: auto

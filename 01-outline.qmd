@@ -1,0 +1,54 @@
+---
+lightbox: true
+---
+
+# Outline {.unnumbered}
+
+## Structure
+
+- **Module 1 covers the fundamentals.** We will look at how to sample representatively and organise experiments. Importantly, we want to show that most of the statistical tests you have learnt so far are not distinct, but are variations of the **general linear model**.
+- **Module 2 is where we critically think about study designs.** Using real data examples, you will look at how variations in study design can influence the results. You will also start working on Report 1 which requires you to design and analyse a simple experiment on your own. **Repetition is key here, and you may notice that the same concepts are repeated in different contexts.**
+- **Module 3 is where we delve into more complex designs.** You will learn about multivariate study design and how to design experiments that look beyond pairwise comparisons and p-values. You will also start working on Report 2 which requires you to design and analyse a more complex experiment.
+
+## Lectures and Labs
+
+### Lectures
+Lectures are **compulsory** and are held on Tuesdays and Wednesdays at different locations:
+
+- **Tuesdays**: 10am-11am -- [The Quad General Lecture Theatre](https://venueweb.sydney.edu.au/A14.02.K2.05)
+- **Wednesdays**: 10am-11am -- [Carslaw Lecture Theatre 159-259](https://venueweb.sydney.edu.au/F07.02.159-259)
+
+### Labs
+Labs are held on Tuesdays, Wednesdays and Fridays. You will be assigned to a lab and you **must** attend the lab session you are assigned to as attendance is recorded. Labs are also **compulsory** at either 2pm-4pm or 4pm-6pm. Check your timetable for your assigned lab time.
+
+**All labs are held in [Carslaw Lab 307](https://venueweb.sydney.edu.au/F07.03.307).**
+
+## Assessements
+
+::: callout-warning
+## Late penalties
+- Failure to complete the Quiz on time will result in a 0 mark.
+- For submitted work, a penalty of 5% per day will be applied for late submissions.
+:::
+
+Assessment | Type | Mode | Due | Weight
+--- | --- | --- | --- | --- | ---
+Quiz 1 | Ind | Online | Week 1 | 0%
+Quiz 2 | Ind | Online | Week 2 | 0%
+Quiz 3 | Ind | Online | Week 3 | 0%
+Evaluation Quiz | Ind | Online | Week 4 | 15%
+Report 1 | Ind | Submitted work | Week 8 | 25%
+Report 2 -- data upload | Grp | Submitted work | Week 11 | 5%
+Report 2 | Ind | Submitted work | Week 13 | 15%
+Final Exam | Ind | In-person | Exam period | 40%
+
+## Generative AI
+
+There's no escaping generative AI (GenAI) -- so let's use it responsibly. In the first couple labs we will play around with some generative AI tools and discuss the implications of using them, including the ethical considerations.
+
+In most cases we're happy for you to GenAI it **as long as you're transparent about it**, and that you are not using it to write your reports directly. Remember that you are here to learn and GenAI can be a useful tool to help you understand the concepts better, but using it to do your work defeats that  purpose. If you're unsure, ask us!
+
+## What's next
+
+The next section will detail **academic integrity**, **simple extension** and **special consideration**, which you may need to refer to throughout the semester.
+
