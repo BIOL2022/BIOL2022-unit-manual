@@ -4,11 +4,13 @@ lightbox: true
 
 # Outline {.unnumbered}
 
+BEDA is "split" into **three modules**, each led by a different academic, from lectures to practicals. Because of this, you will notice that the delivery differs between modules, and some content may be *repeated*. **This is intentional**. We believe that **repetition is key** to learning some of the most important concepts in study design and statistics and some techniques need to be applied in different situations to be *fully* understood.
+
 ## Structure
 
-- **Module 1 covers the fundamentals.** We will look at how to sample representatively and organise experiments. Importantly, we want to show that most of the statistical tests you have learnt so far are not distinct, but are variations of the **general linear model**.
-- **Module 2 is where we critically think about study designs.** Using real data examples, you will look at how variations in study design can influence the results. You will also start working on Report 1 which requires you to design and analyse a simple experiment on your own. **Repetition is key here, and you may notice that the same concepts are repeated in different contexts.**
-- **Module 3 is where we delve into more complex designs.** You will learn about multivariate study design and how to design experiments that look beyond pairwise comparisons and p-values. You will also start working on Report 2 which requires you to design and analyse a more complex experiment.
+- **Module 1, led by Januar Harianto, covers the fundamentals.** We expect most of you to be familiar with the basic statistical techniques, but we will go through them again to ensure everyone is on the same page. In addition we introduce to you the concept of study design and how it influences the results of your analysis. 
+- **Module 2, led by Clare McArthur, is where we critically think about study designs.** Using real data examples, we will look at how variations in study design can influence the results. Here you will see that we apply the concepts that you have learnt in Module 1 in different scenarios. Yes, there is repetition, but the context is important! You will also start working on Report 1 which requires you to design and analyse an experiment.
+- **Module 3 is where we delve into multivariate designs.** You will learn to design experiments that look beyond pairwise comparisons and p-values, an increasingly popular facet of statistics. You will also start on Report 2 which requires you to design and analyse a more complex experiment.
 
 ## Lectures and Labs
 
