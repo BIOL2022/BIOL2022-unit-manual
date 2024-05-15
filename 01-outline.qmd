@@ -9,8 +9,8 @@ BEDA is "split" into **three modules**, each led by a different academic, from l
 ## Structure
 
 - **Module 1, led by Januar Harianto, covers the fundamentals.** We expect most of you to be familiar with the basic statistical techniques, but we will go through them again to ensure everyone is on the same page. In addition we introduce to you the concept of study design and how it influences the results of your analysis. 
-- **Module 2, led by Clare McArthur, is where we critically think about study designs.** Using real data examples, we will look at how variations in study design can influence the results. Here you will see that we apply the concepts that you have learnt in Module 1 in different scenarios. Yes, there is repetition, but the context is important! You will also start working on Report 1 which requires you to design and analyse an experiment.
-- **Module 3 is where we delve into multivariate designs.** You will learn to design experiments that look beyond pairwise comparisons and p-values, an increasingly popular facet of statistics. You will also start on Report 2 which requires you to design and analyse a more complex experiment.
+- **Module 2, led by Clare McArthur, critically assesses study designs through case studies.** Using real data examples, we will look at how variations in study design can influence the results. You *will* notice that the concepts from Module 1 are applicable to more *complex* models. You will also start working on Report 1 which requires you to design and analyse an experiment.
+- **Module 3 is where we delve into multivariate designs.** You will learn to design experiments that look beyond pairwise comparisons and p-values, an increasingly popular dimension in the universe of statistics. You will also start on Report 2 which requires you to design and analyse a more complex experiment.
 
 ## Lectures and Labs
 
