@@ -21,7 +21,7 @@ Lectures are **compulsory** and are held on Tuesdays and Wednesdays at different
 - **Wednesdays**: 10am-11am -- [Carslaw Lecture Theatre 159-259](https://venueweb.sydney.edu.au/F07.02.159-259)
 
 ### Labs
-Labs are held on Tuesdays, Wednesdays and Fridays. You will be assigned to a lab and you **must** attend the lab session you are assigned to as attendance is recorded. Labs are also **compulsory** at either 2pm-4pm or 4pm-6pm. Check your timetable for your assigned lab time.
+Labs are held on Tuesdays, Wednesdays and Fridays. You will be assigned to a lab and you *must* attend the lab session you are assigned to -- **attendance is recorded**. Labs are also **compulsory** at either 2pm-4pm or 4pm-6pm. Check your timetable for your assigned lab time.
 
 **All labs are held in [Carslaw Lab 307](https://venueweb.sydney.edu.au/F07.03.307).**
 
