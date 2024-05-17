@@ -44,9 +44,11 @@ Report 2 -- data upload | Grp | Submitted work | Week 11 | 5%
 Report 2 | Ind | Submitted work | Week 13 | 15%
 Final Exam | Ind | In-person | Exam period | 40%
 
+: Assessments for BIOL2022. Ind: individual assessment. Grp: group work assessment. For more information on Rubric and exact due dates, see Canvas. {#tbl-assessments}
+
 ## Generative AI
 
-There's no escaping generative AI (GenAI) -- so let's use it responsibly. In the first couple labs we will play around with some generative AI tools and discuss the implications of using them, including the ethical considerations.
+There's no escaping generative AI (GenAI) -- so let's use it responsibly. In the first couple labs we will play around with some generative AI tools and discuss the implications of using them, including the ethical considerations. The online version of this Unit Handbook will include a GenAI section to provide you with some resources on how to use some of the tools we will be discussing. 
 
 In most cases we're happy for you to GenAI it **as long as you're transparent about it**, and that you are not using it to write your reports directly. Remember that you are here to learn and GenAI can be a useful tool to help you understand the concepts better, but using it to do your work defeats that  purpose. If you're unsure, ask us!
 
