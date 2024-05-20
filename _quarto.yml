@@ -36,6 +36,8 @@ book:
     - module03/303-week10.qmd
     - module03/304-week11.qmd
     - module03/305-week12.qmd
+    - "---"
+    - 04-cheatsheet.qmd
 bibliography: references.bib
 
 format:
