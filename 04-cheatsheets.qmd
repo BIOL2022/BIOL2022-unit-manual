@@ -1,0 +1,17 @@
+# **Cheatsheets** {.unnumbered}
+
+## R
+
+boxplots | scatterplots | histograms
+
+## SPSS
+
+boxplots | scatterplots | histograms
+
+## Jamovi
+
+boxplots | scatterplots | histograms
+
+## JASP
+
+boxplots | scatterplots | histograms
