@@ -21,14 +21,6 @@ So let's (re)-start with the fundamentals.
 ## Outline
 
 #### [Week 1 Designing studies](102-week01.qmd)
-- **Workshop 1:** Introduction
-- **Activity**: Create a cheatsheet for data analysis, and an introduction to models.
+#### [Week 2 Data collection](103-week02.qmd)
+#### [Week 3 Data analysis](104-week03.qmd)
 
-#### Week 2 Data collection
-- **Workshop 2:** Model formulation and data validation
-- **Activity**: Sample data from images and determine the best model for the data.
-
-
-#### Week 3 Data analysis
-- **Workshop 3:** Model assumptions and model fitting
-- **Activity**: Test your model and analyse the data.
