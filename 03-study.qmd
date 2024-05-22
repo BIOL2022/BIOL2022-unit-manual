@@ -35,4 +35,4 @@ The above excludes the time you will spend on assignments and preparing for the 
 
 ### Cheatsheet
 
-A cheatsheet section will be made available on the online version of this manual, updated weekly based on the questions you ask on Ed. The cheatsheet will mostly help you with the practicals and assignments, but it will also include some tips on how to approach the exams.
+A cheatsheet section will be made available on the online version of this manual, updated weekly based on the questions you ask on Ed. This section will contain cheatsheets which will help you with data analysis.
