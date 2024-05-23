@@ -3,58 +3,58 @@ title: Week 1 -- Designing studies
 ---
 
 ## Welcome
-
 Welcome to the first practical of BEDA. We will use this time to introduce you to the software you will be using throughout the unit and also get you started on some modelling exercises.
 
 **The only expectation for this practical is that you have attended the first lecture.** If you were not able to attend, please watch the recording before you come into the laboratory!
 
-## {{< fa chalkboard-teacher >}} Workshop
+In Module 1, all practicals begin with a **workshop**. The workshop is a short class that goes through the key concepts of the week and may also include some resources for you to use in the practical. The workshop is followed by **exercises** that you will complete in the laboratory. The exercises are designed to help you understand the concepts covered in the lectures and gives you a chance to practice study design and data analysis.
 
+Workshop slides are available on Canvas through the Weekly Lecture page.
+
+### Workshop
 In today's workshop we will go through:
 
+- Getting to know one another
 - Introduction to R, SPSS, Jamovi and JASP
-- Generative AI use and misuse
+
+The workshop should take no more than 30 minutes (**unless Januar talks too much 🤐**). After the workshop, you will be given time to complete the exercises. 
 
 
-## {{< fa tasks >}} Exercise 1 -- Cheatsheet
+## Exercise 1 -- cheatsheets
 
 ### Background
-While BEDA is focused on the *practical* aspects of study design (see [Introduction](../index.qmd)), you will eventually need to analyse the data you collect.
+If you are new to statistical software like R or SPSS, don't worry! We will introduce you to **cheatsheets**, which are quick reference guides that help you remember important functions and commands. In this exercise you will pick from a list of cheatsheets and try to complete the analytical tasks provided. You can work in groups to discuss the cheatsheets, but try to complete them on your own.
 
-As BEDA is software-agnostic let's spend some time in this practical to set up a **data analysis cheatsheet** for use throughout the unit.
+### Work on part of a cheatsheet
+1. In the **Cheatsheets** section, you will find a list of cheatsheets that have already been created for you. These cheatsheets are NOT complete and we will improve them as we go along.
+2. **Choose a cheatsheet** that you would like to try out -- make sure it is something that you are *not* familiar with, as there is no point in trying out something that you already know from previous experience.
+3. **Pick a section, or several,** on the cheatsheet and try to complete the tasks by following the steps. If you get stuck, don't worry! You can ask your peers or the demonstrators for help.
 
-A cheatsheet for BEDA is (ideally) a document that contains the following:
-
-- The **software** you will be using for the course (ideally, stick to one or two software packages),
-- a list of the **analyses** you will be performing, and
-- a list of the **resources** you will be using to help you with the analyses, with **working examples** (we recommend the use of the `palmerpenguins` data for this purpose, but you can use any dataset you like).
-
-Cheatsheets can be as simple or as complex as you like, but the idea is to develop a useful reference guide to help you as you progress. **Importantly you can start working on this cheatsheet now, and add to it as you progress.**
-
-Example cheatsheets:
-
-- [Data wrangling with `dplyr` and `tidyr` by Posit](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) - this one is specific to data manipulation in R, and you might design your own to be more general.
-- [R for data science cheatsheet](https://images.datacamp.com/image/upload/v1697642178/Marketing/Blog/R_Cheat_Sheet_PNG_1.pdf) by Datacamp - again, specific to R but a good example of a cheatsheet that covers a range of topics.
-- [SPSS Cheat Sheet](https://ianadamsresearch.com/courses/pubpl-6002/spss-cheat/) by Ian T. Adams - An example of a text-only cheatsheet, without the bells and whistles, that covers a range of data manipulation and analysis techniques in SPSS.
-
-**BUT WAIT! You're NOT the one making the cheatsheet!** Read the task below to understand exactly what you're doing.
-
-### Task
+### Provide feedback 
+Once you are done, you may provide feedback on the cheatsheets you have tried out. You can do this by submitting a comment on the form provided to you on Canvas. Your feedback will help us improve the cheatsheets for future students.
 
 
+### Contribute to the cheatsheets
+If you would like to take one step further and *contribute* to the cheatsheets, we are more than happy to accept your suggestions. You can do this in several ways:
+
+- **Submit a pull request on GitHub.** You can find the link to the GitHub repository on the cheatsheet.
+- **Submit a comment on Ed.** We will be monitoring the comments and will update the cheatsheets accordingly.
+- **Email Januar with your suggestions.** This is absolutely fine!
+
+If your changes are accepted, you will be credited and given co-authorship of the cheatsheet. Your work will be part of the unit's resources and will remain available for as long as BEDA exists. You can also refer to your contribution in your CV or portfolio!
+
+::: callout-tip
+Suggestions can be provided throughout the semester, so don't worry if you don't have time to contribute now. We will be updating the cheatsheets regularly.
+:::
 
 
-## Exercise 2: Exploring models
+## Exercise 2 -- introduction to models
 
-### Data
 
-In this exercise you will be focusing on
-
-![Artwork by [Allison Horst](https://allisonhorst.com/)](penguins.png)
 
 ### Background
 
-One of the key aspects of study design is the ability to **model data**.  Of course, being the first practical of the unit we will not expect you do be able to do this perfectly. Instead, we will use this exercise to introduce you to the concept of **modelling data using graphical plots**, and to get you thinking about how you might use models to design and analyse your own studies.
+One of the key aspects of study design is the ability to **model data**.  Of course, being the first practical of the unit we will not expect you do be able to do this perfectly (if at all). Instead, we will use this exercise to introduce you to the concept of **modelling data using graphical plots**, and to get you thinking about how you might use models to design and analyse your own studies.
 
 
 ### What is a model?
@@ -72,11 +72,54 @@ The above may look intimidating at first, but we can replace most of the symbols
 
 $$\text{height} = \text{weight} + \text{age}$$
 
-
 ### Plots as models
 
-For now, we will focus on **graphical models**. These are models that are represented visually, often as **plots**, and can help us to understand the relationships between variables in a dataset. It is also a way to explore the data before we start to analyse it, so we are really, killing two birds with one stone!
+For now, we will focus on **graphical models**. These are *plots*, but essentially they "visually" represent a study design as they can summarise the results of a statistical model.
+
+::: callout-tip
+If you can **plot** it, you are already **modelling** it!
+:::
+
+### What you will do
+
+This exercise is designed to get you thinking about how to model data. You have the option to import the data and plot it using your preferred software, but it is not quite necessary! Instead, you can consider how you would "model" the data and draw the plots on whiteboards or paper. Work in groups to discuss different modeling approaches. Here is an example:
 
 
 
+1. **Data**: you browse the possum data and decide that it would be interesting to see how the **weight** of a possum changes with **age**.
+2. **Explore**: You eyeball the data to check what sort of variables you are dealing with. You see that weight is **numeric** and age is not -- it could be a **factor**.
+3. **Model**: You decide that a study design that could work would involve collecting 10 adults and 10 juveniles, and comparing their mean weight.
+4. To model this, you could draw:
+    a. A **boxplot** of weight by age group, or
+    b. A **barplot** of mean weight by age group, with error bars, or
+    d. Two histograms of weight, one for adults and one for juveniles, in the same plot.
+5. You pick the one that you think is most appropriate and draw it on paper or whiteboard.
 
+Notice that you have not actually done any data analysis yet! You are just thinking about how you would model the data. This is a crucial step in study design, as it helps you to think about what sort of data you need to collect and how you might analyse it.
+
+::: callout-important
+If you look at the data closely, there is only one juvenile possum in the dataset, but this is not a problem for this exercise. Your task is to think about how you would model the data, not to actually analyse it.
+:::
+
+If this does not make sense, consult your demonstrators for help. It's early days yet, so don't worry if you don't get it straight away!
+
+### Do the following
+
+Looking at the data provided, find data that will allow you to model using the following:
+
+- A histogram
+- A scatterplot
+- A boxplot
+- Two boxplots side by side
+- More than two barplots, side by side, *with or without error bars*
+
+Your demonstrators will be around to help you with this exercise and to check your plots.
+
+::: callout-tip
+- You are not expected to complete all the plots in one go. You can work on them after the practical.
+- We expect you to look up resources online to help you with the plots, as this is a self-directed exercise. Questions like: "What sort of model does a scatterplot often represent?" or "What is the difference between a histogram and a barplot?" are good starting points.
+:::
+
+## End of practical
+
+That's it for today! If you have any questions, please ask your demonstrators. They are here to help you. Remember to submit your feedback on the cheatsheets and to work on the exercises in your own time. We will see you next week for more study design and data analysis!
