@@ -54,17 +54,24 @@ format:
     grid:
       sidebar-width: 350px
   pdf:
+    documentclass: scrbook # scrreport scrbook
+    classoption: ["oneside", "open=any"]
+    papersize: a4
     toc: true
     number-sections: false
     number-depth: 1
-    documentclass: scrbook # scrreport scrbook
-    papersize: a4
     fontsize: 11pt
     block-headings: false
     colorlinks: true
     # linestretch: 1.5
     template-partials:
-        - "before-title.tex"
+      - "template/before-title.tex"
+      - "template/before-body.tex"
+      - "template/_titlepage.tex" 
+    include-in-header: 
+      - "template/in-header.tex"
+  # docx:
+  #   toc: true
 
 
 execute: 
