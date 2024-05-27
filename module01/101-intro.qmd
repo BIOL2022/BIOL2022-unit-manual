@@ -20,7 +20,12 @@ So let's (re)-start with the fundamentals.
 
 ## Outline
 
-#### [Week 1 Designing studies](102-week01.qmd)
-#### [Week 2 Data collection](103-week02.qmd)
+#### [Week 1 Introduction](102-week01.qmd)
+We will introduce you to the practical structure, the software you will be using throughout the unit and also get you started on some modelling exercises.
+
+#### [Week 2 Data sampling](103-week02.qmd)
+Explore the concept of sampling and how to design a study that can draw meaningful conclusions – by collecting data from images. More modelling exercises will be provided.
+
 #### [Week 3 Data analysis](104-week03.qmd)
+Practice data analysis and diagnostics using the data you have collected in the previous week, and discuss what worked and what didn't. 
 
