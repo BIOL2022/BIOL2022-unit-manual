@@ -1,0 +1,95 @@
+---
+title: Timeline 
+---
+
+::: {.panel-tabset .nav-pills}
+## Week 3
+### In your own time
+Sign up to a project group for Module 2 in your Prac Session. **Everyone in your group must attend the same prac session.**
+
+## Week 4
+### In the lab
+
+#### Summary
+- Work with your group to discuss and plan your project.
+- Pick up any gear that you need, to run your pilot study.
+
+#### Details
+- **Form your hypothesis**: as a group, convert the general biological question into specific biological hypotheses and predictions.
+- **Plan the design of your main experiment**: with your group, design a simple experiment to test the hypothesis. Ensure your design can be analysed using the stats you are familiar with (e.g. from Januar’s and Clare’s lectures, and Module 1 Pracs). Draw a graph of how you expect your data to look (refer to Clare’s lectures). Decide what stats analysis is appropriate and why (refer to Clare’s lectures). If you can’t work this out, you are not ready to run your experiment.
+- **Draft your data sheets**: as a group, draft your data sheets for data collection (you may need to modify after your pilot study). This will ensure you collect all the data you should, and collect it all in the same way. 
+
+### In your own time
+After the practical, contribute to your group’s pilot study practical work, read relevant literature, and start preparing for your written report.
+
+## Week 5
+### In the lab
+
+#### Summary
+Finalise the design and plans for your main experiment based on your pilot study and your reading of the relevant scientific literature. Pick up any gear that you need for your main experiment. 
+
+#### Details
+- **Discuss** what you learnt from your pilot study with your group. 
+- **Tweak the design** of your main experiment if you need to: make any adjustments to your plans, and finalise your main experiment and its experimental design. 
+- **Know what statistical analyses you will be doing**: ensure you know how you expect to statistically analyse your results; e.g. what your response and explanatory variable(s) are, what form and hence what stats test you intend to do. 
+
+### In your own time
+Set up your main experiment, run it, collect and collate the data. Everyone in your group must contribute.
+
+- **Collate the data**: collate your group’s data into one Excel file – e.g. using GoogleSheets. Include both a metadata worksheet and a clean results array in its own worksheet for data analysis. You can also have other worksheets for anything you want to record, plot, etc.
+- **Finalise data collation before Week 7 practical** if you can, leaving you more time for data analysis.
+
+## Week 6
+
+### In the lab
+There are no labs in week 6. 
+
+### In your own time
+You should continue on the work being done in Week 5. **Make sure your data is collated before Week 7.**
+
+## Week 7
+
+### In the lab
+
+#### Summary
+- Finalise data collation of your main experiment (including metadata).
+- Start data analysis of your main experiment (and if possible, complete it)
+- Decide what plots and particular stats output you will need to report in the results section of your written report
+
+#### Details
+If you have not done so already, finalise data collation: spend no more than 30 mins of the prac finalising data collation into an Excel spreadsheet. Preferably, have this done before this prac session. 
+
+**Metadata**: include a metadata worksheet that summarises important information referring to your data, such as:
+
+- names of group members
+- the dates the experiment was run
+- sites where you collected data
+- response (i.e. dependent) variables and their units of measurement, 
+- explanatory (i.e. independent) variables, such as treatments (and the levels within each treatment) and any continuous variables
+- anything to help you understand your project and data if you were to publish it for the world to see and understand, e.g. what the columns in your data sheet mean
+
+**Plot, analyse and interpret**: in the remaining prac time (at least an hour) using your group’s data set, each group member should individually learn to use Excel and R or SPSS to plot your data, run appropriate statistical analyses and interpret your results. You need to think about what stats results you need in the results section of your written report. Fantastic if you can complete this task by the end of week 8. 
+
+**Note**: It is okay to work with other group members to plot and run the tests. However, each group member should do the analyses on their own so that they learn; watching someone else is not enough.
+
+## Week 8
+### In the lab
+#### Summary
+- Clare will go through writing your report 
+- Finalise analyses, stats output and graphs
+
+#### Details
+**As a group**: prepare your Excel data file for submission. The filename should be of the form Day-Time-Project, e.g. “WED2-4pmProj4A”. This file must include:
+
+- a metadata worksheet;
+- a worksheet of the data array you will have imported to a stats package for analysis;
+- any other worksheets with workings, plots, etc.
+
+**As individuals**: each group member needs to work on writing their report by: 
+
+- completing their own results and graphs
+- deciding what they will include in their individual report.
+- deciding how they will present the data and the associated statistics.
+
+
+:::
