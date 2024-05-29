@@ -44,6 +44,9 @@ _site/
 *.log
 *_files/
 
+# But, ensure template folder is included
+!template/*
+
 # R Environment Variables
 .Renviron
 
