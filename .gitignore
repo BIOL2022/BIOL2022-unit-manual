@@ -44,7 +44,7 @@ _site/
 *.log
 *_files/
 
-# But, ensure template folder is included
+# But, ensure template folder is included for .tex
 !template/*
 
 # R Environment Variables
