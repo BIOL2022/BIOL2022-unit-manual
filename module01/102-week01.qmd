@@ -82,18 +82,15 @@ If you can **plot** it, you are already **modelling** it!
 
 ### What you will do
 
-This exercise is designed to get you thinking about how to model data. You have the option to import the data and plot it using your preferred software, but it is not quite necessary! Instead, you can consider how you would "model" the data and draw the plots on whiteboards or paper. Work in groups to discuss different modeling approaches. Here is an example:
+This exercise is designed to get you thinking about how to model data. You can consider how you would "model" the data and draw the plots on whiteboards or paper. Work in groups to discuss different modeling approaches. Here is an example:
 
-
-
-1. **Data**: you browse the possum data and decide that it would be interesting to see how the **weight** of a possum changes with **age**.
-2. **Explore**: You eyeball the data to check what sort of variables you are dealing with. You see that weight is **numeric** and age is not -- it could be a **factor**.
-3. **Model**: You decide that a study design that could work would involve collecting 10 adults and 10 juveniles, and comparing their mean weight.
-4. To model this, you could draw:
-    a. A **boxplot** of weight by age group, or
-    b. A **barplot** of mean weight by age group, with error bars, or
-    d. Two histograms of weight, one for adults and one for juveniles, in the same plot.
-5. You pick the one that you think is most appropriate and draw it on paper or whiteboard.
+1. Browse the possum data. Consider a model of how the **weight** of a possum changes with **age**.
+2. Check the variables: weight is **numeric** and age is not -- it could be a **factor**.
+3. Think of a study design involving 10 adults and 10 juveniles, comparing their mean weight.
+4. Consider one of the following models:
+    a. A **boxplot** of weight by age group
+    b. A **scatterplot** of weight by age, which means age needs to be converted to a numeric variable (is it possible?)
+5. Choose the most appropriate model and draw it on paper or whiteboard.
 
 Notice that you have not actually done any data analysis yet! You are just thinking about how you would model the data. This is a crucial step in study design, as it helps you to think about what sort of data you need to collect and how you might analyse it.
 
@@ -105,7 +102,7 @@ If this does not make sense, consult your demonstrators for help. It's early day
 
 ### Do the following
 
-Looking at the data provided, find data that will allow you to model using the following:
+Looking at the data provided, find data that will allow you to model, **by hand**, using the following:
 
 - A histogram
 - A scatterplot
@@ -113,11 +110,11 @@ Looking at the data provided, find data that will allow you to model using the f
 - Two boxplots side by side
 - More than two barplots, side by side, *with or without error bars*
 
-Your demonstrators will be around to help you with this exercise and to check your plots.
+The above plots are often associated with specific empirical models, many of which we will cover over the next few weeks. Your demonstrators will be around to help you with this exercise and to check your ideas and plots.
 
 ::: callout-tip
 - You are not expected to complete all the plots in one go. You can work on them after the practical.
-- We expect you to look up resources online to help you with the plots, as this is a self-directed exercise. Questions like: "What sort of model does a scatterplot often represent?" or "What is the difference between a histogram and a barplot?" are good starting points.
+- If you are new to plotting, **we expect you ask your peers and/or to look up resources online to help you with the plots**. Questions like: "What sort of model does a scatterplot often represent?" or "What is the difference between a histogram and a barplot?" are good starting points.
 :::
 
 ## End of practical
