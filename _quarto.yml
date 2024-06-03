@@ -30,6 +30,8 @@ book:
     - "---"
     - module02/201-intro.qmd
     - module02/202-timeline.qmd
+    - module02/203-projects.qmd
+    - module02/204-report1.qmd
     - "---"
     - module03/301-intro.qmd
     - module03/302-week09.qmd
