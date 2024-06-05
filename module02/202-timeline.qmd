@@ -1,14 +1,14 @@
 ---
-title: Timeline 
+title: Timeline
 ---
 
-::: {.panel-tabset .nav-pills}
+<!-- ::: {.panel-tabset .nav-pills} -->
 ## Week 3
-### In your own time
+### In your own time {.unnumbered .unlisted}
 Sign up to a project group for Module 2 in your Prac Session. **Everyone in your group must attend the same prac session.**
 
 ## Week 4
-### In the lab
+### In the lab {.unnumbered .unlisted}
 
 #### Summary
 - Work with your group to discuss and plan your project.
@@ -19,11 +19,11 @@ Sign up to a project group for Module 2 in your Prac Session. **Everyone in your
 - **Plan the design of your main experiment**: with your group, design a simple experiment to test the hypothesis. Ensure your design can be analysed using the stats you are familiar with (e.g. from Januar’s and Clare’s lectures, and Module 1 Pracs). Draw a graph of how you expect your data to look (refer to Clare’s lectures). Decide what stats analysis is appropriate and why (refer to Clare’s lectures). If you can’t work this out, you are not ready to run your experiment.
 - **Draft your data sheets**: as a group, draft your data sheets for data collection (you may need to modify after your pilot study). This will ensure you collect all the data you should, and collect it all in the same way. 
 
-### In your own time
+### In your own time {.unnumbered .unlisted}
 After the practical, contribute to your group’s pilot study practical work, read relevant literature, and start preparing for your written report.
 
 ## Week 5
-### In the lab
+### In the lab {.unnumbered .unlisted}
 
 #### Summary
 Finalise the design and plans for your main experiment based on your pilot study and your reading of the relevant scientific literature. Pick up any gear that you need for your main experiment. 
@@ -33,7 +33,7 @@ Finalise the design and plans for your main experiment based on your pilot study
 - **Tweak the design** of your main experiment if you need to: make any adjustments to your plans, and finalise your main experiment and its experimental design. 
 - **Know what statistical analyses you will be doing**: ensure you know how you expect to statistically analyse your results; e.g. what your response and explanatory variable(s) are, what form and hence what stats test you intend to do. 
 
-### In your own time
+### In your own time {.unnumbered .unlisted}
 Set up your main experiment, run it, collect and collate the data. Everyone in your group must contribute.
 
 - **Collate the data**: collate your group’s data into one Excel file – e.g. using GoogleSheets. Include both a metadata worksheet and a clean results array in its own worksheet for data analysis. You can also have other worksheets for anything you want to record, plot, etc.
@@ -41,15 +41,15 @@ Set up your main experiment, run it, collect and collate the data. Everyone in y
 
 ## Week 6
 
-### In the lab
+### In the lab {.unnumbered .unlisted}
 There are no labs in week 6. 
 
-### In your own time
+### In your own time {.unnumbered .unlisted}
 You should continue on the work being done in Week 5. **Make sure your data is collated before Week 7.**
 
 ## Week 7
 
-### In the lab
+### In the lab {.unnumbered .unlisted}
 
 #### Summary
 - Finalise data collation of your main experiment (including metadata).
@@ -73,7 +73,7 @@ If you have not done so already, finalise data collation: spend no more than 30 
 **Note**: It is okay to work with other group members to plot and run the tests. However, each group member should do the analyses on their own so that they learn; watching someone else is not enough.
 
 ## Week 8
-### In the lab
+### In the lab {.unnumbered .unlisted}
 #### Summary
 - Clare will go through writing your report 
 - Finalise analyses, stats output and graphs
@@ -92,4 +92,14 @@ If you have not done so already, finalise data collation: spend no more than 30 
 - deciding how they will present the data and the associated statistics.
 
 
-:::
+## Week 9
+
+#### Submit your report {.unnumbered .unlisted}
+
+There are two Canvas assignments for this assessment:
+
+- **Data upload (group)**: one person from your group needs to submit the group’s data for this Canvas assignment
+- **Report 1 (individual)**: each person in your group needs to submit their own report for this Canvas assignment.
+
+
+<!-- ::: -->
