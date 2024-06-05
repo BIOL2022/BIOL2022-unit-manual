@@ -2,4 +2,28 @@
 title: Week 2 - Data collection
 ---
 
-## Outline
+## Welcome
+
+You made it to the second week! Today we will be focusing on data collection and how to prepare your data for analysis.
+
+
+## Workshop
+Today's workshop will go through the following:
+
+- Tidy data
+- Models (using R)
+
+
+## Exercise 1 -- Modelling from observations
+### Background
+Images are commonly used to quantify patterns in biology, from molecules to ecosystems. In ecology, for instance, satellite images and aerial photographs are used in some ecological studies to quantify patterns of distribution and abundances of animals and plants across habitats. 
+
+Here you will explore experimental design, model formulation and data analysis by collecting data from available images and use both evidence and logic to work out how to explain the patterns you observe.
+
+
+### Work in groups
+You will be working in groups of 3-4 students. Your task is to **observe** the images provided and formulate a **model** that explains the patterns you observe. You will then create a **study design** that will allow you to test your model. Do not proceed to Exercise 2 until you have completed this exercise, and a Demonstrator has approved your study design.
+
+
+## Exercise 2 -- image sampling
+
