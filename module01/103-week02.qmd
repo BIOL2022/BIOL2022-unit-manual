@@ -8,11 +8,12 @@ You made it to the second week! Today we will be focusing on data collection and
 
 
 ## Workshop
-Today's workshop will go through the following:
+The Week 2 workshop will go through the following:
 
-- Tidy data
+- Tidy data principles
 - Models (using R)
 
+Workshop slides are available on Canvas through the Weekly Lecture page.
 
 ## Exercise 1 -- Modelling from observations
 ### Background
@@ -24,6 +25,86 @@ Here you will explore experimental design, model formulation and data analysis b
 ### Work in groups
 You will be working in groups of 3-4 students. Your task is to **observe** the images provided and formulate a **model** that explains the patterns you observe. You will then create a **study design** that will allow you to test your model. Do not proceed to Exercise 2 until you have completed this exercise, and a Demonstrator has approved your study design.
 
+### Getting started
+
+You are provided with 24 random, representative, replicate photographs of a common marine habitat that spans > 8,000 km of the Great Southern Reef, i.e. the coastline along the bottom half of Australia -- intertidal rocky shores (Fig 1). 
+
+![Fig 1. The Great Southern Reef. © 2021 California Academy of Sciences.](../assets/southern-reef-map.png){width=70%}
+
+**Using these images, formulate a model and a (testable) hypothesis. You will then think about what data you need to collect to test your hypothesis.** See below for further details.
+
+The images are hosted on Canvas. If you cannot find them, ask your demonstrator for help.
+
+### Study design
+
+You should have a model in mind before you start collecting data as it determines your sampling strategy. Ideally you would apply a model that is associated with a statistical technique that you are familiar with as it will determine the type of data you need to collect.
+
+Consider the following:
+
+- What is the appropriate model? e.g.
+  - "I am interested in comparing two groups."
+  - "I am interested in measuring the relationshop between two variables."
+- What are the assumptions? e.g.
+  - "I assume that I will be able to sample from the images representatively."
+  - "If I take a random sample, I assume that the data will be normally distributed."
+- What is the appropriate test? e.g.
+  - "I will use a t-test to compare the means of two groups."
+  - "I will use a linear regression to measure the relationship between two variables."
+- What is the backup plan if data assumptions were not met?
+  - "If normality is not met, I will transform the data first, otherwise I will use a non-parametric test."
+
+You may not be able to answer all of the questions above right away, but you should have a rough idea of what you want to do (e.g. compare between two or multiple groups, or measuring correlation, or creating a linear model).
 
 ## Exercise 2 -- image sampling
+
+
+### Data entry
+
+Enter your data into a spreadsheet as soon as you have them. You can use any spreadsheet software you like (e.g. Excel, Google Sheets, Numbers). Google Sheets is easiest if everyone in your group is sampling and entering data at the same time since it is easy to set up a shared spreadsheet.
+
+:::{.callout-important}
+## Discuss
+If more than one person is entering data, will it influence the results? Why or why not? Think about how you can reduce the impact of this.
+:::
+
+To make your life easier, *try* to follow [tidy data principles](https://r4ds.had.co.nz/tidy-data.html):
+
+1. Each variable must have its own column.
+2. Each observation must have its own row.
+3. Each value must have its own cell. 
+
+The table below is tidy:
+
+```{r}
+#| echo: false
+#| message: false
+library(gt)
+library(tidyverse)
+library(gtExtras)
+person <- c("John", "Mary", "Jane", "John", "Mary", "Jane")
+treatment <- c("A", "A", "A", "B", "B", "B")
+count <- c(5, 3, 2, 6, 4, 5)
+tidy_data <- tibble(person, treatment, count)
+gt(tidy_data) |>
+    gt_theme_espn() |>
+    tab_caption(caption = md("Table 1. Tidy data."))
+```
+
+The table below is not (although it may look "better” to you):
+
+```{r}
+#| echo: false
+
+messy_data <- tibble(
+    person = c("John", "Mary", "Jane"),
+    "treatment A" = c(5, 3, 2),
+    "treatment B" = c(6, 4, 5)
+)
+gt(messy_data) |>
+    gt_theme_espn() |>
+    tab_caption(caption = md("Table 2. Non-tidy data. Treatment A and B represent the same variable (count)."))
+```
+
+
+Tidy data will reduce the amount of time you spend cleaning your data, but if you find it cumbersome, you can still collect data in your own way, and fix them later.
 
