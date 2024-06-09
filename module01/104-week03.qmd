@@ -2,4 +2,61 @@
 title: Week 3 -- Data analysis
 ---
 
-## Outline
+## Workshop
+
+In today's workshop we will go through the following:
+
+- Model fitting and assumptions in R
+- Interpreting model output
+
+## Lab activity
+
+:::{.callout-note}
+This lab is focused on data analysis and interpretation, but if you still need to collect more data, you can use this time to do so.
+:::
+
+When ready, work with your group to analyse the data you collected in the previous lab. You will need to:
+
+- Fit a model to your data.
+- Check the assumptions of the model.
+- Interpret the model output.
+- Work on your presentation.
+
+**Your demonstrators are ready to help.** We expect you to be able to select the appropriate model to your data, but you can check with demonstrators about applying the techniques in R, SPSS or Excel.
+
+### Fitting a model to data
+
+Recall that you have an empirical model e.g. `y ~ x1 + ... + xn`. You will need to use an appropriate statistical model to fit this relationship to your data.
+
+:::{.callout-note}
+At this stage you may not know which statistical model to use. *This is fine.* Ask your demonstrators for help once you have an idea of what you want to do.
+:::
+
+### Checking assumptions
+
+Assumptions need to be checked as they basically tell you whether the model you have fitted is appropriate for your data. If the assumptions are not met, you will need to transform your data or use a different model.
+
+Common assumptions include:
+
+- Normality (of residuals)
+- Homogeneity of variance
+- Independence of observations
+
+**We recommend looking at residual plots**, rather than formal tests of assumptions. Formal tests of assumptions can be overly sensitive to large sample sizes and can lead to you rejecting a model that is actually appropriate for your data.
+
+**What to do if assumptions are not met?** The first step would be to try and transform your data. If this does not work, you will need to use a different model or a non-parametric equivalent.
+
+### Statistical testing
+
+Running the statistical test is probably the *least* eventful part of the analytical workflow and will take you a few seconds regardless of the software you are using. Make sure that you record the software used and the specific statistical technique selected such that the analysis is **reproducible**.
+
+
+### Interpretation
+
+Interpreting the output of a statistical test is a skill that takes time to develop. You will need to be able to:
+
+- Understand the important parts of the output e.g. F-statistic, p-value, degrees of freedom, etc.
+- Explain what the output means in the context of your data.
+- Explain what the output means in the context of your research question.
+
+Your lectures and this week's workshop will help you develop these skills.
