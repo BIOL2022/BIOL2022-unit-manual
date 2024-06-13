@@ -1,5 +1,39 @@
 # **Cheatsheets** {.unnumbered}
 
+::: callout-note
+- Need to figure this section out.
+- I will provide tidbit-sized cheatsheets on how to perform all sorts of stuff related to study design and data analysis in R, SPSS, Jamovi and JASP.
+- Pick 2 to focus on for 2024:
+  - R
+  - SPSS
+  - Jamovi
+  - JASP
+- The cheatsheets will be hosted on GitHub at https://github.com/usyd-soles-edu
+- Can be used for other units (important)
+- Preferable: supports version control
+- Preferable: on a platform that is easy to use and update
+
+Which platform?
+
+Requirements:
+
+- Can be proprietary but must be free for students
+- Must produce at least an output that can be open-sourced:
+  - txt or rtf instead of docx
+  - md
+  - html
+- Hopefully *very* easy to use and edit.
+- Possible:
+  - Notion
+  - Coda
+  - Craft
+  - GitHub Wiki
+  - Canvas
+  - Google Docs
+
+
+:::
+
 ## R
 
 boxplots | scatterplots | histograms
