@@ -55,23 +55,23 @@ format:
     published-title: "Last updated"
     grid:
       sidebar-width: 360px
-  pdf:
-    documentclass: scrbook # scrreport scrbook
-    classoption: ["oneside", "open=any"]
-    papersize: a4
-    toc: true
-    number-sections: false
-    number-depth: 1
-    fontsize: 11pt
-    block-headings: false
-    colorlinks: true
-    # linestretch: 1.5
-    template-partials:
-      - "template/before-title.tex"
-      - "template/before-body.tex"
-      - "template/_titlepage.tex" 
-    include-in-header: 
-      - "template/in-header.tex"
+  # pdf:
+  #   documentclass: scrbook # scrreport scrbook
+  #   classoption: ["oneside", "open=any"]
+  #   papersize: a4
+  #   toc: true
+  #   number-sections: false
+  #   number-depth: 1
+  #   fontsize: 11pt
+  #   block-headings: false
+  #   colorlinks: true
+  #   # linestretch: 1.5
+  #   template-partials:
+  #     - "template/before-title.tex"
+  #     - "template/before-body.tex"
+  #     - "template/_titlepage.tex" 
+  #   include-in-header: 
+  #     - "template/in-header.tex"
   # docx:
   #   toc: true
 
