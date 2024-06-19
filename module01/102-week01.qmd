@@ -31,7 +31,9 @@ If you are new to statistical software like R or SPSS, don't worry! We will intr
 3. **Pick a section, or several,** on the cheatsheet and try to complete the tasks by following the steps. If you get stuck, don't worry! You can ask your peers or the demonstrators for help.
 
 ### Provide feedback 
-Once you are done, you may provide feedback on the cheatsheets you have tried out. You can do this by submitting a comment on the form provided to you on Canvas. Your feedback will help us improve the cheatsheets for future students.
+Once you are done, please provide feedback on the cheatsheets you have tried out. You can do this by submitting a comment on the form provided to you on the cheatsheets page. The form will ask you to rate the cheatsheet, and should take no more than 2 minutes to complete, so please help us out!
+
+Your feedback will help us improve the cheatsheets for future students.
 
 
 ### Contribute to the cheatsheets
@@ -82,8 +84,11 @@ If you can **plot** it, you are already **modelling** it!
 
 ### What you will do
 
-This exercise is designed to get you thinking about how to model data. You can consider how you would "model" the data and draw the plots on whiteboards or paper. Work in groups to discuss different modeling approaches. Here is an example:
+This exercise is designed to get you thinking about how to model data. You can consider how you would "model" the data and draw the plots on whiteboards or paper. Work in groups to discuss different modeling approaches. 
 
+-----
+
+#### Example
 1. Browse the possum data. Consider a model of how the **weight** of a possum changes with **age**.
 2. Check the variables: weight is **numeric** and age is not -- it could be a **factor**.
 3. Think of a study design involving 10 adults and 10 juveniles, comparing their mean weight.
@@ -92,25 +97,29 @@ This exercise is designed to get you thinking about how to model data. You can c
     b. A **scatterplot** of weight by age, which means age needs to be converted to a numeric variable (is it possible?)
 5. Choose the most appropriate model and draw it on paper or whiteboard.
 
-Notice that you have not actually done any data analysis yet! You are just thinking about how you would model the data. This is a crucial step in study design, as it helps you to think about what sort of data you need to collect and how you might analyse it.
+-----
+
+Notice that in the example above, you have not performed any data analysis. You are simply considering how to model the data, which is an important step in study design. This helps you determine the type of data you need to collect and how to analyse it.
 
 ::: callout-important
-If you look at the data closely, there is only one juvenile possum in the dataset, but this is not a problem for this exercise. Your task is to think about how you would model the data, not to actually analyse it.
+If you look at the data closely, **there is only one juvenile possum in the dataset**, but this is *not* a problem for this exercise. Your task is to think about how you would model the data in a new study design, not to analyse data that is *already collected*.
 :::
 
 If this does not make sense, consult your demonstrators for help. It's early days yet, so don't worry if you don't get it straight away!
 
-### Do the following
+### Tasks
 
-Looking at the data provided, find data that will allow you to model, **by hand**, using the following:
+**Step 1.** Download and explore the data: penguins.csv and possum.xlsx.
 
-- A histogram
-- A scatterplot
-- A boxplot
-- Two boxplots side by side
-- More than two barplots, side by side, *with or without error bars*
+**Step 2.** Identify variables from the data to create the following visualisations:
 
-The above plots are often associated with specific empirical models, many of which we will cover over the next few weeks. Your demonstrators will be around to help you with this exercise and to check your ideas and plots.
+- Histogram
+- Scatterplot
+- Boxplot
+- Two side-by-side boxplots
+- Multiple side-by-side barplots (with or without error bars)
+
+These plots are often associated with specific empirical models, which we will cover in the upcoming weeks. Your demonstrators will assist you with this exercise and review your ideas and plots, but you should also try to work on them independently, and seek help from your peers and online resources if necessary.
 
 ::: callout-tip
 - You are not expected to complete all the plots in one go. You can work on them after the practical.
