@@ -46,6 +46,8 @@ bibliography: references.bib
 
 format:
   pdf:
+    # pdf-engine: latexmk
+    # pdf-engine-opt: -xelatex
     documentclass: scrbook # scrreport scrbook
     classoption: ["twoside", "open=any"]
     papersize: a4
@@ -53,15 +55,15 @@ format:
     number-sections: false
     number-depth: 1
     fontsize: 11pt
-    block-headings: false
+    block-headings: true
     colorlinks: true
-    # linestretch: 1.5
+    linestretch: 1.25
     template-partials:
       - "template/before-title.tex"
       - "template/before-body.tex"
       - "template/_titlepage.tex" 
-    include-in-header: 
-      - "template/in-header.tex"
+    # include-in-header: 
+    #   - "template/in-header.tex"
 
 
 
