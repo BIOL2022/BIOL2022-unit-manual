@@ -4,55 +4,58 @@ lightbox: true
 
 # Outline {.unnumbered}
 
-BEDA is "split" into **three modules**, each led by a different academic, from lectures to practicals. Because of this, you will notice that the delivery differs between modules, and some content may be *repeated*. **This is intentional**. We believe that **repetition is key** to learning some of the most important concepts in study design and statistics and some techniques need to be applied in different situations to be *fully* understood.
+**BEDA is taught under three modules, each led by a different academic, from lectures to practicals.** Because of this, you will notice that the delivery differs between modules, and some content may be *repeated*. This is intentional. We believe that repetition is key to learning some of the most important concepts in study design and statistics. Some techniques *need* to be applied in different situations to be fully understood. 
 
 ## Structure
 
-- **Module 1, led by Januar Harianto, covers the fundamentals.** We expect most of you to be familiar with the basic statistical techniques, but we will go through them again to ensure everyone is on the same page. In addition we introduce to you the concept of study design and how it influences the results of your analysis. 
-- **Module 2, led by Clare McArthur, critically assesses study designs through case studies.** Using real data examples, we will look at how variations in study design can influence the results. You *will* notice that the concepts from Module 1 are applicable to more *complex* models. You will also start working on Report 1 which requires you to design and analyse an experiment.
-- **Module 3 is where we delve into multivariate designs.** You will learn to design experiments that look beyond pairwise comparisons and p-values, an increasingly popular dimension in the universe of statistics. You will also start on Report 2 which requires you to design and analyse a more complex experiment.
+**Module 1**: led by Januar Harianto, covers the fundamentals. We expect most of you to be familiar with the basic statistical techniques, but we will go through the standard concepts and unify them under a linear modelling framework. In addition we introduce to you the concept of study design and how it influences the results of your analysis. 
 
-## Lectures and Labs
+**Module 2**: led by Clare McArthur, critically assesses study designs that have already ben done. Using real data examples, we will look at how variations in study design can influence the results. You *will* notice that the concepts from Module 1 are applicable to more *complex* models. You will also start working on Report 1 which requires you to design and analyse an experiment.
 
-### Lectures
-Lectures are **compulsory** and are held on Tuesdays and Wednesdays at different locations:
+**Module 3**: led by Mathew Crowther, focuses on the application of statistical techniques to real-world data that is often complex and messy -- and how to deal with it using multivariate techniques. You will start working on Report 2 which requires you to collect and analyse data from your environment, rather than a controlled experiment.
 
-- **Tuesdays**: 10am-11am -- [The Quad General Lecture Theatre](https://venueweb.sydney.edu.au/A14.02.K2.05)
-- **Wednesdays**: 10am-11am -- [Carslaw Lecture Theatre 159-259](https://venueweb.sydney.edu.au/F07.02.159-259)
+## Lectures, Labs & drop-in sessions
 
-### Labs
-Labs are held on Tuesdays, Wednesdays and Fridays. You will be assigned to a lab and you *must* attend the lab session you are assigned to -- **attendance is recorded**. Labs are also **compulsory** at either 2pm-4pm or 4pm-6pm. Check your timetable for your assigned lab time.
+**Lectures** are *compulsory* and are held on Tuesdays and Wednesdays at different locations:
 
-**All labs are held in [Carslaw Lab 307](https://venueweb.sydney.edu.au/F07.03.307).**
+- Tuesdays: 10am-11am -- [The Quad General Lecture Theatre](https://venueweb.sydney.edu.au/A14.02.K2.05)
+- Wednesdays: 10am-11am -- [Carslaw Lecture Theatre 159-259](https://venueweb.sydney.edu.au/F07.02.159-259)
+
+**Labs** are held on Tuesdays, Wednesdays and Fridays. You will be assigned to a lab and you *must* attend the lab session you are assigned to -- attendance is recorded. Labs are also *compulsory* at either 2pm-4pm or 4pm-6pm. Check your timetable for your assigned lab time.
+
+All labs are held in [Carslaw Lab 307](https://venueweb.sydney.edu.au/F07.03.307).
+
+**Drop-in sessions** are held weekly on Zoom. These are optional sessions where you can ask questions about the content covered in the lectures and labs and get help with your assessments. The schedule for these sessions will be posted on Ed, as the times may vary depending on the time of the semester.
 
 ## Assessements
 
-::: callout-warning
-## Late penalties
-- Failure to complete the Quiz on time will result in a 0 mark.
-- For submitted work, a penalty of 5% per day will be applied for late submissions.
-:::
+The assessments for this unit are outlined in @tbl-assessments.
+Compulsory assessments are marked in **bold** and must be attempted and submitted prevent a fail grade.
+
 
 Assessment | Type | Mode | Due | Weight
---- | --- | --- | --- | --- | ---
+:--- | :--- | :--- | :--- | :--- | :---
 Quiz 1 | Ind | Online | Week 1 | 0%
 Quiz 2 | Ind | Online | Week 2 | 0%
 Quiz 3 | Ind | Online | Week 3 | 0%
-Evaluation Quiz | Ind | Online | Week 4 | 15%
-Report 1 | Ind | Submitted work | Week 8 | 25%
+**Evaluation Quiz** | **Ind** | **Online** | **Week 4** | 15%
+**Report 1** | **Ind** | **Submitted work** | **Week 8** | 25%
 Report 2 -- data upload | Grp | Submitted work | Week 11 | 5%
-Report 2 | Ind | Submitted work | Week 13 | 15%
-Final Exam | Ind | In-person | Exam period | 40%
+**Report 2** | **Ind** | **Submitted work** | **Week 13** | 15%
+**Final Exam** | **Ind** | **In-person** | **Exam period** | 40%
 
-: Assessments for BIOL2022. Ind: individual assessment. Grp: group work assessment. For more information on Rubric and exact due dates, see Canvas. {#tbl-assessments}
+: Assessments for BIOL2022. For detailed information, see Canvas. {#tbl-assessments}
+
+### Late penalties
+- Failure to complete the Quiz on time will result in a 0 mark.
+- A penalty of 5% per day will be applied for late submissions of reports and data. If you think you will be late, please contact us as soon 
 
 ## Generative AI
 
-There's no escaping generative AI (GenAI) -- so let's use it responsibly. In the first couple labs we will play around with some generative AI tools and discuss the implications of using them, including the ethical considerations. The online version of this Unit Handbook will include a GenAI section to provide you with some resources on how to use some of the tools we will be discussing. 
+There's no escaping generative AI (GenAI) -- so let's use it responsibly. 
 
-In most cases we're happy for you to GenAI it **as long as you're transparent about it**, and that you are not using it to write your reports directly. Remember that you are here to learn and GenAI can be a useful tool to help you understand the concepts better, but using it to do your work defeats that  purpose. If you're unsure, ask us!
+In most cases, we're happy for you to use it **as long as you're transparent about using it**, and that you are not using it to write your reports *directly*. Remember that you are here to learn -- GenAI is in fact an excellent tool to help you understand the concepts better, but using it to do your work defeats that  purpose. 
 
-## What's next
+Your report guidelines will outline our expectations on the use of *any* AI tool. If you're unsure, ask us!
 
-The next section will detail **academic integrity**, **simple extension** and **special consideration**, which you may need to refer to throughout the semester.
 
