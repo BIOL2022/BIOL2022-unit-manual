@@ -4,9 +4,12 @@ project:
 date: today
 date-format: "[Semester 2,] YYYY"
 
+
+
 profile:
   group: 
     - [html, pdf]
+  default: html
 
 execute: 
   freeze: auto
