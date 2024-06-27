@@ -1,7 +1,6 @@
 # Policies {.unnumbered}
 
 ## Academic integrity 
-
 All students are expected to be familiar and act in compliance with the relevant University policies, procedures and codes. These include the following:
 
 - [Academic Integrity Policy (pdf)](https://www.sydney.edu.au/policies/showdoc.aspx?recnum=PDOC2012/254&RendNum=0)
