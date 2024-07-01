@@ -1,11 +1,12 @@
-# How to study for BEDA {.unnumbered}
+# Studying for BEDA {.unnumbered}
 
 ## Important tips
 
-There's always something about statistics that makes it a bit more challenging than other subjects. But we believe that you can master our content with the right approach. Below are some helpful tips to help you study for this unit.
 
-- **Keep up with lectures.** Attend lectures in-person or watch the recordings as soon as possible. It is important to go through the material regularly and understand it before the practicals. This is especially important for those of you who have practicals on Tuesday afternoon, as the Lectures are in the morning.
-- **Regular practice is key.** Statistics requires regular practice. Make sure to allocate dedicated time to study and understand the concepts. Skipping content or cramming at the last minute will hinder your understanding and ability to apply the concepts to different scenarios. Remember, the material builds on itself, so it's important not to skip any lectures or content.
+BEDA can be challenging, but with the right approach, mastering our content is achievable. Here are some tips to help you study effectively.
+
+- **Keep up with lectures.** Attend lectures in-person or watch the recordings *as soon as possible*. It is important to go through the material regularly and understand it before the practicals. This is especially important for those of you who have practicals on Tuesday, as the Lectures are in the morning.
+- **Regular practice is key.** Statistics requires regular practice. Make sure to allocate dedicated time to study and understand the concepts. Skipping content or cramming at the last minute will hinder your understanding and ability to apply the concepts to different scenarios.
 - **No question is silly.** Don't hesitate to ask questions! There are multiple channels available for you to seek help and clarify any doubts you may have. You can ask questions during lectures, practicals, or in the Ed discussion forums. If you prefer anonymity/privacy, you can also ask questions anonymously on Ed or request a consultation with the lecturer. Additionally, Januar (your coordinator) holds weekly drop-in sessions where you can address any queries you may have.
 - **Master the GLM.** Module 1 covers the general linear model (GLM) approach to study design, which forms the basis of all the statistical tests in this unit. Understanding the GLM well will simplify the rationale behind all the statistics you learn. Modules 2 and 3 will build on this foundation, but only mention it briefly. **If you have a strong grasp of the GLM approach, you will find these modules much easier to understand.**
 
