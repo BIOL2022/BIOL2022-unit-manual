@@ -17,36 +17,36 @@ In today's workshop we will go through:
 - Getting to know one another
 - Introduction to R, SPSS, Jamovi and JASP
 
-The workshop should take no more than 30 minutes (**unless Januar talks too much 🤐**). After the workshop, you will be given time to complete the exercises. 
+The workshop should take no more than 30 minutes (**unless Januar talks too much**). After the workshop, you will be given time to complete the exercises. 
 
 
 ## Exercise 1 -- cheatsheets
 
 ### Background
-If you are new to statistical software like R or SPSS, don't worry! We will introduce you to **cheatsheets**, which are quick reference guides that help you remember important functions and commands. In this exercise you will pick from a list of cheatsheets and try to complete the analytical tasks provided. You can work in groups to discuss the cheatsheets, but try to complete them on your own.
+If you are new to statistical software like R or SPSS, or often forget the commands you need to use, you are not alone. In this short exercise we will introduce you to **cheatsheets**, which are quick reference guides that help you remember important functions and commands. In this exercise you will pick from a list of cheatsheets and try to complete the analytical tasks provided. You can work in groups to discuss the cheatsheets, but try to complete them on your own.
 
-### Work on part of a cheatsheet
-1. In the **Cheatsheets** section, you will find a list of cheatsheets that have already been created for you. These cheatsheets are NOT complete and we will improve them as we go along.
-2. **Choose a cheatsheet** that you would like to try out -- make sure it is something that you are *not* familiar with, as there is no point in trying out something that you already know from previous experience.
-3. **Pick a section, or several,** on the cheatsheet and try to complete the tasks by following the steps. If you get stuck, don't worry! You can ask your peers or the demonstrators for help.
+### Try out a cheatsheet
+1. In the **Cheatsheets** section, you will find a list of cheatsheets that have already been created for you. These cheatsheets are NOT complete and we will improve them as we go along. 
+2. **Choose a cheatsheet** that you would like to try out -- it could be something that you are *not* familiar with, or you could also choose one that you have some experience with to see if it aids your understanding.
+3. **Try to complete the tasks** by following the steps on the cheatsheet. If you get stuck, don't worry! You can ask your peers or the demonstrators for help, and you may provide feedback so that it can be improved.
 
 ### Provide feedback 
-Once you are done, please provide feedback on the cheatsheets you have tried out. You can do this by submitting a comment on the form provided to you on the cheatsheets page. The form will ask you to rate the cheatsheet, and should take no more than 2 minutes to complete, so please help us out!
+Once you are done, please provide feedback on the cheatsheets you have tried out. You can do this by submitting a comment on the form provided to you on the cheatsheets page. The form will ask you to rate the cheatsheet, and should take no more than a minute to complete, so please help us out!
 
 Your feedback will help us improve the cheatsheets for future students.
 
 
-### Contribute to the cheatsheets
+### Contribute to the cheatsheets (optional)
 If you would like to take one step further and *contribute* to the cheatsheets, we are more than happy to accept your suggestions. You can do this in several ways:
 
 - **Submit a pull request on GitHub.** You can find the link to the GitHub repository on the cheatsheet.
 - **Submit a comment on Ed.** We will be monitoring the comments and will update the cheatsheets accordingly.
 - **Email Januar with your suggestions.** This is absolutely fine!
 
-If your changes are accepted, you will be credited and given co-authorship of the cheatsheet. Your work will be part of the unit's resources and will remain available for as long as BEDA exists. You can also refer to your contribution in your CV or portfolio!
+If your changes are accepted, you will be credited and given co-authorship of the cheatsheet. Your work will be part of the unit's resources and will remain available as a teaching resource. You can also refer to your contribution in your CV or portfolio! For more information, please check with Januar.
 
 ::: callout-tip
-Suggestions can be provided throughout the semester, so don't worry if you don't have time to contribute now. We will be updating the cheatsheets regularly.
+Suggestions and contributions can be provided throughout the semester, so don't worry if you don't have time to contribute now. We will be updating the cheatsheets regularly.
 :::
 
 
@@ -56,10 +56,10 @@ Suggestions can be provided throughout the semester, so don't worry if you don't
 
 ### Background
 
-One of the key aspects of study design is the ability to **model data**.  Of course, being the first practical of the unit we will not expect you do be able to do this perfectly (if at all). Instead, we will use this exercise to introduce you to the concept of **modelling data using graphical plots**, and to get you thinking about how you might use models to design and analyse your own studies.
+One important aspect of study design is the ability to model data. One way to do it is by using graphical plots, which essentially capture the essence of a study design in a visual form. In this exercise, we will introduce you to the concept of modeling data and get you thinking about how to use models to assist in experimental design and analysis.
 
 
-### What is a model?
+#### What is a model?
 
 A model is a simplified representation of a complex system. In the context of data analysis, a model is a way to represent a dataset that allows us to shape testable hypotheses or make predictions about the data. Models can be simple or complex, depending on the data and the research question.
 
@@ -70,13 +70,21 @@ An example of an empirical model is this:
 
 $$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \epsilon$$
 
-The above may look intimidating at first, but we can replace most of the symbols with words, and even hide the coefficients ($\beta$):
+Which roughly translates to "the value of $y$ is equal to the sum of the coefficients $\beta_0$, $\beta_1$, and $\beta_2$ multiplied by the values of $x_1$ and $x_2$, plus some error $\epsilon$".
 
-$$\text{height} = \text{weight} + \text{age}$$
+The above may look intimidating, but we can simplify it by thinking of it as a simple relationship, rather than an equation, therefore forming:
 
-### Plots as models
+$$y \sim x_1 + x_2$$
 
-For now, we will focus on **graphical models**. These are *plots*, but essentially they "visually" represent a study design as they can summarise the results of a statistical model.
+And so if $y$ is weight, #x_1$ is age and $x_2$ is height, then it is interpreted as
+
+$$\text{weight} \sim \text{age} + \text{height}$$
+
+which translates to "the weight of an object is related to its age and height".
+
+#### Plots as models
+
+For now, we will focus on **graphical models**. These are *plots*, but essentially they are models since they can represent a relationship between two or more variables. 
 
 ::: callout-tip
 If you can **plot** it, you are already **modelling** it!
@@ -84,22 +92,19 @@ If you can **plot** it, you are already **modelling** it!
 
 ### What you will do
 
-This exercise is designed to get you thinking about how to model data. You can consider how you would "model" the data and draw the plots on whiteboards or paper. Work in groups to discuss different modeling approaches. 
+This exercise is designed to get you thinking about how to model data while you are designing a study or experiment. Because we are not collecting data in this practical, we will instead look at some example datasets and think about how we would model the variables in them. The datasets are available on Canvas.
 
------
+::: {.callout-note appearance="minimal"}
+## Example
+1. Browse the **possum data** in MS Excel. Consider a model of how the **weight** of a possum changes with **age**.
+2. Identify the variables: what type of variables are they? Are they continuous, categorical or something else?
+3. If you were to design a study to model the relationship between weight and age, what type of plot will help you interpret the data? Are there different plots that you can use depending on the type of data? For example, what if age is a:
+   - continuous variable?
+   - categorical variable?
+4. With the above in mind, draw the plot(s) that you think will help you interpret the data.
+:::
 
-#### Example
-1. Browse the possum data. Consider a model of how the **weight** of a possum changes with **age**.
-2. Check the variables: weight is **numeric** and age is not -- it could be a **factor**.
-3. Think of a study design involving 10 adults and 10 juveniles, comparing their mean weight.
-4. Consider one of the following models:
-    a. A **boxplot** of weight by age group
-    b. A **scatterplot** of weight by age, which means age needs to be converted to a numeric variable (is it possible?)
-5. Choose the most appropriate model and draw it on paper or whiteboard.
-
------
-
-Notice that in the example above, you have not performed any data analysis. You are simply considering how to model the data, which is an important step in study design. This helps you determine the type of data you need to collect and how to analyse it.
+Notice that in the example above, you have not performed any data analysis. You are simply considering how to interpret the data, which is an important step in study design. This helps you determine the type of data you need to collect and how to analyse it.
 
 ::: callout-important
 If you look at the data closely, **there is only one juvenile possum in the dataset**, but this is *not* a problem for this exercise. Your task is to think about how you would model the data in a new study design, not to analyse data that is *already collected*.
@@ -119,12 +124,16 @@ If this does not make sense, consult your demonstrators for help. It's early day
 - Two side-by-side boxplots
 - Multiple side-by-side barplots (with or without error bars)
 
-These plots are often associated with specific empirical models, which we will cover in the upcoming weeks. Your demonstrators will assist you with this exercise and review your ideas and plots, but you should also try to work on them independently, and seek help from your peers and online resources if necessary.
+Write down your answers and thought in a document (e.g. Google Docs or MS Word)
+
+**Step 3.** These plots are often associated with specific empirical models, which we will cover in the upcoming weeks. Can you predict what sort of statistical model you would use to analyse the data? Discuss this with your peers and demonstrators.
 
 ::: callout-tip
 - You are not expected to complete all the plots in one go. You can work on them after the practical.
 - If you are new to plotting, **we expect you ask your peers and/or to look up resources online to help you with the plots**. Questions like: "What sort of model does a scatterplot often represent?" or "What is the difference between a histogram and a barplot?" are good starting points.
 :::
+
+
 
 ## End of practical
 
