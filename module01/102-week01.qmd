@@ -9,7 +9,22 @@ Welcome to the first practical of BEDA. We will use this time to introduce you t
 
 In Module 1, all practicals begin with a **workshop**. The workshop is a short class that goes through the key concepts of the week and may also include some resources for you to use in the practical. The workshop is followed by **exercises** that you will complete in the laboratory. The exercises are designed to help you understand the concepts covered in the lectures and gives you a chance to practice study design and data analysis.
 
-Workshop slides are available on Canvas through the Weekly Lecture page.
+## Learning objectives
+
+By the end of this practical, you should be able to:
+
+1. Identify the software you will be using in this unit.
+2. Be able to use cheatsheets to help you with your data analysis.
+3. Have a basic understanding of models and how they can be used in study design.
+4. Be able to formulate a model with study design in mind.
+5. Be able to interpret plots as models.
+
+### What to submit at the end of the practical
+
+1. **Feedback on cheatsheets.** Your feedback will help us improve the cheatsheets for future students.
+
+As this is the first practical, no other submissions are required, but think about how you would show your work to your peers and demonstrators as you work on Exercises 1 and 2.
+
 
 ### Workshop
 In today's workshop we will go through:
@@ -17,7 +32,7 @@ In today's workshop we will go through:
 - Getting to know one another
 - Introduction to R, SPSS, Jamovi and JASP
 
-The workshop should take no more than 30 minutes (**unless Januar talks too much**). After the workshop, you will be given time to complete the exercises. 
+The workshop should take no more than 30 minutes (**unless Januar talks too much**). Workshop slides are available on Canvas. 
 
 
 ## Exercise 1 -- cheatsheets
@@ -26,29 +41,27 @@ The workshop should take no more than 30 minutes (**unless Januar talks too much
 If you are new to statistical software like R or SPSS, or often forget the commands you need to use, you are not alone. In this short exercise we will introduce you to **cheatsheets**, which are quick reference guides that help you remember important functions and commands. In this exercise you will pick from a list of cheatsheets and try to complete the analytical tasks provided. You can work in groups to discuss the cheatsheets, but try to complete them on your own.
 
 ### Try out a cheatsheet
-1. In the **Cheatsheets** section, you will find a list of cheatsheets that have already been created for you. These cheatsheets are NOT complete and we will improve them as we go along. 
+1. In the **Cheatsheets** section, you will find a list of cheatsheets that have already been created for you. There's definitely room for improvement, and we will do so throughout the semester.
 2. **Choose a cheatsheet** that you would like to try out -- it could be something that you are *not* familiar with, or you could also choose one that you have some experience with to see if it aids your understanding.
 3. **Try to complete the tasks** by following the steps on the cheatsheet. If you get stuck, don't worry! You can ask your peers or the demonstrators for help, and you may provide feedback so that it can be improved.
 
-### Provide feedback 
 Once you are done, please provide feedback on the cheatsheets you have tried out. You can do this by submitting a comment on the form provided to you on the cheatsheets page. The form will ask you to rate the cheatsheet, and should take no more than a minute to complete, so please help us out!
 
 Your feedback will help us improve the cheatsheets for future students.
 
-
-### Contribute to the cheatsheets (optional)
+::: {.callout-note appearance="minimal" collapse="true"}
+## Contribute to the cheatsheets (optional)
 If you would like to take one step further and *contribute* to the cheatsheets, we are more than happy to accept your suggestions. You can do this in several ways:
 
-- **Submit a pull request on GitHub.** You can find the link to the GitHub repository on the cheatsheet.
-- **Submit a comment on Ed.** We will be monitoring the comments and will update the cheatsheets accordingly.
 - **Email Januar with your suggestions.** This is absolutely fine!
+- **Submit a comment on Ed.** We will discuss, and update the cheatsheets accordingly.
+- **Submit a pull request on GitHub.** This requires technical know-how, but some of you may be able to do this. You can find the link to the GitHub repository on the cheatsheet.
 
-If your changes are accepted, you will be credited and given co-authorship of the cheatsheet. Your work will be part of the unit's resources and will remain available as a teaching resource. You can also refer to your contribution in your CV or portfolio! For more information, please check with Januar.
+If your changes are accepted, you will be credited and given co-authorship of the cheatsheet. Your work will be part of the unit's resources. You can also refer to your contribution in your CV or portfolio! For more information, please check with Januar.
 
-::: callout-tip
-Suggestions and contributions can be provided throughout the semester, so don't worry if you don't have time to contribute now. We will be updating the cheatsheets regularly.
+**Suggestions and contributions can be provided throughout the semester, so don't worry if you don't have time to contribute now. We will be updating the cheatsheets regularly.**
+
 :::
-
 
 ## Exercise 2 -- introduction to models
 
@@ -68,70 +81,111 @@ Eventually, you will be presenting what we call an **empirical model**, which lo
 
 An example of an empirical model is this:
 
-$$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \epsilon$$
+$$y = \beta_0 + \beta_1 x_1 + \epsilon$$
 
-Which roughly translates to "the value of $y$ is equal to the sum of the coefficients $\beta_0$, $\beta_1$, and $\beta_2$ multiplied by the values of $x_1$ and $x_2$, plus some error $\epsilon$".
+Which roughly translates to "the value of $y$ is equal to the value of $x_1$ times a constant, plus some error and an initial constant."
 
 The above may look intimidating, but we can simplify it by thinking of it as a simple relationship, rather than an equation, therefore forming:
 
-$$y \sim x_1 + x_2$$
+$$y \sim x_1$$
 
-And so if $y$ is weight, #x_1$ is age and $x_2$ is height, then it is interpreted as
+And so if $y$ is weight and $x_1$ is age, then it is interpreted as:
 
-$$\text{weight} \sim \text{age} + \text{height}$$
+$$\text{weight} \sim \text{age}$$
 
-which translates to "the weight of an object is related to its age and height".
+Which translates to "the weight of an object is influenced by its age".
 
 #### Plots as models
 
-For now, we will focus on **graphical models**. These are *plots*, but essentially they are models since they can represent a relationship between two or more variables. 
+For now, we will focus on **graphical models**. These are *plots*, but essentially they are models since they can represent a relationship between two or more variables. Using the same example as above, we can plot the weight of a species of animal against its age and height to see if there is a relationship between them:
+
+```{r}
+#| echo: false
+#| warning: false
+
+set.seed(328)
+
+Weight <- c(rnorm(50, mean = 50, sd = 3), rnorm(50, mean = 60, sd = 3))
+Age <- c(rep("Young", 50), rep("Old", 50))
+
+
+# create data frame
+data <- data.frame(Weight, Age)
+
+# ggplot
+library(ggplot2)
+ggplot(data, aes(x = Age, y = Weight)) +
+    geom_boxplot() +
+    theme_classic() +
+    scale_fill_brewer(palette = "Set1") +
+    scale_x_discrete(limits = c("Young", "Old"))
+```
+
+Interestingly, how you consider your variables can drastically change the type of plot and model used for data analysis. For example, consider the same relationship as above, but plotted differently:
+
+```{r}
+#| echo: false
+#| 
+V_max <- 70  # Assume the maximum weight is 70 kg
+K_M <- 10    # Assume the Michaelis constant is 10 years
+
+# Generate age data
+age <- seq(1, 20, by = 0.5)  # From 1 to 20 years, in 0.5 year increments
+
+# Apply the Michaelis-Menten equation to simulate weight data
+weight <- V_max * age / (K_M + age) + rnorm(length(age), mean = 0, sd = 5)
+
+# Create a data frame
+data <- data.frame(Age = age, Weight = weight)
+
+# Plot using ggplot2
+library(ggplot2)
+ggplot(data, aes(x = Age, y = Weight)) +
+  geom_point() +  # Use geom_line for continuous data
+  geom_smooth(formula = y ~ x, method = "lm", se = FALSE) +
+  theme_classic()
+```
+
+Notice how both plots explain the same kind of relationship, but their interpretation and the type of model used are different. This is the *essence* of study design and data analysis -- the model you select can drastically change the data and results you get, **and planning for it is crucial to the success of your study**.
 
 ::: callout-tip
 If you can **plot** it, you are already **modelling** it!
 :::
 
-### What you will do
-
-This exercise is designed to get you thinking about how to model data while you are designing a study or experiment. Because we are not collecting data in this practical, we will instead look at some example datasets and think about how we would model the variables in them. The datasets are available on Canvas.
-
-::: {.callout-note appearance="minimal"}
-## Example
-1. Browse the **possum data** in MS Excel. Consider a model of how the **weight** of a possum changes with **age**.
-2. Identify the variables: what type of variables are they? Are they continuous, categorical or something else?
-3. If you were to design a study to model the relationship between weight and age, what type of plot will help you interpret the data? Are there different plots that you can use depending on the type of data? For example, what if age is a:
-   - continuous variable?
-   - categorical variable?
-4. With the above in mind, draw the plot(s) that you think will help you interpret the data.
-:::
-
-Notice that in the example above, you have not performed any data analysis. You are simply considering how to interpret the data, which is an important step in study design. This helps you determine the type of data you need to collect and how to analyse it.
-
-::: callout-important
-If you look at the data closely, **there is only one juvenile possum in the dataset**, but this is *not* a problem for this exercise. Your task is to think about how you would model the data in a new study design, not to analyse data that is *already collected*.
-:::
-
-If this does not make sense, consult your demonstrators for help. It's early days yet, so don't worry if you don't get it straight away!
 
 ### Tasks
 
-**Step 1.** Download and explore the data: penguins.csv and possum.xlsx.
+#### Preparation 
 
-**Step 2.** Identify variables from the data to create the following visualisations:
+- MS Excel or similar: to read the files
+- MS Word, Google Docs or similar: to write your answers
+- Data: penguins.csv and possum.xlsx
 
-- Histogram
-- Scatterplot
-- Boxplot
-- Two side-by-side boxplots
-- Multiple side-by-side barplots (with or without error bars)
+#### Instructions 
+- **Step 1.** Download and explore the data: penguins.csv and possum.xlsx.
+- **Step 2.** Identify variables from the data to formulate models. You do no need to analyse the data, neither do you need to explore it in detail. **The focus is on understanding the variables and how they can be modelled.** Use the variables to consider the following models:
+  - Histogram to show the distribution of a variable
+  - Scatterplot to show the relationship between two variables
+  - Boxplot to compare two or more groups
+  - Barplot to compare two or more groups, but with error bars. Consider what the error bars represent.
+- **Step 3.** For plots that compare two variables or more, consider how you could alter the way you collect data to use a different model. Also consider this: is the alteration logical and feasible?
+- **Step 4.** These plots are often associated with specific empirical models and statistical analyses, which we will cover in the upcoming weeks. Can you predict what sort of statistical model you would use to analyse the data in Step 1 and Step 2? **It is ok if you do not know most of the answers to this question yet.** Discuss this with your peers and demonstrators.
 
-Write down your answers and thought in a document (e.g. Google Docs or MS Word)
 
-**Step 3.** These plots are often associated with specific empirical models, which we will cover in the upcoming weeks. Can you predict what sort of statistical model you would use to analyse the data? Discuss this with your peers and demonstrators.
-
-::: callout-tip
-- You are not expected to complete all the plots in one go. You can work on them after the practical.
-- If you are new to plotting, **we expect you ask your peers and/or to look up resources online to help you with the plots**. Questions like: "What sort of model does a scatterplot often represent?" or "What is the difference between a histogram and a barplot?" are good starting points.
+::: {.callout-note appearance="minimal" collapse="true"}
+## Example
+1. Browse the **possum data** in MS Excel. *Let's consider a model of how the **weight** of a possum changes with **age**.*
+2. Identify the variables: what type of variables are they? Are they continuous, categorical or something else? With that in mind, draw the plot(s) that you think will help you interpret the data. *Weight is continuous and age is categorical, so a boxplot would be a good start.*
+3. Different model: *Age data to be collected in years, rather than categories. This would allow us to use a scatterplot to model the data. But it may not be possible to age possums as we do not know their birth dates, so this may not be feasible.*
+4. *The first model is probably a two-sample t-test, while the second model could be a linear regression.* 
 :::
+
+::: callout-important
+Notice that in the example above, you have not performed any data analysis. You are simply considering how to interpret the data, which is an important step in study design. This helps you determine the type of data you need to collect and how to analyse it.
+
+If you look at the data closely, **there is only one juvenile possum in the dataset**, so you would not have been able to analyse this data anyway!
+:::
+
 
 
 
