@@ -1,28 +1,58 @@
 ---
 title: Week 3 -- Data analysis
 ---
+## Welcome
+
+In today's practical, we will focus on data analysis. You will work with your group to analyse the data you collected in the previous lab. Cheatsheets are available for you to use, and your demonstrators are ready to help. 
+
+*You may need to clean your data before you can analyse it, so be prepared to spend some time on this.*
+
+## Learning objectives
+
+By the end of this practical, you should be able to:
+
+1. Understand the importance of reproducible analyses.
+2. Fit a model to your data.
+3. Check if the data meets the assumptions of the model.
+4. Interpret the model output.
+
+### What to submit at the end of the practical
+
+**Your plot and model output**, on Google Sheets. We will spend some time discussing the results at the end of the tutorial.
+   
 
 ## Workshop
 
-In today's workshop we will go through the following:
-
-- Model fitting and assumptions in R
-- Interpreting model output
+In today's workshop we will go through **Reproducible analyses and why R is good at it**. We will also demonstrate some AI workflows that are implemented in RStudio. Workshop slides are available on Canvas.
 
 ## Lab activity
 
-:::{.callout-note}
-This lab is focused on data analysis and interpretation, but if you still need to collect more data, you can use this time to do so.
-:::
-
 When ready, work with your group to analyse the data you collected in the previous lab. You will need to:
 
-- Fit a model to your data.
-- Check the assumptions of the model.
+- Fit your intended model to the data.
+- Check if the data meets the assumptions of the model.
 - Interpret the model output.
-- Work on your presentation.
 
-**Your demonstrators are ready to help.** We expect you to be able to select the appropriate model to your data, but you can check with demonstrators about applying the techniques in R, SPSS or Excel.
+Of particular importance is the assessment of assumptions using residual plots, rather than formal tests of assumptions. 
+
+**Your demonstrators are ready to help.** We expect you to be able to select the appropriate model to your data, but you can consult our cheatsheets and your demonstrators for help.
+
+
+## Exercise 1 -- Preparing your data for analysis
+
+Your data is available to download on Canvas. Please check that you have all the data you need before proceeding. You also have access to the data collected by other groups should you wish to practice your data analysis skills.
+
+### Background
+
+In this exercise we will focus on making sure that your data can be interpreted by the software you are using for analysis. In some cases, you may need to "clean up" your data before you can analyse it.
+
+Once your data is "ready", depending on the software you are using, you  would have to:
+
+1. Model the data first, before checking assumptions, or
+2. Check assumptions first, and then run the model, or
+3. Define the model and assumptions while setting up the analysis, and both are performed at the same time.
+
+
 
 ### Fitting a model to data
 
@@ -60,3 +90,4 @@ Interpreting the output of a statistical test is a skill that takes time to deve
 - Explain what the output means in the context of your research question.
 
 Your lectures and this week's workshop will help you develop these skills.
+
