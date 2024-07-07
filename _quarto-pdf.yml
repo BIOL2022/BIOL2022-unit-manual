@@ -13,10 +13,6 @@ book:
     - Prof. Clare McArthur
     - Prof. Matthew Crowther
   date: today
-  sidebar:
-    background: "#EEE5E9"
-    logo: usyd_black.png
-    search: true
   chapters: 
     - index.qmd
     - 01-outline.qmd
@@ -33,7 +29,7 @@ book:
     - part: Module 2
       chapters:
         - module02/201-intro.qmd
-        - module02/202-timeline.qmd
+        # - module02/202-timeline.qmd
         - module02/203-projects.qmd
         - module02/204-report1.qmd
     - "---"
@@ -54,7 +50,7 @@ format:
     toc: true
     number-sections: false
     number-depth: 1
-    fontsize: 11pt
+    fontsize: 10.5pt
     block-headings: true
     colorlinks: true
     linestretch: 1.25
