@@ -7,7 +7,7 @@ book:
     - Prof. Matthew Crowther
   date: today
   sidebar:
-    background: "#EEE5E9"
+    # background: "#EEE5E9"
     logo: usyd_black.png
     search: true
   chapters: 
@@ -51,4 +51,4 @@ format:
     html-math-method: katex
     published-title: "Last updated"
     grid:
-      sidebar-width: 360px
+      sidebar-width: 300px
