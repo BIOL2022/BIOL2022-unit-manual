@@ -48,7 +48,7 @@ Report 2 -- data upload | Grp | Submitted work | Week 11 | 5%
 
 ### Late penalties
 - Failure to complete the Quiz on time will result in a 0 mark.
-- A penalty of 5% per day will be applied for late submissions of reports and data. If you think you will be late, please contact us as soon 
+- A penalty of 5% per day will be applied for late submissions of all assessments, except where otherwise stated (e.g. an extension has been granted).
 
 ## Generative AI
 
