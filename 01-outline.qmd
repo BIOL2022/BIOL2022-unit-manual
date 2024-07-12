@@ -54,8 +54,6 @@ Report 2 -- data upload | Grp | Submitted work | Week 11 | 5%
 
 There's no escaping generative AI (GenAI) -- so let's use it responsibly. 
 
-In most cases, we're happy for you to use it **as long as you're transparent about using it**, and that you are not using it to write your reports *directly*. Remember that you are here to learn -- GenAI is in fact an excellent tool to help you understand the concepts better, but using it to do your work defeats that  purpose. 
-
-Your report guidelines will outline our expectations on the use of *any* AI tool. If you're unsure, ask us!
+In most cases, we're happy for you to use it **as long as you're transparent about using it**, and that you are not using it to write your reports *directly*. Remember that you are here to learn -- GenAI is in fact an excellent tool to help you understand the concepts better, but using it to do your work defeats that  purpose. Your report guidelines will outline our expectations on the use of *any* AI tool. If you're unsure, ask us!
 
 
