@@ -12,19 +12,13 @@ BEDA can be challenging, but with the right approach, mastering our content is a
 
 ## Study plan
 
-For BEDA, we recommend the following study plan:
-
-- Lectures (or recordings): 2 hours per week
-- Practical sessions: 2 hours per week
-- Reading and understanding the content: minimum of 2 hours per week
-
-For self-study, spend an hour after each lecture to revise the content and write your notes. Additionally, spend an hour at the end of the week to consolidate both the lectures and practicals.
+For BEDA, we recommend that you spend an hour after each lecture to revise the content and write your notes. Additionally, spend an hour at the end of the week to consolidate both the lectures and practicals. A futher minimum of two hours per week should be spent on reading up and understanding the content -- **independent study is key to mastering the concepts in this unit**.
 
 ### Assignments
 
 The above excludes the time you will spend on assignments and preparing for the exams. We recommend that you **start your assignments early and not leave them to the last minute**. This will give you time to ask questions if you are stuck. 
 
 
-### Cheatsheet
+### Cheatsheets
 
-A cheatsheet section will be made available on the online version of this manual, updated weekly based on the questions you ask on Ed. This section will contain cheatsheets which will help you with data analysis.
+A cheatsheets section will be made available on the online version of this manual, updated weekly based on the questions you ask on Ed. This section will contain cheatsheets which will help you with data analysis. We hope that this will aid you in your understanding of the content and prepare you for the assessments.
