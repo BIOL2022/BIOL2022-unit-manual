@@ -21,4 +21,4 @@ The above excludes the time you will spend on assignments and preparing for the 
 
 ### Cheatsheets
 
-A cheatsheets section will be made available on the online version of this manual, updated weekly based on the questions you ask on Ed. This section will contain cheatsheets which will help you with data analysis. We hope that this will aid you in your understanding of the content and prepare you for the assessments.
+A [cheatsheets](04-cheatsheets.qmd) section is available on the online version of this manual, updated frequently based on the questions you ask on Ed. This section will contain cheatsheets which will help you with data analysis. We hope that this will aid you in your understanding of the content and prepare you for the assessments.
