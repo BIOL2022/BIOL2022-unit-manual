@@ -175,4 +175,4 @@ Demonstrators will provide you with a USB drive to submit your data. Please make
 
 ## End of practical
 
-Don't forget to submit your data! See you all next week for data analysis.
+Don't forget to submit your data! You should also start to look at the [projects available for Module 2](../module02/203-projects.qmd), as you will sign up for one of them next week to work on Report 1.
