@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.45">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>8&nbsp; Week 10 – More techniques – Biology Experimental Design and Analysis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../module03/304-week11.html" rel="next">
+<link href="../module03/302-week09.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../module03/301-intro.html">Module 3</a></li><li class="breadcrumb-item"><a href="../module03/303-week10.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 10 – More techniques</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../usyd_black.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Biology Experimental Design and Analysis</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../01-outline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Outline</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-policies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Policies</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../03-study.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Studying for BEDA</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Module 1</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module01/101-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Module 1 (Weeks 1 – 3)</strong></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module01/102-week01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1 – Introduction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module01/103-week02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 - Study design</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module01/104-week03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3 – Data analysis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module01/105-images.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intertidal sites</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module01/106-species-id.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Species identification guide</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Module 2</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module02/201-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Module 2 (Weeks 4 – 8)</strong></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module02/202-timeline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Timeline</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module02/203-projects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Report 1 – Projects</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module02/204-report1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Report 1 – Instructions</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Module 3</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module03/301-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Module 3 (Weeks 9 – 13)</strong></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module03/302-week09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 9 – Introduction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module03/303-week10.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 10 – More techniques</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module03/304-week11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 11 – Your data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../module03/305-week12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Week 12 – Support session</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../04-cheatsheets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Cheatsheets</strong></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#outline" id="toc-outline" class="nav-link active" data-scroll-target="#outline">Outline</a></li>
+  <li><a href="#analyses-covered-in-practical-2" id="toc-analyses-covered-in-practical-2" class="nav-link" data-scroll-target="#analyses-covered-in-practical-2">Analyses covered in practical 2</a></li>
+  <li><a href="#community-structureassemblage-structure" id="toc-community-structureassemblage-structure" class="nav-link" data-scroll-target="#community-structureassemblage-structure">Community structure/Assemblage structure</a></li>
+  <li><a href="#using-primer-r-instructions-are-given-on-canvas-within-an-r-studio-files" id="toc-using-primer-r-instructions-are-given-on-canvas-within-an-r-studio-files" class="nav-link" data-scroll-target="#using-primer-r-instructions-are-given-on-canvas-within-an-r-studio-files">Using PRIMER (R instructions are given on Canvas within an R Studio files)</a>
+  <ul class="collapse">
+  <li><a href="#permanova-simper-and-mds-analysis-with-primer" id="toc-permanova-simper-and-mds-analysis-with-primer" class="nav-link" data-scroll-target="#permanova-simper-and-mds-analysis-with-primer">PERMANOVA, SIMPER and MDS analysis with PRIMER</a></li>
+  <li><a href="#anosim" id="toc-anosim" class="nav-link" data-scroll-target="#anosim">ANOSIM</a></li>
+  </ul></li>
+  <li><a href="#for-next-week" id="toc-for-next-week" class="nav-link" data-scroll-target="#for-next-week">For next week</a>
+  <ul class="collapse">
+  <li><a href="#your-habitat-data-for-pca" id="toc-your-habitat-data-for-pca" class="nav-link" data-scroll-target="#your-habitat-data-for-pca">1. Your habitat data for PCA</a></li>
+  <li><a href="#organising-and-entering-assemblage-data-for-primer" id="toc-organising-and-entering-assemblage-data-for-primer" class="nav-link" data-scroll-target="#organising-and-entering-assemblage-data-for-primer">2. Organising and entering assemblage data for PRIMER</a></li>
+  <li><a href="#generating-summary-statistics-for-additional-univariate-analyses" id="toc-generating-summary-statistics-for-additional-univariate-analyses" class="nav-link" data-scroll-target="#generating-summary-statistics-for-additional-univariate-analyses">3. Generating summary statistics for additional (univariate) analyses</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../module03/301-intro.html">Module 3</a></li><li class="breadcrumb-item"><a href="../module03/303-week10.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 10 – More techniques</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 10 – More techniques</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Last updated</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Semester 2, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Objectives
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The aim of this component of the practical series is to introduce you to several common techniques for analysing multivariate data. At the end of them you will:</p>
+<ul>
+<li>Be familiar with the principles underpinning principal components analysis (PCA), and non-metric multidimensional scaling.</li>
+<li>Be familiar with the principles underpinning multivariate hypothesis testing using permutational techniques such as ANOSIM and PERMANOVA.</li>
+<li>Planning and conducting experiments to test multivariate hypotheses.</li>
+<li>Know how to perform these analyses using relevant software.</li>
+<li>Be able to interpret, present and report on these analyses.</li>
+</ul>
+</div>
+</div>
+<section id="outline" class="level2">
+<h2 class="anchored" data-anchor-id="outline">Outline</h2>
+<p>For this specific practical you will:</p>
+<ul>
+<li>Present group presentations of model systems and experimental design.</li>
+<li>Analyse sample data in the software package PRIMER or R to:
+<ul>
+<li>visualize data using cluster analysis and nMDS.</li>
+<li>test one and two factor multivariate hypotheses using ANOSIM and PERMANOVA with a focus on permutational techniques (PERMANOVA).</li>
+<li>determine variables contributing to the differences between groups using SIMPER.</li>
+</ul></li>
+</ul>
+</section>
+<section id="analyses-covered-in-practical-2" class="level2">
+<h2 class="anchored" data-anchor-id="analyses-covered-in-practical-2">Analyses covered in practical 2</h2>
+<ul>
+<li><strong>nMDS and multivariate hypothesis testing (ANOSIM, PERMANOVA and SIMPER)</strong> – Mainly used to produce an ordination in order to visualize patterns in the multivariate cloud of data (by reducing dimensions in some way) and also to rigorously test explicit hypotheses concerning those patterns by reference to a priori groups or relationships with predictors, such as environmental variables.</li>
+<li><strong>ANOSIM</strong> –- testing hypotheses comparing different groups based on their similarity (Among c.f. within) using distance measures. Most effective with simple designs.</li>
+<li><strong>PERMANOVA</strong> –- more powerful approach to multivariate hypothesis testing using permutational methods, capable of analysing more complex designs.</li>
+<li><strong>SIMPER</strong> –- used when a significant difference is found to identify which components of the data set are driving the differences (e.g.&nbsp;the contribution each species makes to differences among communities.</li>
+</ul>
+</section>
+<section id="community-structureassemblage-structure" class="level2">
+<h2 class="anchored" data-anchor-id="community-structureassemblage-structure">Community structure/Assemblage structure</h2>
+<p>The process for looking at community structure is straight forward. We will use both cluster analysis and nMDS/ANOSIM/SIMPER to do this. This involves;</p>
+<ul>
+<li>Transforming/standardising your data as appropriate.</li>
+<li>Calculating Bray Curtis dissimilarities (you could use something else from BC if the data are suitable) and generating dissimilarity matrix.</li>
+<li>Performing MDS (and follow on below).</li>
+<li>PERMANOVA (or ANOSIM) to test for difference between treatments.</li>
+<li>SIMPER for identifying which variables contribute to the differences.</li>
+</ul>
+</section>
+<section id="using-primer-r-instructions-are-given-on-canvas-within-an-r-studio-files" class="level2">
+<h2 class="anchored" data-anchor-id="using-primer-r-instructions-are-given-on-canvas-within-an-r-studio-files">Using PRIMER (R instructions are given on Canvas within an R Studio files)</h2>
+<section id="permanova-simper-and-mds-analysis-with-primer" class="level3">
+<h3 class="anchored" data-anchor-id="permanova-simper-and-mds-analysis-with-primer">PERMANOVA, SIMPER and MDS analysis with PRIMER</h3>
+<ol type="1">
+<li>Open the Excel document you wish to analyse.</li>
+<li>Open PRIMER</li>
+<li>In PRIMER go to Open and select Excel file you wish to analyse.</li>
+<li>Select worksheet to be analysed. Keep “Data Type” as Sample Data. Clear button “Title”.</li>
+<li>Check to ensure you have the correct number of rows and columns and all looks well.</li>
+<li>Go to Edit, go to Factors, go to Add and name your new factor(s) appropriately, code each site for that factor and press OK.</li>
+<li>Go to Pre-treatment and then to Transform (overall), and select an appropriate transformation for your data. (4th root or presence/absence, etc<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.)</li>
+<li>To make an nMDS plot: Go to Analyse then Resemblance and click ‘analyse between samples’ and ‘Bray-Curtis similarity’. Go to Analyse then to Non-metric MDS, change number of restarts to 20 and select configuration plot. You can modify how the nMDS plot is displayed by right clicking on the figure.</li>
+<li>To perform a PERMANOVA you need to firstly create a PERMANOVA design, and then run the PERMANOVA you have designed
+<ol type="a">
+<li>To create a PERMANOVA design: Return to the resemblance matrix. Go to PERMANOVA+ then Create PERMANOVA design. Create a title for the design and select appropriate number of factors. Enter in each factor you want to incorporate into the design, and code as either fixed or random factor. Complex designs can be created at this point.</li>
+<li>To run the PERMANOVA: Return to the resemblance matrix. Go to PERMANOVA+ then PERMANOVA. Select the correct design (usually the highest number). Select Mains test and your permutational method (reduced model is usually fine), the sum of squares type (type III) and the number of permutations (999 recommended) then OK.</li>
+</ol></li>
+<li>Interpret the PERMANOVA output. If one or more of your factors are significant, then you run the PERMANOVA design again, selecting Pair-wise test and select the factor/interaction of interest. Press OK.</li>
+<li>If appropriate, return to transformed data set and go to Analyse and then SIMPER. Select appropriate factor and click OK.</li>
+<li>Save result(s) to a file.</li>
+</ol>
+</section>
+<section id="anosim" class="level3">
+<h3 class="anchored" data-anchor-id="anosim">ANOSIM</h3>
+<p>As an alternative to PERMANOVA, many studies will test differences between treatments using Analysis of Similarities (ANOSIM). Unlike PERMANOVA which can be used for multi-factorial designs, ANOSIM is best used for simple one-factor analyses. PERMANOVA and ANOSIM will generate the same (or very similar results) for one-factor analyses.</p>
+<section id="to-perform-an-anosim" class="level4">
+<h4 class="anchored" data-anchor-id="to-perform-an-anosim">To perform an ANOSIM</h4>
+<p>Return to resemblance matrix, go to Analyse then to ANOSIM, select appropriate factor which you added before.</p>
+<p>Significance level in % in ANOSIM becomes probability if divided by 100. e.g.&nbsp;0.2 ÷ 100 = 0.002 = P (in this case P &lt; 0.05). If ‘Significance level of sample statistic’ in ‘Global Test’ section of the output is more than 5 (which is &gt; 0.05), than there is no significant difference among any of the treatments even if ‘Pairwise Tests’ section has significant differences between pairs of particular treatments. ANOSIM results are presented as: (P = 0.076, Global R = 0.148, 999 permutations) where P is a global significance level.</p>
+</section>
+</section>
+</section>
+<section id="for-next-week" class="level2">
+<h2 class="anchored" data-anchor-id="for-next-week">For next week</h2>
+<p>Our first steps involve organizing the data so that we can get it into our analytical software (SPSS, PRIMER, R etc,) and generating summary statistics and figures. Different analytical software requires slightly different formats but there are usually some generalities that apply across programs.</p>
+<p>For the start of next week’s practical each group will need to have collated their group data into three spreadsheets; These spreadsheets will be marked out of 5 by demonstrators.</p>
+<ol type="1">
+<li>Habitat data: an SPSS or R ready excel file with sites as rows and habitat variables as columns (see below)</li>
+<li>Assemblage/Community data: a PRIMER or R ready excel file with species ID as rows and sites as columns (see below)</li>
+<li>Summary statistics: additional excel files as above (1 and 2) but with summary statistics (numbers of spp., individuals, habitat variables etc.) calculated for your data. This may be done on a site specific or treatment specific basis depending on your question.</li>
+</ol>
+<section id="your-habitat-data-for-pca" class="level3">
+<h3 class="anchored" data-anchor-id="your-habitat-data-for-pca">1. Your habitat data for PCA</h3>
+<p><strong>Habitat data</strong> – You will need to enter your data on habitat characteristics into SPSS or R for analysis next week. Make sure you are familiar with how to organise it for SPSS. Every site needs its own row where every habitat variable measured is listed, i.e.&nbsp;every site assessment has an independent row. If you have treatments you need to include a column labeling those treatments too (in addition to “site name”).</p>
+</section>
+<section id="organising-and-entering-assemblage-data-for-primer" class="level3">
+<h3 class="anchored" data-anchor-id="organising-and-entering-assemblage-data-for-primer">2. Organising and entering assemblage data for PRIMER</h3>
+<p><strong>Assemblage/Community data</strong> – You will need to generate your spp*site matrix into a PRIMER ready file so that we are ready to analyse your data at the labs next week. These will take the form of a spreadsheet with a single column identifying species (unique species identifiers are fine) with the abundances for each site in rows (page 22). This sheet must start in the top left cell of that worksheet with only a single row of column labels. Make sure that you keep a reference file where you have recorded the specific identity of the unique species identifiers (e.g.&nbsp;A= Toyota Corolla, B= Leyland P76 etc.).</p>
+</section>
+<section id="generating-summary-statistics-for-additional-univariate-analyses" class="level3">
+<h3 class="anchored" data-anchor-id="generating-summary-statistics-for-additional-univariate-analyses">3. Generating summary statistics for additional (univariate) analyses</h3>
+<p>On an additional spreadsheet/workspace, you should calculate summary statistics to perform additional univariate analyses. Create a copy of your completed excel file and or worksheet. You should generate a column in the far right of your spreadsheet summing the number of things in each row. You can then sort the data (REMEMBER TO SELECT IT ALL!) by that column and delete all the zero rows (i.e.&nbsp;no evidence of that species in your system).</p>
+<p>Owing to the high degree of variation and the number of singletons you will encounter it is possible (and likely) that some groups will pool species into more coarse groupings (i.e.&nbsp;“genera” or “family”).</p>
+<p>The easiest way to calculate some of these summary statistics will be to use the pivot table command in Excel to sort your data for you. To do this:</p>
+<ol type="1">
+<li>Highlight the dataset you want to use</li>
+<li>Choose Pivot Table from the Data menu</li>
+<li>Work through the wizard creating a pivot table in a new worksheet</li>
+<li>Then change the drop down menu in the box to “to data area” and click on the different sites to add them.</li>
+</ol>
+<p>You should have a functional summary pivot table of your data. You can change the pivot tables to look at “counts” (equivalent of presence absence data) or “sums” (abundance data) for your spreadsheet.  </p>
+<div id="fig-spss" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-spss-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../assets/spss.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-spss-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.1: Example of data sheet for importing data into SPSS for PCA
+</figcaption>
+</figure>
+</div>
+<div id="fig-primer" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-primer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../assets/spss.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-primer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.2: Example of data sheet for importing data into PRIMER
+</figcaption>
+</figure>
+</div>
+
+
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>When you are analyzing your group data (week 11), you will be able to apply multiple transformations to your data. I’d encourage you to use a range of them to see how it affects your data. Note that PRIMER will be reluctant to undertake any analyses when data are not transformed!<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../module03/302-week09.html" class="pagination-link" aria-label="Week 9 -- Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 9 – Introduction</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../module03/304-week11.html" class="pagination-link" aria-label="Week 11 -- Your data">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 11 – Your data</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
