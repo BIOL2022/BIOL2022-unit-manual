@@ -44,7 +44,7 @@
     "href": "01-outline.html#assessements",
     "title": "Outline",
     "section": "Assessements",
-    "text": "Assessements\nThe assessments for this unit are outlined in Table 1. Compulsory assessments are marked in bold and must be attempted and submitted prevent a fail grade.\n\n\n\nTable 1: Assessments for BIOL2022. For detailed information, see Canvas.\n\n\n\n\n\nAssessment\nType\nMode\nDue\nWeight\n\n\n\n\n\nQuiz 1\nInd\nOnline\nWeek 1\n0%\n\n\n\nQuiz 2\nInd\nOnline\nWeek 2\n0%\n\n\n\nQuiz 3\nInd\nOnline\nWeek 3\n0%\n\n\n\nEvaluation Quiz\nInd\nOnline\nWeek 4\n15%\n\n\n\nReport 1\nInd\nSubmitted work\nWeek 8\n25%\n\n\n\nReport 2 – data upload\nGrp\nSubmitted work\nWeek 11\n5%\n\n\n\nReport 2\nInd\nSubmitted work\nWeek 13\n15%\n\n\n\nFinal Exam\nInd\nIn-person\nExam period\n40%\n\n\n\n\n\n\n\n\nLate penalties\n\nFailure to complete the Quiz on time will result in a 0 mark.\nA penalty of 5% per day will be applied for late submissions of all assessments, except where otherwise stated (e.g. an extension has been granted).",
+    "text": "Assessements\nThe assessments for this unit are outlined in Table 1. Compulsory assessments are marked in bold and must be attempted and submitted prevent a fail grade.\n\n\n\nTable 1: Assessments for BIOL2022. For detailed information, see Canvas.\n\n\n\n\n\nAssessment\nType\nMode\nDue\nWeight\n\n\n\n\n\nQuiz 1\nInd\nOnline\nWeek 1\n0%\n\n\n\nQuiz 2\nInd\nOnline\nWeek 2\n0%\n\n\n\nQuiz 3\nInd\nOnline\nWeek 3\n0%\n\n\n\nEvaluation Quiz\nInd\nOnline\nWeek 4\n15%\n\n\n\nReport 1\nInd\nSubmitted work\nWeek 9\n25%\n\n\n\nReport 2 – data upload\nGrp\nSubmitted work\nWeek 11\n5%\n\n\n\nReport 2\nInd\nSubmitted work\nWeek 13\n15%\n\n\n\nFinal Exam\nInd\nIn-person\nExam period\n40%\n\n\n\n\n\n\n\n\nLate penalties\n\nFailure to complete the Quiz on time will result in a 0 mark.\nA penalty of 5% per day will be applied for late submissions of all assessments, except where otherwise stated (e.g. an extension has been granted).",
     "crumbs": [
       "Outline"
     ]
@@ -715,210 +715,210 @@
   {
     "objectID": "module03/302-week09.html",
     "href": "module03/302-week09.html",
-    "title": "7  Week 9 – Introduction",
+    "title": "7  Week 9 – Part 1",
     "section": "",
     "text": "Outline\nFor this specific practical you will:",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Introduction</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#outline",
     "href": "module03/302-week09.html#outline",
-    "title": "7  Week 9 – Introduction",
+    "title": "7  Week 9 – Part 1",
     "section": "",
     "text": "Use PCA to analyse “lecturer perceptions” data gathered in previous years.\nDesign an investigation using a model system to test multivariate hypotheses (in groups) for your reports.",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Introduction</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#what-you-need-to-submit-in-module-3",
     "href": "module03/302-week09.html#what-you-need-to-submit-in-module-3",
-    "title": "7  Week 9 – Introduction",
+    "title": "7  Week 9 – Part 1",
     "section": "What you need to submit in Module 3",
     "text": "What you need to submit in Module 3\nThe assessment for Module 3 requires two separate submissions in Canvas:\n\nThe Excel file (spreadsheets) containing your group’s data. This needs to be submitted by one group member on behalf of your group and will cover both the species data and habitat data. This must be submitted by 8am on the day of your prac session in Week 11 (worth 5% of the total unit mark).\nReport 2: your individual report on your study. The report must be submitted in the format of a short scientific article (worth 15% of the total unit mark) – see assessment information for when this is due.\n\n\nAnalyses covered in this practical\n\nPCA – Principal components analysis is essentially a way to extract a reduced set of variables from a larger dataset, accounting for as much variance as possible in the original more complex dataset.",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Introduction</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#part-1-principal-components-analysis-perceptions-of-biology-lecturers",
     "href": "module03/302-week09.html#part-1-principal-components-analysis-perceptions-of-biology-lecturers",
-    "title": "7  Week 9 – Introduction",
+    "title": "7  Week 9 – Part 1",
     "section": "Part 1: Principal components analysis – “perceptions of biology lecturers”",
     "text": "Part 1: Principal components analysis – “perceptions of biology lecturers”\nYou will use PCA to reduce your set of measured variables into a coherent smaller dataset. In addition, you will be comparing your lecturer perceptions between preferred systems (marine, freshwater or terrestrial), preferred taxon (animals or plants) and gender (male or female) using conventional univariate approaches (t-tests/ANOVAs). To perform these univariate approaches, make sure that you not only create the principal components (PCs) but also save the scores (see below) for each component.\nThe process in SPSS is listed below. R instructions are given on Canvas in an R Studio file\n\n1. Running the PCA\n\nImport your lecturer data from excel into SPSS. On the command bar, click Analyze, Dimension Reduction, Factor. Move the variables of interest into the Variables Box.\nClick Descriptives and then check Initial Solution, Coefficients, and KMO and Bartlett’s Test of Sphericity. Click Continue.\nClick Extraction and then select Correlation Matrix, Unrotated Factor Solution, Scree Plot, and Eigenvalues Over 1. Click Continue.\nClick Rotation. Select Varimax and Rotated Solution. Click Continue.\nClick Scores and select Save Scores.\nClick Options. Select Exclude Cases Listwise and Sorted By Size. Click Continue.\nClick OK, and SPSS completes the Principal Components Analysis.\nTake a good look at the correlation matrix. The PCA captures the essence of the correlations in this matrix. If there are any variables that are not correlated with the other variables, you might as well delete them prior to the PCA. Since we are using PCA to reduce the set of variables to a smaller set of components to be used in additional analyses, you can always reintroduce the unique variables (i.e. those not correlated with other variables) at that time.\nBartlett’s Test of Sphericity, can be used to test the null hypothesis that our sample was randomly drawn from a population in which the correlation matrix was an identity matrix (a matrix full of zeros, except, for ones on the main diagonal). An identity matrix would occur only if each variable only correlated with itself and not any other variable. However, it is easier and more interpretable if you look at your data instead.\n\n\n\n2. Interpreting the PCA\nYou need to:\n\nLook at the correlation matrix.\nExamine the scree plot and determine how many PCs you can identify (eigenvalues &gt;1, Kaiser’s Criterion).\nEstablish a meaningful name for each component based on the loadings for individual variables in the rotated solutions.\n\n\n\n3. After the PCA\nExamine whether gender, system biases (marine v. terrestrial) and taxon (animal v. plant) biases may affect the perceptions of biology lecturers. You will need to code the columns for each factor (i.e. males = 0, females = 1) for SPSS to perform its standard one-way ANOVAs or t-tests.\nQuestions to consider:\n\nDo males and females perceive lecturer qualities the same way?\nDo botanists and zoologists perceive lecturer qualities the same way?\nDo marine and terrestrial folk perceive lecturer qualities the same way?",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Introduction</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#part-2-designing-your-multivariate-experiment",
     "href": "module03/302-week09.html#part-2-designing-your-multivariate-experiment",
-    "title": "7  Week 9 – Introduction",
+    "title": "7  Week 9 – Part 1",
     "section": "Part 2: designing your multivariate experiment",
     "text": "Part 2: designing your multivariate experiment\n\nThe data and your model system\nBiologists are becoming more interested in multivariate approaches because the questions we ask and the data we collect tend to be inherently multivariate, relating to both biotic and abiotic variables when dealing with assemblages and habitat assessments respectively. In groups, you will generate your own multivariate datasets using non-biological model systems like cars and the car parks they inhabit, gargoyles and the buildings they live on, or beer types and the type of drinking establishment in which they congregate.\n\n\nAn example of a non-biological model system\nCars have proven a useful vehicle for understanding analytical techniques in ecology (Gaston et al. 1993) and they are a good model system for our needs. We can study the assemblages of different cars (as analogues of “species”) that inhabit different suburbs and look at some characteristics of their car parks (as analogues of “habitat use”). See the sample proforma attached illustrating how we can generate a multivariate system with testable hypotheses using car assemblages and the car parks they inhabit as an example.\n\n\nGroups\nIn groups, you will need to create your own non-biological multivariate system. Using this model system, come up with several (2 to 3) multivariate hypotheses relating to the assemblages of “species” in different “treatments” (2 factor design is encouraged) and the “habitat variables” that may be influencing “habitat use”. Make sure that your treatments are adequately replicated (you will need at least 3 of each treatment). You will need to make a sampling technique in your groups that will allow you to collect the data necessary to test your hypotheses. You should also decide who will co-ordinate the data preparation.\nEach group will present a short (&lt;5 min) presentation during the practical session in Week 11 (week 2 of the pracs). For this, you will have a short powerpoint presentation containing the following information. This is compulsory for this unit: This enables staff to give feedback so you can collect the appropriate data for analyses in the next 2 weeks. Note this feedback is meant to be friendly, we are not upset or angry if we point out flaws in your design.\n\nan introduction to your system (model species and your treatments);\nyour hypotheses (there should be 2 or 3);\na description of your taxonomy;\nyour sampling design (including information on sampling effort and sample sizes);\nthe habitat variables you will be measuring at each site (and how you will measure them);\na map of your sites",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Introduction</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#assessment",
     "href": "module03/302-week09.html#assessment",
-    "title": "7  Week 9 – Introduction",
+    "title": "7  Week 9 – Part 1",
     "section": "Assessment",
     "text": "Assessment\nTo make sure that you get the most time to analyse the data and understand its interpretation, you will bring your data in week 11 to be checked by demonstrators. This is a group assessment so only one member of your group needs submit the data file for the whole group. This is worth 5% of your assessment, with near perfect datasets getting the full 5%. It is a group assessment, so Special Considerations, Simple Extensions and Academic Plans do not apply.\nFor the final assessment, each student will write a short report. The emphasis on the report will be on the methods and results sections, reflected in the attached marking scheme. You do not have to use your imagination in regard to references/ reasons for the study, but are welcome to. You do need to include your hypotheses in the Introduction section.\nThe report will consider the work you did and the ways you analysed it. It must be no longer than four single-spaced typed pages (not including the cover sheet, a title page with the abstract or any pages of references, figures and tables) and will be in the form of a manuscript suitable for submission to Austral Ecology. This report will focus on the methods you used, in particular how you describe your analyses, the type(s) of data you collected and how you present your results.\nYour report is due at 11:59pm on Sunday, before STUVAC. We hope to return reports with summative feedback a week later. Your report should be submitted electronically, anonymously (use your SID for identification) through Canvas.\nDo not plagiarise or copy from others:\n\nCheck the website http://sydney.edu.au/students/academic-integrity.html for access to the policies and codes covering academic honesty and conduct at the University\nWe will take marks off if you have obviously used ChatGPT. You are welcome to use it to check grammar, or even R codes, but we can tell if you have used it extensively to write your reports. The “Notice to Contributors” for Austral Ecology is available at http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1442-9993/homepage/ForAuthors.html",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Introduction</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#template",
     "href": "module03/302-week09.html#template",
-    "title": "7  Week 9 – Introduction",
+    "title": "7  Week 9 – Part 1",
     "section": "Template",
     "text": "Template\nA template for your study design is provided. You can download it here.",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Introduction</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#references",
     "href": "module03/302-week09.html#references",
-    "title": "7  Week 9 – Introduction",
+    "title": "7  Week 9 – Part 1",
     "section": "References",
     "text": "References\nSee annotated reading list with lectures posted on unit web site.\n\nGaston, K. J., T. M. Blackburn, Lawton. J. (1993). Comparing Animals and Automobiles – a Vehicle for Understanding Body Size and Abundance Relationships in Species Assemblages. Oikos 66: 172-179.\nQuinn G.P. and M.J. Keough. (2002). Experimental design and data analysis for biologists. Cambridge: Cambridge University Press. (appropriate chapters)\nQuinn G.P. and M.J. Keough. (2023). Experimental design and data analysis for biologists. 2nd edn Cambridge: Cambridge University Press. (appropriate chapters)",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Introduction</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html",
     "href": "module03/303-week10.html",
-    "title": "8  Week 10 – More techniques",
+    "title": "8  Week 10 – Part 2",
     "section": "",
     "text": "Outline\nFor this specific practical you will:",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- More techniques</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#outline",
     "href": "module03/303-week10.html#outline",
-    "title": "8  Week 10 – More techniques",
+    "title": "8  Week 10 – Part 2",
     "section": "",
     "text": "Present group presentations of model systems and experimental design.\nAnalyse sample data in the software package PRIMER or R to:\n\nvisualize data using cluster analysis and nMDS.\ntest one and two factor multivariate hypotheses using ANOSIM and PERMANOVA with a focus on permutational techniques (PERMANOVA).\ndetermine variables contributing to the differences between groups using SIMPER.",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- More techniques</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#analyses-covered-in-practical-2",
     "href": "module03/303-week10.html#analyses-covered-in-practical-2",
-    "title": "8  Week 10 – More techniques",
+    "title": "8  Week 10 – Part 2",
     "section": "Analyses covered in practical 2",
     "text": "Analyses covered in practical 2\n\nnMDS and multivariate hypothesis testing (ANOSIM, PERMANOVA and SIMPER) – Mainly used to produce an ordination in order to visualize patterns in the multivariate cloud of data (by reducing dimensions in some way) and also to rigorously test explicit hypotheses concerning those patterns by reference to a priori groups or relationships with predictors, such as environmental variables.\nANOSIM –- testing hypotheses comparing different groups based on their similarity (Among c.f. within) using distance measures. Most effective with simple designs.\nPERMANOVA –- more powerful approach to multivariate hypothesis testing using permutational methods, capable of analysing more complex designs.\nSIMPER –- used when a significant difference is found to identify which components of the data set are driving the differences (e.g. the contribution each species makes to differences among communities.",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- More techniques</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#community-structureassemblage-structure",
     "href": "module03/303-week10.html#community-structureassemblage-structure",
-    "title": "8  Week 10 – More techniques",
+    "title": "8  Week 10 – Part 2",
     "section": "Community structure/Assemblage structure",
     "text": "Community structure/Assemblage structure\nThe process for looking at community structure is straight forward. We will use both cluster analysis and nMDS/ANOSIM/SIMPER to do this. This involves;\n\nTransforming/standardising your data as appropriate.\nCalculating Bray Curtis dissimilarities (you could use something else from BC if the data are suitable) and generating dissimilarity matrix.\nPerforming MDS (and follow on below).\nPERMANOVA (or ANOSIM) to test for difference between treatments.\nSIMPER for identifying which variables contribute to the differences.",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- More techniques</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#using-primer-r-instructions-are-given-on-canvas-within-an-r-studio-files",
     "href": "module03/303-week10.html#using-primer-r-instructions-are-given-on-canvas-within-an-r-studio-files",
-    "title": "8  Week 10 – More techniques",
+    "title": "8  Week 10 – Part 2",
     "section": "Using PRIMER (R instructions are given on Canvas within an R Studio files)",
     "text": "Using PRIMER (R instructions are given on Canvas within an R Studio files)\n\nPERMANOVA, SIMPER and MDS analysis with PRIMER\n\nOpen the Excel document you wish to analyse.\nOpen PRIMER\nIn PRIMER go to Open and select Excel file you wish to analyse.\nSelect worksheet to be analysed. Keep “Data Type” as Sample Data. Clear button “Title”.\nCheck to ensure you have the correct number of rows and columns and all looks well.\nGo to Edit, go to Factors, go to Add and name your new factor(s) appropriately, code each site for that factor and press OK.\nGo to Pre-treatment and then to Transform (overall), and select an appropriate transformation for your data. (4th root or presence/absence, etc1.)\nTo make an nMDS plot: Go to Analyse then Resemblance and click ‘analyse between samples’ and ‘Bray-Curtis similarity’. Go to Analyse then to Non-metric MDS, change number of restarts to 20 and select configuration plot. You can modify how the nMDS plot is displayed by right clicking on the figure.\nTo perform a PERMANOVA you need to firstly create a PERMANOVA design, and then run the PERMANOVA you have designed\n\nTo create a PERMANOVA design: Return to the resemblance matrix. Go to PERMANOVA+ then Create PERMANOVA design. Create a title for the design and select appropriate number of factors. Enter in each factor you want to incorporate into the design, and code as either fixed or random factor. Complex designs can be created at this point.\nTo run the PERMANOVA: Return to the resemblance matrix. Go to PERMANOVA+ then PERMANOVA. Select the correct design (usually the highest number). Select Mains test and your permutational method (reduced model is usually fine), the sum of squares type (type III) and the number of permutations (999 recommended) then OK.\n\nInterpret the PERMANOVA output. If one or more of your factors are significant, then you run the PERMANOVA design again, selecting Pair-wise test and select the factor/interaction of interest. Press OK.\nIf appropriate, return to transformed data set and go to Analyse and then SIMPER. Select appropriate factor and click OK.\nSave result(s) to a file.\n\n\n\nANOSIM\nAs an alternative to PERMANOVA, many studies will test differences between treatments using Analysis of Similarities (ANOSIM). Unlike PERMANOVA which can be used for multi-factorial designs, ANOSIM is best used for simple one-factor analyses. PERMANOVA and ANOSIM will generate the same (or very similar results) for one-factor analyses.\n\nTo perform an ANOSIM\nReturn to resemblance matrix, go to Analyse then to ANOSIM, select appropriate factor which you added before.\nSignificance level in % in ANOSIM becomes probability if divided by 100. e.g. 0.2 ÷ 100 = 0.002 = P (in this case P &lt; 0.05). If ‘Significance level of sample statistic’ in ‘Global Test’ section of the output is more than 5 (which is &gt; 0.05), than there is no significant difference among any of the treatments even if ‘Pairwise Tests’ section has significant differences between pairs of particular treatments. ANOSIM results are presented as: (P = 0.076, Global R = 0.148, 999 permutations) where P is a global significance level.",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- More techniques</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#for-next-week",
     "href": "module03/303-week10.html#for-next-week",
-    "title": "8  Week 10 – More techniques",
+    "title": "8  Week 10 – Part 2",
     "section": "For next week",
     "text": "For next week\nOur first steps involve organizing the data so that we can get it into our analytical software (SPSS, PRIMER, R etc,) and generating summary statistics and figures. Different analytical software requires slightly different formats but there are usually some generalities that apply across programs.\nFor the start of next week’s practical each group will need to have collated their group data into three spreadsheets; These spreadsheets will be marked out of 5 by demonstrators.\n\nHabitat data: an SPSS or R ready excel file with sites as rows and habitat variables as columns (see below)\nAssemblage/Community data: a PRIMER or R ready excel file with species ID as rows and sites as columns (see below)\nSummary statistics: additional excel files as above (1 and 2) but with summary statistics (numbers of spp., individuals, habitat variables etc.) calculated for your data. This may be done on a site specific or treatment specific basis depending on your question.\n\n\n1. Your habitat data for PCA\nHabitat data – You will need to enter your data on habitat characteristics into SPSS or R for analysis next week. Make sure you are familiar with how to organise it for SPSS. Every site needs its own row where every habitat variable measured is listed, i.e. every site assessment has an independent row. If you have treatments you need to include a column labeling those treatments too (in addition to “site name”).\n\n\n2. Organising and entering assemblage data for PRIMER\nAssemblage/Community data – You will need to generate your spp*site matrix into a PRIMER ready file so that we are ready to analyse your data at the labs next week. These will take the form of a spreadsheet with a single column identifying species (unique species identifiers are fine) with the abundances for each site in rows (page 22). This sheet must start in the top left cell of that worksheet with only a single row of column labels. Make sure that you keep a reference file where you have recorded the specific identity of the unique species identifiers (e.g. A= Toyota Corolla, B= Leyland P76 etc.).\n\n\n3. Generating summary statistics for additional (univariate) analyses\nOn an additional spreadsheet/workspace, you should calculate summary statistics to perform additional univariate analyses. Create a copy of your completed excel file and or worksheet. You should generate a column in the far right of your spreadsheet summing the number of things in each row. You can then sort the data (REMEMBER TO SELECT IT ALL!) by that column and delete all the zero rows (i.e. no evidence of that species in your system).\nOwing to the high degree of variation and the number of singletons you will encounter it is possible (and likely) that some groups will pool species into more coarse groupings (i.e. “genera” or “family”).\nThe easiest way to calculate some of these summary statistics will be to use the pivot table command in Excel to sort your data for you. To do this:\n\nHighlight the dataset you want to use\nChoose Pivot Table from the Data menu\nWork through the wizard creating a pivot table in a new worksheet\nThen change the drop down menu in the box to “to data area” and click on the different sites to add them.\n\nYou should have a functional summary pivot table of your data. You can change the pivot tables to look at “counts” (equivalent of presence absence data) or “sums” (abundance data) for your spreadsheet.  \n\n\n\n\n\n\nFigure 8.1: Example of data sheet for importing data into SPSS for PCA\n\n\n\n\n\n\n\n\n\nFigure 8.2: Example of data sheet for importing data into PRIMER",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- More techniques</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#footnotes",
     "href": "module03/303-week10.html#footnotes",
-    "title": "8  Week 10 – More techniques",
+    "title": "8  Week 10 – Part 2",
     "section": "",
     "text": "When you are analyzing your group data (week 11), you will be able to apply multiple transformations to your data. I’d encourage you to use a range of them to see how it affects your data. Note that PRIMER will be reluctant to undertake any analyses when data are not transformed!↩︎",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- More techniques</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/304-week11.html",
     "href": "module03/304-week11.html",
-    "title": "9  Week 11 – Your data",
+    "title": "9  Week 11 – Part 3",
     "section": "",
     "text": "Outline\nAt the end of the practical you should have:",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Your data</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
     ]
   },
   {
     "objectID": "module03/304-week11.html#outline",
     "href": "module03/304-week11.html#outline",
-    "title": "9  Week 11 – Your data",
+    "title": "9  Week 11 – Part 3",
     "section": "",
     "text": "Appropriate outputs for your community structure analyses:\n\nCluster analysis details and dendrogram (if appropriate)\nnMDS (saved as suitable image file)\nPERMANOVA results (in rtf/doc file)\nSIMPER if justified\n\nAppropriate outputs for your PCA:\n\nRTF file with SPSS or R output\n\nUnivariate tests using your PCA results\n\nRTF file with SPSS or R output with Regression and/or ANOVA results (testing hypotheses using your newly derived PCs)",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Your data</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
     ]
   },
   {
     "objectID": "module03/304-week11.html#your-own-data",
     "href": "module03/304-week11.html#your-own-data",
-    "title": "9  Week 11 – Your data",
+    "title": "9  Week 11 – Part 3",
     "section": "Your own data",
     "text": "Your own data\nAt this stage it’s very easy to fiddle with your data – is there any reason you might want to standardise or transform your data in any way? Some things to consider at this stage:\n\nDo the abundances matter?\nAre you intending to make every sample equal?\nWould it be worth analysing using your data at a higher “taxonomic” level?",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Your data</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
     ]
   },
   {
     "objectID": "module03/304-week11.html#tips-for-primer",
     "href": "module03/304-week11.html#tips-for-primer",
-    "title": "9  Week 11 – Your data",
+    "title": "9  Week 11 – Part 3",
     "section": "Tips for PRIMER",
     "text": "Tips for PRIMER\nThe graphics are not fantastic – for some outputs you may need to save the coordinates and make a new graph. You can save the images as a windows metafile or bitmap if you wish, they are good enough for your report. Resolution is too low for most journals. You should save appropriate output files using standard formats you can incorporate into your report.\nIf you don’t complete your analyses, I will make the program available to you outside of prac times. There will also be time in Week 12 to do any extras.",
     "crumbs": [
       "Module 3",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Your data</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
     ]
   },
   {
