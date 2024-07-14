@@ -25,8 +25,8 @@ book:
       - module01/102-week01.qmd
       - module01/103-week02.qmd
       - module01/104-week03.qmd
-      - module01/105-images.qmd
-      - module01/106-species-id.qmd
+      # - module01/105-images.qmd
+      # - module01/106-species-id.qmd
     - "---"
     - part: Module 2
       chapters:
@@ -49,15 +49,15 @@ format:
     # pdf-engine: latexmk
     # pdf-engine-opt: -xelatex
     documentclass: scrbook # scrreport scrbook
-    classoption: ["twoside", "open=any"]
+    classoption: ["twoside"] #"open=any"
     papersize: a4
     toc: true
     number-sections: false
     number-depth: 1
-    fontsize: 10.5pt
+    fontsize: 11pt
     block-headings: true
     colorlinks: true
-    linestretch: 1.25
+    linestretch: 1.1
     template-partials:
       - "template/before-title.tex"
       - "template/before-body.tex"
