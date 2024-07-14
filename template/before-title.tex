@@ -3,7 +3,7 @@
 \usepackage[T1]{fontenc}
 % in R, might need to run `tinytex::tlmgr_install("plex")`
 \usepackage[usefilenames,DefaultFeatures={Ligatures=Common}]{plex-otf} %
-\renewcommand*\familydefault{\sfdefault} %% set base font to be san-serif
+% \renewcommand*\familydefault{\sfdefault} %% set base font to be san-serif
 
 % ## section, ### subsection and #### subsubsection
 
@@ -21,32 +21,32 @@
   %runin=false,
   afterindent=false,
   beforeskip=0pt,
-  afterskip=2\baselineskip]{chapter}
+  afterskip=2em]{chapter}
 \RedeclareSectionCommand[
   %runin=false,
   afterindent=false,
   beforeskip=\baselineskip,
-  afterskip=.5\baselineskip]{section}
+  afterskip=.1\baselineskip]{section}
 \RedeclareSectionCommand[
   %runin=false,
   afterindent=false,
   beforeskip=.75\baselineskip,
-  afterskip=.5\baselineskip]{subsection}
+  afterskip=.1\baselineskip]{subsection}
 \RedeclareSectionCommand[
   %runin=false,
   afterindent=false,
-  beforeskip=.5\baselineskip,
+  beforeskip=.1\baselineskip,
   afterskip=.1\baselineskip]{subsubsection}
 \RedeclareSectionCommand[
   runin=true,
   %afterindent=false,
   beforeskip=.5\baselineskip,
-  afterskip=1em]{paragraph}
+  afterskip=0.5em]{paragraph}
 \RedeclareSectionCommand[
   runin=true,
   %afterindent=false,
   beforeskip=.5\baselineskip,
-  afterskip=1em]{subparagraph}
+  afterskip=.5em]{subparagraph}
 
 
 \usepackage{pdfpages}
