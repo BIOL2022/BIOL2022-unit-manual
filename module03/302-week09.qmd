@@ -20,15 +20,15 @@ The aim of this component of the practical series is to introduce you to several
 - Use PCA to analyse “lecturer perceptions” data gathered in previous years.
 - Design an investigation using a model system to test multivariate hypotheses (in groups) for your reports.
 
-## What you need to submit Module 3
+## What you need to submit in Module 3
 The assessment for Module 3 requires two separate submissions in Canvas:
 
-1. **The Excel file (spreadsheets) containing your Group’s data.** This needs to be submitted by one group member on behalf of your group and will cover both the species data and habitat data. This must be submitted by 8am on the day of your prac session in Week 11 (worth 5% of the total unit mark).
-2. **Your Individual Report on your study.** The report must be submitted in the format of a short scientific article (worth 15% of the total unit mark) -- see assessment information for when this is due. 
+1. **The Excel file (spreadsheets) containing your group’s data.** This needs to be submitted by one group member on behalf of your group and will cover both the species data and habitat data. This must be submitted by 8am on the day of your prac session in Week 11 (worth 5% of the total unit mark).
+2. **Report 2: your individual report on your study.** The report must be submitted in the format of a short scientific article (worth 15% of the total unit mark) -- see assessment information for when this is due. 
 
 ### Analyses covered in this practical
 
-**PCA** – Principal components analysis is essentially a way to extract a reduced set of variables from a larger dataset, accounting for as much variance as possible in the original more complex dataset. 
+- **PCA** – Principal components analysis is essentially a way to extract a reduced set of variables from a larger dataset, accounting for as much variance as possible in the original more complex dataset. 
 
 ## Part 1: Principal components analysis – “perceptions of biology lecturers”
 
@@ -45,8 +45,8 @@ d. Click Rotation. Select Varimax and Rotated Solution. Click Continue.
 e. Click Scores and select Save Scores.
 f. Click Options. Select Exclude Cases Listwise and Sorted By Size. Click Continue.
 g. Click OK, and SPSS completes the Principal Components Analysis.
-8. Take a good look at the correlation matrix. The PCA captures the essence of the correlations in this matrix. If there are any variables that are not correlated with the other variables, you might as well delete them prior to the PCA. Since we are using PCA to reduce the set of variables to a smaller set of components to be used in additional analyses, you can always reintroduce the unique variables (i.e. those not correlated with other variables) at that time.
-h. Bartlett’s Test of Sphericity, can be used to test the null hypothesis that our sample was randomly drawn from a population in which the correlation matrix was an identity matrix (a matrix full of zeros, except, for ones on the main diagonal). An identity matrix would occur only if each variable only correlated with itself and not any other variable. However, it is easier and more interpretable if you look at your data instead.
+h. Take a good look at the correlation matrix. The PCA captures the essence of the correlations in this matrix. If there are any variables that are not correlated with the other variables, you might as well delete them prior to the PCA. Since we are using PCA to reduce the set of variables to a smaller set of components to be used in additional analyses, you can always reintroduce the unique variables (i.e. those not correlated with other variables) at that time.
+i. Bartlett’s Test of Sphericity, can be used to test the null hypothesis that our sample was randomly drawn from a population in which the correlation matrix was an identity matrix (a matrix full of zeros, except, for ones on the main diagonal). An identity matrix would occur only if each variable only correlated with itself and not any other variable. However, it is easier and more interpretable if you look at your data instead.
 
 ### 2. Interpreting the PCA
 
@@ -90,14 +90,26 @@ To make sure that you get the most time to analyse the data and understand its i
 
 For the final assessment, each student will write a short report. The emphasis on the report will be on the methods and results sections, reflected in the attached marking scheme. You do not have to use your imagination in regard to references/ reasons for the study, but are welcome to. You do need to include your hypotheses in the Introduction section.
 
-The report will consider the work you did and the ways you analysed it. It must be no longer than four single-spaced typed pages (not including the cover sheet, a title page with the abstract or any pages of references, figures and tables) and will be in the form of a manuscript suitable for submission to Austral Ecology. This report will focus on the methods you used, in particular how you describe your analyses, the type(s) of data you collected and how you present your results.
+The report will consider the work you did and the ways you analysed it. It must be **no longer than four single-spaced typed pages** (not including the cover sheet, a title page with the abstract or any pages of references, figures and tables) and will be in the form of a manuscript suitable for submission to Austral Ecology. This report will focus on the methods you used, **in particular how you describe your analyses**, the type(s) of data you collected and **how you present your results**.
 
-Your report is due at 11:59pm on Sunday, before STUVAC. We hope to return reports with summative feedback a week later. Your report should be submitted electronically, anonymously (use your SID for identification) through Canvas. 
+Your report is due at **11:59pm on Sunday, before STUVAC. We hope to return reports with summative feedback a week later**. Your report should be submitted electronically, anonymously (use your SID for identification) through Canvas. 
+
 Do not plagiarise or copy from others: 
 
 - Check the website http://sydney.edu.au/students/academic-integrity.html for access to the policies and codes covering academic honesty and conduct at the University
 - We will take marks off if you have obviously used ChatGPT. You are welcome to use it to check grammar, or even R codes, but we can tell if you have used it extensively to write your reports. 
 The “Notice to Contributors” for Austral Ecology is available at http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1442-9993/homepage/ForAuthors.html
+
+
+## Template
+
+::: {.content-visible when-format="pdf"}
+At the end of this section is a simple template to organise your group's study design. You can download it on the HTML version of the Unit Manual.
+:::
+
+::: {.content-hidden when-format="pdf"}
+A template for your study design is provided. You can download it [here](../assets/m3template.docx).
+:::
 
 ## References 
 See annotated reading list with lectures posted on unit web site.
@@ -107,3 +119,12 @@ See annotated reading list with lectures posted on unit web site.
 - Quinn G.P. and M.J. Keough. (2002). Experimental design and data analysis for biologists. Cambridge: Cambridge University Press. (appropriate chapters)
 - Quinn G.P. and M.J. Keough. (2023). Experimental design and data analysis for biologists. 2nd edn Cambridge: Cambridge University Press. (appropriate chapters)
 
+::: {.content-visible when-format="pdf"}
+
+\newpage
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{assets/m3template.pdf}
+
+
+
+:::

@@ -81,8 +81,8 @@ Title: keep it brief, relevant, informative and interesting
 
 ### General 
 - Write in PLAIN English
-	Be succinct and avoid trying to sound “scientific” 
-	read it out aloud, if it sounds pompous it is, and it should NOT be
+  - Be succinct and avoid trying to sound “scientific” 
+  - read it out aloud, if it sounds pompous it is, and it should NOT be
 - Correct presentation (format/length)
 - References used and cited correctly. 
 You are expected to use at least 10 relevant references from the primary literature 

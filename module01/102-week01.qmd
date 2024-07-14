@@ -47,7 +47,7 @@ Once you are done, please provide feedback on the cheatsheet(s) you have tried o
 
 Your feedback will help us improve the cheatsheets for future students.
 
-::: {.callout-note appearance="minimal" collapse="true"}
+::: {.callout-note collapse="true"}
 ## Contribute to the cheatsheets (optional)
 If you would like to take one step further and *contribute* to the cheatsheets, we are more than happy to accept your suggestions. You can do this in several ways:
 
@@ -170,7 +170,7 @@ If you can **plot** it, you are already **modelling** it!
 - **Step 4.** These plots are often associated with specific empirical models and statistical analyses, which we will cover in the upcoming weeks. Can you predict what sort of statistical model you would use to analyse the data in Step 1 and Step 2? **It is ok if you do not know most of the answers to this question yet.** Discuss this with your peers and demonstrators.
 
 
-::: {.callout-note appearance="minimal" collapse="true"}
+::: {.callout-note collapse="true"}
 ## Example
 1. Browse the **possum data** in MS Excel. *Let's consider a model of how the **weight** of a possum changes with **age**.*
 2. Identify the variables: what type of variables are they? Are they continuous, categorical or something else? With that in mind, draw the plot(s) that you think will help you interpret the data. *Weight is continuous and age is categorical, so a boxplot would be a good start.*
@@ -181,8 +181,6 @@ Notice that in the example above, you have not performed any data analysis. You 
 
 If you look at the data closely, **there is only one juvenile possum in the dataset**, so you would not have been able to analyse this data anyway!
 :::
-
-
 
 
 ## End of practical

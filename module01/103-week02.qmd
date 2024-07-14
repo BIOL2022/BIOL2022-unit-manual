@@ -35,9 +35,7 @@ Images are commonly used to quantify patterns in biology, from molecules to ecos
 
 Here you will explore experimental design, model formulation and data analysis by collecting data from available images and use both evidence and logic to work out how to explain the patterns you observe.
 
-
-### Work in groups
-You will be working in groups of 3-4 students. Your task is to **observe** the images provided and formulate a **model** that explains the patterns you observe. You will then create a **study design** that will allow you to test your model. 
+**Work in groups** -- You will be working in groups of 3-4 students. Your task is to **observe** the images provided and formulate a **model** that explains the patterns you observe. You will then create a **study design** that will allow you to test your model. 
 
 ::: callout-important
 Do not proceed to Exercise 2 until you have completed this exercise, and a Demonstrator has sighted your study design.
@@ -47,9 +45,14 @@ Do not proceed to Exercise 2 until you have completed this exercise, and a Demon
 
 You are provided with random, representative, replicate photographs of a common marine habitat that spans > 8,000 km of the Great Southern Reef, i.e. the coastline along the bottom half of Australia -- intertidal rocky shores (Fig 1). 
 
-![Fig 1. The Great Southern Reef. © 2021 California Academy of Sciences.](../assets/southern-reef-map.png){width=70%}
-
+::: {.content-visible when-format="html"}
 Access the images, including background information, [here](/module01/105-images.qmd){target="_blank"} (note: link will open in a new window/tab).
+:::
+
+::: {.content-visible when-format="pdf"}
+Please check the online Unit Manual for the link to the images. Your demonstrators will also be able to show you how to access the images.
+:::
+
 
 **Using these images and the species identification guide, formulate a model and a (testable) hypothesis. You will then think about what data you need to collect to test your hypothesis.** See below for further details.
 
@@ -67,6 +70,8 @@ You should have a clear model in mind before collecting data. The model determin
 
 While you may not have all the answers right away, it's important to have a rough idea of what you want to do, such as comparing groups, measuring correlation, or creating a linear model.
 
+![The Great Southern Reef. © 2021 California Academy of Sciences.](../assets/southern-reef-map.png){width=70%}
+
 ### Task
 
 A Google Docs page will be shared with you to record your responses. Please make sure that all group members have access to this document. On the document, claim a page and write your group name and the title of your project.
@@ -77,7 +82,7 @@ Then, address your study design by answering the following questions:
 2. **Variables**: What are the variables you need to measure? What types of variables are they (e.g. continuous, categorical)?
 3. **Data collection**: How would you collect data to test your model? What are the potential issues you need to consider? 
 
-::: {.callout-note appearance="minimal" collapse="true"}
+::: {.callout-note collapse="true"}
 ## Example
 Note that this example will probably not be relevant to your images, but it should give you an idea of what is expected.
 
@@ -123,7 +128,7 @@ If more than one person is entering data, will it influence the results? Why or 
 :::
 
 
-::: {.callout-note appearance="minimal" collapse="true"}
+::: {.callout-note collapse="true"}
 
 ## Optional: tidy your data
 To make your life easier, *recall* the [tidy data principles](https://r4ds.had.co.nz/tidy-data.html) outlined in the workshop:

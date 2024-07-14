@@ -23,15 +23,11 @@ In this section of the unit, you will be able to practice performing these multi
 ## Analyses and programs we’ll use
 The main programs we will use are **SPSS** and **PRIMER**. However, R instructions for all methods, in the form of R scripts, will be supplied on Canvas for those who prefer to use R.
 
-**PCA** -- Principal components analysis lets us extract a reduced dataset from a larger dataset, accounting for as much variance as possible in the original more complex dataset. This will be useful for your habitat data as we can determine a reduced number of newly derived variables to describe them. We will do this in SPSS (or R). 
-
-**nMDS and multivariate hypothesis testing (using ANOSIM, PERMANOVA and SIMPER)** -- Mainly used to produce an ordination in order to visualize patterns in the multivariate cloud of data (by reducing dimensions in some way) and also to rigorously test explicit hypotheses concerning those patterns by reference to a priori groups or relationships with predictors, such as environmental variables. We will use PRIMER for this (or R).
-
-**ANOSIM** -- testing hypotheses comparing different groups based on their similarity (Among c.f. within) using distance measures. Most effective with simple designs. We will use PRIMER for this (or R).
-
-**PERMANOVA** -- more powerful approach to multivariate hypothesis testing using permutational methods, capable of analysing more complex designs. We will use PRIMER for this (or R).
-
-**SIMPER** --  used when a significant difference is found to identify which components of the data set are driving the differences (e.g. the contribution each species makes to differences among communities. We will use PRIMER for this (or R).
+- **PCA** -- Principal components analysis lets us extract a reduced dataset from a larger dataset, accounting for as much variance as possible in the original more complex dataset. This will be useful for your habitat data as we can determine a reduced number of newly derived variables to describe them. We will do this in SPSS (or R). 
+- **nMDS and multivariate hypothesis testing (using ANOSIM, PERMANOVA and SIMPER)** -- Mainly used to produce an ordination in order to visualize patterns in the multivariate cloud of data (by reducing dimensions in some way) and also to rigorously test explicit hypotheses concerning those patterns by reference to a priori groups or relationships with predictors, such as environmental variables. We will use PRIMER for this (or R).
+- **ANOSIM** -- testing hypotheses comparing different groups based on their similarity (Among c.f. within) using distance measures. Most effective with simple designs. We will use PRIMER for this (or R).
+- **PERMANOVA** -- more powerful approach to multivariate hypothesis testing using permutational methods, capable of analysing more complex designs. We will use PRIMER for this (or R).
+- **SIMPER** --  used when a significant difference is found to identify which components of the data set are driving the differences (e.g. the contribution each species makes to differences among communities. We will use PRIMER for this (or R).
 
 ## Timeline
 
