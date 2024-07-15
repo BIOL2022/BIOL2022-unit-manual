@@ -2,7 +2,7 @@
 lightbox: auto
 ---
 
-# Species identification guide {.unnumbered}
+# Species ID guide {.unnumbered}
 
 Use this page to identify the species that you sample.
 
