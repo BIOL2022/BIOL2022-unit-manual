@@ -2,7 +2,7 @@
 author: Januar Harianto
 ---
 
-# **Module 1 (Weeks 1 -- 3)** {.unnumbered}
+# Module 1 (Weeks 1 -- 3) {.unnumbered}
 
 ## Preamble
 

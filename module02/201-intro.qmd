@@ -2,7 +2,7 @@
 author: Clare McArthur
 ---
 
-# **Module 2 (Weeks 4 -- 8)** {.unnumbered}
+# Module 2 (Weeks 4 -- 8) {.unnumbered}
 
 ## Preamble
 
