@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Biology Experimental Design and Analysis",
     "section": "",
-    "text": "Introduction\nWelcome to Biology Experimental Design and analysis, also known as BEDA. This book contains all of the information you need to navigate your way around the labs for this unit.\nMany students think of BEDA as yet another statistics unit. This is not quite true. Unlike most other statistical units, BEDA focuses on the practical aspects of data analysis. We assume that you already have a basic understanding of statistical concepts, and we build on that knowledge, focusing on the how and why of statistical methods:\nImportantly, attending labs is crucial to your learning as most of the data we use are collected by you – please do not skip any of them!\nPlease read all the sections before the practicals as they contain important housekeeping information.",
+    "text": "Preface\nWelcome to Biology Experimental Design and analysis, also known as BEDA. This book contains all of the information you need to navigate your way around the practicals for this unit. It also contains some additional ‘housekeeping’ information that you may find useful.\nMany students think of BEDA as yet another statistics unit. This is not quite true. Unlike most other statistical units, BEDA focuses on the practical aspects of data analysis. We assume that you already have a basic understanding of statistical concepts, and we build on that knowledge, focusing on the how and why of statistical methods:\nImportantly, attending labs is crucial to your learning as most of the data we use are collected by you – please do not skip any of them!\nPlease read all the sections before the practicals as they contain important housekeeping information.",
     "crumbs": [
-      "Introduction"
+      "Preface"
     ]
   },
   {
@@ -16,7 +16,7 @@
     "section": "Your lecturers",
     "text": "Your lecturers\n\n\n\nDr Januar Harianto\nModule 1 Lecturer\nRm 364, C81 – Biomedical Building\nUnit Coordinator\n\n\n\nProf. Clare McArthur\nModule 2 Lecturer\nRoom 303, A08 – Heydon-Laurence Building\n\n\n\nProf. Mat Crowther\nModule 3 Lecturer\nRoom 225c, A08 – Heydon-Laurence Building",
     "crumbs": [
-      "Introduction"
+      "Preface"
     ]
   },
   {
@@ -927,6 +927,17 @@
     "title": "10  Week 12 – Support session",
     "section": "",
     "text": "Outline\nThis week we will be in the lab to help with any analyses that groups wish to undertake. This may involve integrating the analyses (e.g. testing the relationships between PCs and univariate measures) or tweaking (not twerking) your analyses by examining subsets of your data using the options available in PRIMER.",
+    "crumbs": [
+      "Module 3",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 12 -- Support session</span>"
+    ]
+  },
+  {
+    "objectID": "module03/305-week12.html#marking-scheme",
+    "href": "module03/305-week12.html#marking-scheme",
+    "title": "10  Week 12 – Support session",
+    "section": "Marking scheme",
+    "text": "Marking scheme\nThe marking scheme can be found on Canvas, in the Assignments section under Report 2.",
     "crumbs": [
       "Module 3",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 12 -- Support session</span>"
