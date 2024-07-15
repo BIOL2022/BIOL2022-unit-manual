@@ -1,10 +1,12 @@
-# Introduction {.unnumbered}
+# Preface {.unnumbered}
 
+::: {.content-visible when-format="html"}
 ::: callout-caution
 This book is still being updated for Semester 2, 2024 but you can start reading the sections that are already available.
 :::
+:::
 
-Welcome to Biology Experimental Design and analysis, also known as **BEDA**. This book contains all of the information you need to navigate your way around the labs for this unit.
+Welcome to Biology Experimental Design and analysis, also known as **BEDA**. This book contains all of the information you need to navigate your way around the practicals for this unit. It also contains some additional 'housekeeping' information that you may find useful.
 
 Many students think of BEDA as *yet another statistics unit*. This is not quite true. Unlike most other statistical units, BEDA focuses on the **practical** aspects of data analysis. We assume that you already have a basic understanding of statistical concepts, and we build on that knowledge, focusing on the **how** and **why** of statistical methods:
 
