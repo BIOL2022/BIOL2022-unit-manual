@@ -8,7 +8,7 @@ book:
   date: today
   sidebar:
     # background: "#EEE5E9"
-    logo: usyd_black.png
+    logo: assets/bedalogo.svg
     search: true
   chapters: 
     - index.qmd
