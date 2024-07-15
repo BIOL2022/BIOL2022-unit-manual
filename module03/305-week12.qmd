@@ -17,3 +17,6 @@ The aim of this component of the practical series is to introduce you to several
 
 This week we will be in the lab to help with any analyses that groups wish to undertake. This may involve integrating the analyses (e.g. testing the relationships between PCs and univariate measures) or tweaking (not twerking) your analyses by examining subsets of your data using the options available in PRIMER.
 
+## Marking scheme
+
+The marking scheme can be found on Canvas, in the Assignments section under **Report 2**.
