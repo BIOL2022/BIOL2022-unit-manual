@@ -30,7 +30,7 @@ All labs are held in [Carslaw Lab 307](https://venueweb.sydney.edu.au/F07.03.307
 ## Assessements
 
 The assessments for this unit are outlined in @tbl-assessments.
-Compulsory assessments are marked in **bold** and must be attempted and submitted prevent a fail grade.
+Compulsory assessments are marked in **bold** and must be attempted and submitted to prevent a fail grade.
 
 
 Assessment | Type | Mode | Due | Weight
