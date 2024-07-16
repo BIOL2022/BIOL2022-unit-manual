@@ -178,7 +178,7 @@
     "href": "module01/102-week01.html#learning-outcomes",
     "title": "\n1  Week 1 – Introduction\n",
     "section": "Learning outcomes",
-    "text": "Learning outcomes\nBy the end of this practical, you should be able to:\n\nIdentify the software you will be using in this unit.\nBe able to use cheatsheets to help you with your data analysis.\nHave a basic understanding of models and how they can be used in study design.\nBe able to formulate a model with study design in mind.\nBe able to interpret plots as models.\n\nWhat to submit at the end of the practical\nIf possible, send us some quick feedback on cheatsheets. Your feedback will help us improve the cheatsheets for future students. Otherwise no other submissions are required since this is the first practical, but think about how you would show your work to your peers and demonstrators as you work on the exercises.\nWorkshop\nIn today’s workshop we will go through:\n\nAbout us\nIntroduction to R, SPSS, Jamovi and JASP\n\nThe workshop should take no more than 30 minutes (unless Januar talks too much). Workshop slides are available on Canvas.",
+    "text": "Learning outcomes\nBy the end of this practical, you should be able to:\n\nIdentify the software you will be using in this unit.\nBe able to use cheatsheets to help you with your data analysis.\nHave a basic understanding of models and how they can be used in study design.\nBe able to formulate a model with study design in mind.\nBe able to interpret plots as models.\n\nWhat to submit at the end of the practical\nIf possible, send us some quick feedback on cheatsheets. Your feedback will help us improve the cheatsheets for future students. Otherwise no other submissions are required since this is the first practical, but think about how you would show your work to your peers and demonstrators as you work on the exercises.\nWorkshop\nIn today’s workshop we will go through:\n\nAbout us\nIntroduction to R, SPSS and Jamovi\n\nThe workshop should take no more than 30 minutes (unless Januar talks too much). Workshop slides are available on Canvas.",
     "crumbs": [
       "**Module 1**",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1 -- Introduction</span>"
@@ -969,16 +969,6 @@
     "title": "Cheatsheets",
     "section": "Jamovi",
     "text": "Jamovi\nboxplots | scatterplots | histograms",
-    "crumbs": [
-      "**Cheatsheets**"
-    ]
-  },
-  {
-    "objectID": "04-cheatsheets.html#jasp",
-    "href": "04-cheatsheets.html#jasp",
-    "title": "Cheatsheets",
-    "section": "JASP",
-    "text": "JASP\nboxplots | scatterplots | histograms",
     "crumbs": [
       "**Cheatsheets**"
     ]
