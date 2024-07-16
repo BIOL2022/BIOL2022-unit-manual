@@ -39,6 +39,8 @@ The workshop should take no more than 30 minutes (**unless Januar talks too much
 In this short exercise we will introduce you to **cheatsheets**, which are quick reference guides that help you remember important functions and commands. Choose a cheatsheet and try to complete the task(s) within.
 
 ### Try out a cheatsheet
+You will need to use a web browser to access the cheatsheets. Check with your demonstrators if you are unsure how to do this. For those of you who are already reading this on the web, you can simply click on the **Cheatsheets** link in the menu to the left.
+
 1. In the **Cheatsheets** section, you will find a list of cheatsheets. More will come soon depending on feedback and discussions on Ed.
 2. **Choose a cheatsheet** that you would like to try out -- it could be something that you are *not* familiar with, or you could also choose one that you have some experience with to see if it aids your understanding.
 3. **Follow the steps on the cheatsheet**. If you get stuck, don't worry! You can ask your peers or the demonstrators for help, and you may provide feedback so that it can be improved.
