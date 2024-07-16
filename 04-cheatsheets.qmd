@@ -48,6 +48,3 @@ boxplots | scatterplots | histograms
 
 boxplots | scatterplots | histograms
 
-## JASP
-
-boxplots | scatterplots | histograms

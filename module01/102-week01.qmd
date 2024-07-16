@@ -28,7 +28,7 @@ If possible, send us some quick **feedback on cheatsheets.** Your feedback will 
 In today's workshop we will go through:
 
 - About us
-- Introduction to R, SPSS, Jamovi and JASP
+- Introduction to R, SPSS and Jamovi
 
 The workshop should take no more than 30 minutes (**unless Januar talks too much**). Workshop slides are available on Canvas. 
 
