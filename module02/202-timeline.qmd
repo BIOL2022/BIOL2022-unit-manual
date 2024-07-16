@@ -2,6 +2,10 @@
 title: Timeline
 ---
 
+If you wish to download the timeline as a table, click [here](../assets/timeline_v2.pdf).
+
+Otherwise, click on the tabs below to see what you need to do each week.
+
 ::: {.panel-tabset}
 ## Weeks 2--3
 *Before* Module 2 begins, sign up to a project group for Module 2 in your practical session.

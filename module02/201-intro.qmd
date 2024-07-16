@@ -28,8 +28,8 @@ In Module 1, you have learnt the principles for converting a biological observat
 
 This assessment requires two separate submissions in Canvas:
 
-1. **Report 1 Group Data**: The Excel file (spreadsheets) containing your Group’s data. This needs to be submitted by one group member on behalf of your group.
-2. Your Individual Report on your experiment, in the format of a short scientific article (worth 25% of the total unit mark).
+1. **Report 1 Dataset Submission**: The Excel file (spreadsheets) containing your Group’s data. This needs to be submitted by one group member on behalf of your group.
+2. **Report 1**:Your Individual Report on your experiment, in the format of a short scientific article (worth 25% of the total unit mark).
 
 ## How you will get feedback
 
