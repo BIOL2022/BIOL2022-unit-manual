@@ -42,9 +42,10 @@ Requirements:
 
 ## SPSS
 
-boxplots | scatterplots | histograms
+[boxplots](https://envx-resources.github.io/cheatsheet-spss-boxplot/) | scatterplots | histograms
 
 ## Jamovi
 
 boxplots | scatterplots | histograms
 
+`
