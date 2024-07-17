@@ -38,7 +38,7 @@ Requirements:
 
 ## R
 
-boxplots | scatterplots | histograms
+[boxplots](https://usyd-soles-edu.github.io/cheatsheet-R-boxplot/) | scatterplots | histograms
 
 ## SPSS
 
