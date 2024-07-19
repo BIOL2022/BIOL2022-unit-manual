@@ -16,7 +16,11 @@ title: Report 1 -- Projects
  - Chi-Square analysis or 
  - logistic regression. 
 
-Other variants of the general linear model (GLM, which covers a lot of the analyses above anyway) and generalised linear mixed models (GLMM) are fine, *PROVIDED* you do them correctly. You will be rewarded for doing a simple appropriate analysis correctly. **You will be penalised for doing a complicated analysis wrong.**
+General linear models (which covers a lot of the analyses above anyway) and generalised linear mixed models are *fine* **PROVIDED you do them correctly**. 
+
+- You will be rewarded for doing a simple appropriate analysis correctly. 
+- **You will be penalised for doing a complicated analysis wrong.**
+
 :::
 
 -----
