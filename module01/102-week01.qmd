@@ -39,7 +39,7 @@ The workshop should take no more than 30 minutes (**unless Januar talks too much
 In this short exercise we will introduce you to **cheatsheets**, which are quick reference guides that help you remember important functions and commands. Choose a cheatsheet and try to complete the task(s) within.
 
 ### Try out a cheatsheet
-You will need to use a web browser to access the cheatsheets. Check with your demonstrators if you are unsure how to do this. For those of you who are already reading this on the web, you can simply click on the **Cheatsheets** link in the menu to the left.
+You will need to use a web browser to access the cheatsheets. Check with your demonstrators if you are unsure how to do this. For those of you who are already reading this on the web, you can simply click on the [**Cheatsheets**](../04-cheatsheets.qmd) link (it is also at the bottom of the menu to the left).
 
 1. In the **Cheatsheets** section, you will find a list of cheatsheets. More will come soon depending on feedback and discussions on Ed.
 2. **Choose a cheatsheet** that you would like to try out -- it could be something that you are *not* familiar with, or you could also choose one that you have some experience with to see if it aids your understanding.
@@ -164,7 +164,7 @@ If you can **plot** it, you are already **modelling** it!
 #### Instructions 
 - **Step 1.** Download and explore the data: penguins.csv and possum.xlsx.
 - **Step 2.** Identify variables from the data to formulate models. You do no need to analyse the data, neither do you need to explore it in detail. **The focus is on understanding the variables and how they can be modelled.** Use the variables to consider the following models:
-  - Histogram to show the distribution of a variable
+  - Histogram to show the distribution of a variable. **Think:** what sort of data will skew a histogram to the right?
   - Scatterplot to show the relationship between two variables
   - Boxplot to compare two or more groups
   - Barplot to compare two or more groups, but with error bars. Consider what the error bars represent.
