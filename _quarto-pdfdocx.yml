@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: _pdf
+  output-dir: _pdfdocx
 
 date: today
 date-format: "[Semester 2,] YYYY"
@@ -52,7 +52,8 @@ format:
       - "template/_titlepage.tex" 
     # include-in-header: 
     #   - "template/in-header.tex"
-
+  docx:
+    toc: true
 
 
 execute: 
