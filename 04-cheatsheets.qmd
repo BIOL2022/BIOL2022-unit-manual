@@ -46,6 +46,5 @@ Requirements:
 
 ## Jamovi
 
-boxplots | scatterplots | histograms
+[boxplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-boxplot/) | scatterplots | histograms
 
-`
