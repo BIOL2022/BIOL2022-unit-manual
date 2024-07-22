@@ -4,6 +4,8 @@ project:
 date: today
 date-format: "[Semester 2,] YYYY"
 
+book:
+  downloads: [pdf]
 
 
 profile:
