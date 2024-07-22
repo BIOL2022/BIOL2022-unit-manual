@@ -99,6 +99,9 @@ ul.task-list li input[type="checkbox"] {
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../">Biology Experimental Design and Analysis</a> 
+        <div class="sidebar-tools-main">
+    <a href="../Biology-Experimental-Design-and-Analysis.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -353,7 +356,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Use a filename of the form “Day-Time-Project-Your SID”, e.g.&nbsp;“WED2-4pmProj4A-Your SID”</li>
 </ul></li>
 <li><strong>Using your report to help other students</strong>: so we can provide useful feedback using real examples, your report or parts of it may be used as (anonymous) examples for current and future students. If you wish to opt out of this, please make a statement to this effect on your report.</li>
-<li><strong>Page limit</strong>: maximum 10 pages double-spaced, including everything (i.e.&nbsp;abstract and references and everything else)</li>
+<li><strong>Page limit</strong>: maximum 10 pages double-spaced, including everything (i.e.&nbsp;abstract, references, your statement about use of AI, and everything else).</li>
 <li><strong>References</strong>: minimum of 10 key references from the primary scientific literature, probably a mix of key recent and older papers. They must be relevant, demonstrating that you have read about the topic comprehensively. You will use them to show how you understand what people have already done and how your work fits into and/or extends what is already known, and that you have used the references to help understand what you have found.</li>
 </ul>
 </section>
@@ -640,7 +643,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/biol2022\.github\.io\/BIOL2022-unit-manual\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

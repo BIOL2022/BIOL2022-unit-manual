@@ -124,6 +124,9 @@ window.Quarto = {
       <img src="../assets/bedalogo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none"></a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../">Biology Experimental Design and Analysis</a> 
+        <div class="sidebar-tools-main">
+    <a href="../Biology-Experimental-Design-and-Analysis.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -373,7 +376,7 @@ window.Quarto = {
 <section id="background" class="level3"><h3 class="anchored" data-anchor-id="background">Background</h3>
 <p>In this short exercise we will introduce you to <strong>cheatsheets</strong>, which are quick reference guides that help you remember important functions and commands. Choose a cheatsheet and try to complete the task(s) within.</p>
 </section><section id="try-out-a-cheatsheet" class="level3"><h3 class="anchored" data-anchor-id="try-out-a-cheatsheet">Try out a cheatsheet</h3>
-<p>You will need to use a web browser to access the cheatsheets. Check with your demonstrators if you are unsure how to do this. For those of you who are already reading this on the web, you can simply click on the <strong>Cheatsheets</strong> link in the menu to the left.</p>
+<p>You will need to use a web browser to access the cheatsheets. Check with your demonstrators if you are unsure how to do this. For those of you who are already reading this on the web, you can simply click<a href="../04-cheatsheets.html"><strong>here</strong></a>. The cheatsheets section will always be visible at the bottom of the sidebar.</p>
 <ol type="1">
 <li>In the <strong>Cheatsheets</strong> section, you will find a list of cheatsheets. More will come soon depending on feedback and discussions on Ed.</li>
 <li>
@@ -468,12 +471,16 @@ Tip
 <strong>Step 1.</strong> Download and explore the data: penguins.csv and possum.xlsx.</li>
 <li>
 <strong>Step 2.</strong> Identify variables from the data to formulate models. You do no need to analyse the data, neither do you need to explore it in detail. <strong>The focus is on understanding the variables and how they can be modelled.</strong> Use the variables to consider the following models:
-<ul>
-<li>Histogram to show the distribution of a variable</li>
-<li>Scatterplot to show the relationship between two variables</li>
-<li>Boxplot to compare two or more groups</li>
-<li>Barplot to compare two or more groups, but with error bars. Consider what the error bars represent.</li>
-</ul>
+<ol type="1">
+<li>
+<strong>Histogram</strong> to show the distribution of a variable. <strong>Think:</strong> what sort of data will skew a histogram to the right?</li>
+<li>
+<strong>Scatterplot</strong> to show the relationship between two variables.</li>
+<li>
+<strong>Boxplot</strong> to compare two or more groups.</li>
+<li>
+<strong>Barplot</strong> to compare two or more groups, but with error bars. <strong>Think:</strong> consider what the error bars represent. Why would you pick a barplot over a boxplot?</li>
+</ol>
 </li>
 <li>
 <strong>Step 3.</strong> For plots that compare two variables or more, consider how you could alter the way you collect data to use a different model. Also consider this: is the alteration logical and feasible?</li>
@@ -602,7 +609,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/biol2022\.github\.io\/BIOL2022-unit-manual\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
