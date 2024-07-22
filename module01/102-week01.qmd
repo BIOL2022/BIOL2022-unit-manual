@@ -39,7 +39,7 @@ The workshop should take no more than 30 minutes (**unless Januar talks too much
 In this short exercise we will introduce you to **cheatsheets**, which are quick reference guides that help you remember important functions and commands. Choose a cheatsheet and try to complete the task(s) within.
 
 ### Try out a cheatsheet
-You will need to use a web browser to access the cheatsheets. Check with your demonstrators if you are unsure how to do this. For those of you who are already reading this on the web, you can simply click on the [**Cheatsheets**](../04-cheatsheets.qmd) link (it is also at the bottom of the menu to the left).
+You will need to use a web browser to access the cheatsheets. Check with your demonstrators if you are unsure how to do this. For those of you who are already reading this on the web, you can simply click[**here**](../04-cheatsheets.qmd). The cheatsheets section will always be visible at the bottom of the sidebar.
 
 1. In the **Cheatsheets** section, you will find a list of cheatsheets. More will come soon depending on feedback and discussions on Ed.
 2. **Choose a cheatsheet** that you would like to try out -- it could be something that you are *not* familiar with, or you could also choose one that you have some experience with to see if it aids your understanding.
@@ -164,10 +164,10 @@ If you can **plot** it, you are already **modelling** it!
 #### Instructions 
 - **Step 1.** Download and explore the data: penguins.csv and possum.xlsx.
 - **Step 2.** Identify variables from the data to formulate models. You do no need to analyse the data, neither do you need to explore it in detail. **The focus is on understanding the variables and how they can be modelled.** Use the variables to consider the following models:
-  - Histogram to show the distribution of a variable. **Think:** what sort of data will skew a histogram to the right?
-  - Scatterplot to show the relationship between two variables
-  - Boxplot to compare two or more groups
-  - Barplot to compare two or more groups, but with error bars. Consider what the error bars represent.
+  1. **Histogram** to show the distribution of a variable. **Think:** what sort of data will skew a histogram to the right?
+  2. **Scatterplot** to show the relationship between two variables.
+  3. **Boxplot** to compare two or more groups.
+  4. **Barplot** to compare two or more groups, but with error bars. **Think:** consider what the error bars represent. Why would you pick a barplot over a boxplot?
 - **Step 3.** For plots that compare two variables or more, consider how you could alter the way you collect data to use a different model. Also consider this: is the alteration logical and feasible?
 - **Step 4.** These plots are often associated with specific empirical models and statistical analyses, which we will cover in the upcoming weeks. Can you predict what sort of statistical model you would use to analyse the data in Step 1 and Step 2? **It is ok if you do not know most of the answers to this question yet.** Discuss this with your peers and demonstrators.
 
