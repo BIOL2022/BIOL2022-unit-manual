@@ -25,6 +25,16 @@ lightbox: true
 
 All labs are held in [Carslaw Lab 307](https://venueweb.sydney.edu.au/F07.03.307).
 
+::: callout-important
+**Because Carslaw 307 is a wet lab**, you *must* do the following for lab safety:
+
+- Wear closed-toe shoes. Crocs are not allowed.
+- Tied-back hair, if at shoulder length or longer.
+- **Lab coat must be worn at all times**.
+
+If you do not comply with these minimum safety requirements, you will be asked to leave the lab.
+:::
+
 **Drop-in sessions** are held weekly on Zoom. These are optional sessions where you can ask questions about the content covered in the lectures and labs and get help with your assessments. The schedule for these sessions will be posted on Ed, as the times may vary depending on the time of the semester.
 
 ## Assessements
