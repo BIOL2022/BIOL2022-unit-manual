@@ -49,3 +49,12 @@ Module 3 Lecturer
 Room 225c, A08 -- Heydon-Laurence Building  
 :::
 :::
+
+## Your technical officer
+
+![](assets/heather.jpg){height=150px}
+
+**Heather Sowden**
+Senior Technical Officer  
+F07 - Carslaw Building (F07) 
+
