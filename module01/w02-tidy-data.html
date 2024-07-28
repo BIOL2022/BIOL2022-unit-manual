@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Januar Harianto">
 
-<title>3&nbsp; Week 3 – Data analysis – Biology Experimental Design and Analysis</title>
+<title>Workshop 2 – Biology Experimental Design and Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../module01/w01-intro.html" rel="next">
-<link href="../module01/106-species-id.html" rel="prev">
+<link href="../module01/w03-model-fitting-assumptions.html" rel="next">
+<link href="../module01/w01-intro.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../module01/101-intro.html"><strong>Module 1</strong></a></li><li class="breadcrumb-item"><a href="../module01/104-week03.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3 – Data analysis</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../module01/w01-intro.html"><strong>Workshops</strong></a></li><li class="breadcrumb-item"><a href="../module01/w02-tidy-data.html">Workshop 2</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -178,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../module01/104-week03.html" class="sidebar-item-text sidebar-link active">
+  <a href="../module01/104-week03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3 – Data analysis</span></span></a>
   </div>
 </li>
@@ -201,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../module01/w02-tidy-data.html" class="sidebar-item-text sidebar-link">
+  <a href="../module01/w02-tidy-data.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Workshop 2</span></a>
   </div>
 </li>
@@ -303,47 +304,27 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a>
-  <ul class="collapse">
-  <li><a href="#what-to-submit-at-the-end-of-the-practical" id="toc-what-to-submit-at-the-end-of-the-practical" class="nav-link" data-scroll-target="#what-to-submit-at-the-end-of-the-practical">What to submit at the end of the practical</a></li>
-  </ul></li>
-  <li><a href="#workshop" id="toc-workshop" class="nav-link" data-scroll-target="#workshop">Workshop</a></li>
-  <li><a href="#lab-activity" id="toc-lab-activity" class="nav-link" data-scroll-target="#lab-activity">Lab activity</a></li>
-  <li><a href="#exercise-1-preparing-your-data-for-analysis" id="toc-exercise-1-preparing-your-data-for-analysis" class="nav-link" data-scroll-target="#exercise-1-preparing-your-data-for-analysis">Exercise 1 – Preparing your data for analysis</a>
-  <ul class="collapse">
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
-  <li><a href="#missing-data-outliers-and-data-entry-errors" id="toc-missing-data-outliers-and-data-entry-errors" class="nav-link" data-scroll-target="#missing-data-outliers-and-data-entry-errors">Missing data, outliers and data entry errors</a></li>
-  </ul></li>
-  <li><a href="#exercise-2-data-analysis" id="toc-exercise-2-data-analysis" class="nav-link" data-scroll-target="#exercise-2-data-analysis">Exercise 2 – Data analysis</a>
-  <ul class="collapse">
-  <li><a href="#fitting-a-model-to-data" id="toc-fitting-a-model-to-data" class="nav-link" data-scroll-target="#fitting-a-model-to-data">Fitting a model to data</a></li>
-  <li><a href="#checking-assumptions" id="toc-checking-assumptions" class="nav-link" data-scroll-target="#checking-assumptions">Checking assumptions</a></li>
-  <li><a href="#statistical-testing" id="toc-statistical-testing" class="nav-link" data-scroll-target="#statistical-testing">Statistical testing</a></li>
-  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
-  </ul></li>
-  <li><a href="#submit-your-results" id="toc-submit-your-results" class="nav-link" data-scroll-target="#submit-your-results">Submit your results</a></li>
-  <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../module01/101-intro.html"><strong>Module 1</strong></a></li><li class="breadcrumb-item"><a href="../module01/104-week03.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3 – Data analysis</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../module01/w01-intro.html"><strong>Workshops</strong></a></li><li class="breadcrumb-item"><a href="../module01/w02-tidy-data.html">Workshop 2</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3 – Data analysis</span></h1>
+<h1 class="title">Workshop 2</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Januar Harianto </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Last updated</div>
@@ -360,115 +341,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
-<p>In today’s practical, we will focus on data analysis. You will work with your group to analyse the data you collected in the previous lab. Cheatsheets are available for you to use, and your demonstrators are ready to help.</p>
-<p><em>You may need to clean your data before you can analyse it, so be prepared to spend some time on this.</em></p>
-</section>
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
-<p>By the end of this practical, you should be able to:</p>
-<ol type="1">
-<li>Understand the importance of reproducible analyses.</li>
-<li>Fit a model to your data.</li>
-<li>Check if the data meets the assumptions of the model.</li>
-<li>Interpret the model output.</li>
-</ol>
-<section id="what-to-submit-at-the-end-of-the-practical" class="level3">
-<h3 class="anchored" data-anchor-id="what-to-submit-at-the-end-of-the-practical">What to submit at the end of the practical</h3>
-<p><strong>Your plot and model output</strong>, on Google Docs (or equivalent). We will spend some time discussing the results at the end of the tutorial.</p>
-</section>
-</section>
-<section id="workshop" class="level2">
-<h2 class="anchored" data-anchor-id="workshop">Workshop</h2>
-<p>In today’s workshop we will go through <strong>Reproducible analyses and why R is good at it</strong>. We will also demonstrate some AI workflows that are implemented in RStudio. Workshop slides are available on Canvas.</p>
-</section>
-<section id="lab-activity" class="level2">
-<h2 class="anchored" data-anchor-id="lab-activity">Lab activity</h2>
-<p>When ready, work with your group to analyse the data you collected in the previous lab. You will need to:</p>
-<ul>
-<li>Fit your intended model to the data.</li>
-<li>Check if the data meets the assumptions of the model.</li>
-<li>Interpret the model output.</li>
-</ul>
-<p>Of particular importance is the assessment of assumptions using residual plots, rather than formal tests of assumptions.</p>
-<p><strong>Your demonstrators are ready to help.</strong> We expect you to be able to select the appropriate model to your data, but you can consult our cheatsheets and your demonstrators for help.</p>
-</section>
-<section id="exercise-1-preparing-your-data-for-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-1-preparing-your-data-for-analysis">Exercise 1 – Preparing your data for analysis</h2>
-<p>Your data is available to download on Canvas. Please check that you have all the data you need before proceeding. You also have access to the data collected by other groups should you wish to practice your data analysis skills.</p>
-<section id="background" class="level3">
-<h3 class="anchored" data-anchor-id="background">Background</h3>
-<p>If you have followed study design principles, the data you have collected should be clean and ready for analysis. However, it is still a good idea to inspect your data further before proceeding with the analysis. This includes a check for:</p>
-<ul>
-<li>Missing data</li>
-<li>Outliers</li>
-<li>Data entry errors</li>
-<li>Assumptions of the statistical model, and whether the data meets them</li>
-</ul>
-</section>
-<section id="missing-data-outliers-and-data-entry-errors" class="level3">
-<h3 class="anchored" data-anchor-id="missing-data-outliers-and-data-entry-errors">Missing data, outliers and data entry errors</h3>
-<p>These are what we sometimes call systematic errors. They can be detected by looking at the data and checking for unusual values, or cross-checking methods within your group. Make sure to remove or correct these errors before proceeding with the analysis.</p>
-</section>
-</section>
-<section id="exercise-2-data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-2-data-analysis">Exercise 2 – Data analysis</h2>
-<section id="fitting-a-model-to-data" class="level3">
-<h3 class="anchored" data-anchor-id="fitting-a-model-to-data">Fitting a model to data</h3>
-<p>Recall that you have an empirical model e.g.&nbsp;<code>y ~ x</code>. You will need to use an appropriate statistical model to fit this relationship to your data.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You should already know what model you are fitting to your data as it it part of your study design!</p>
-</div>
-</div>
-</section>
-<section id="checking-assumptions" class="level3">
-<h3 class="anchored" data-anchor-id="checking-assumptions">Checking assumptions</h3>
-<p>Assumptions need to be checked as they basically tell you whether the model you have fitted is appropriate for your data. If the assumptions are not met, you may need to transform your data or use a different model.</p>
-<p>Common assumptions include:</p>
-<ul>
-<li>Normality (of residuals)</li>
-<li>Homogeneity of variance</li>
-<li>Independence of observations</li>
-</ul>
-<p><strong>We recommend looking at residual plots</strong>, rather than formal tests of assumptions. Formal tests of assumptions can be overly sensitive to large sample sizes and can lead to you rejecting a model that is actually appropriate for your data.</p>
-<p><strong>What to do if assumptions are not met?</strong> This is a common problem in data analysis, and interestingly, it is not always a problem. Provided that you have ensured that your data is representative of the population you are interested in, violations of normality can actually be ignored in many cases, <strong>although you should still report them</strong>. A larger problem is homogeneity of variance.</p>
-<p>Nevertheless, you get to decide on what to do here to avoid violation of assumptions. The first step would be to try and transform your data. If this does not work, you will need to use a different model or a non-parametric equivalent of the model you are using.</p>
-</section>
-<section id="statistical-testing" class="level3">
-<h3 class="anchored" data-anchor-id="statistical-testing">Statistical testing</h3>
-<p>Running the statistical test is probably the <em>least</em> eventful part of the analytical workflow and will take you a few seconds regardless of the software you are using. Make sure that you record the software used and the specific statistical technique selected such that the analysis is <strong>reproducible</strong>.</p>
-</section>
-<section id="interpretation" class="level3">
-<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
-<p>Interpreting the output of a statistical test is a skill that takes time to develop. You will need to be able to:</p>
-<ul>
-<li>Understand the important parts of the output e.g.&nbsp;F-statistic, p-value, degrees of freedom, etc.</li>
-<li>Explain what the output means in the context of your data.</li>
-<li>Explain what the output means in the context of your research question.</li>
-</ul>
-<p>Your lectures and this week’s workshop will help you develop these skills.</p>
-</section>
-</section>
-<section id="submit-your-results" class="level2">
-<h2 class="anchored" data-anchor-id="submit-your-results">Submit your results</h2>
-<p>Once complete, please upload your results to Google Docs (or equivalent) and share the link with your demonstrator. We will discuss the results together.</p>
-</section>
-<section id="end" class="level2">
-<h2 class="anchored" data-anchor-id="end">End</h2>
-<p>That’s it. Three weeks in and Module 1 is almost over We hope that the content has been useful and that you are starting to see how study design and data analysis are interlinked. In Module 2, you will need to use the skills you have developed to design and analyse an experiment for Report 1.</p>
+<p><strong>Workshop slides are on Canvas.</strong></p>
+<p>🚧 Under construction. 🚧</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -893,13 +769,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../module01/106-species-id.html" class="pagination-link" aria-label="Species ID guide">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Species ID guide</span>
+      <a href="../module01/w01-intro.html" class="pagination-link" aria-label="Workshop 1">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Workshop 1</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../module01/w01-intro.html" class="pagination-link" aria-label="Workshop 1">
-        <span class="nav-page-text">Workshop 1</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../module01/w03-model-fitting-assumptions.html" class="pagination-link" aria-label="Workshop 3">
+        <span class="nav-page-text">Workshop 3</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

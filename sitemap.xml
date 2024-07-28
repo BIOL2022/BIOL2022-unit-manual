@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://biol2022.github.io/BIOL2022-unit-manual/index.html</loc>
-    <lastmod>2024-07-27T04:26:33.920Z</lastmod>
+    <lastmod>2024-07-28T14:07:41.178Z</lastmod>
   </url>
   <url>
     <loc>https://biol2022.github.io/BIOL2022-unit-manual/01-outline.html</loc>
@@ -39,6 +39,18 @@
   <url>
     <loc>https://biol2022.github.io/BIOL2022-unit-manual/module01/104-week03.html</loc>
     <lastmod>2024-07-14T15:02:13.144Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biol2022.github.io/BIOL2022-unit-manual/module01/w01-intro.html</loc>
+    <lastmod>2024-07-28T14:43:53.959Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biol2022.github.io/BIOL2022-unit-manual/module01/w02-tidy-data.html</loc>
+    <lastmod>2024-07-28T14:39:48.036Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biol2022.github.io/BIOL2022-unit-manual/module01/w03-model-fitting-assumptions.html</loc>
+    <lastmod>2024-07-28T14:39:59.258Z</lastmod>
   </url>
   <url>
     <loc>https://biol2022.github.io/BIOL2022-unit-manual/module02/201-intro.html</loc>

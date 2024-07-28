@@ -514,6 +514,50 @@
     ]
   },
   {
+    "objectID": "module01/w01-intro.html",
+    "href": "module01/w01-intro.html",
+    "title": "Workshop 1",
+    "section": "",
+    "text": "Intro to the practicals\nWelcome to the first workshop of BEDA. The workshops are designed to help you learn specific skills, understand the practicals and to provide you with an opportunity to ask questions. Workshops are run only in Module 1 (Januar).\nThe workshop pages are designed to provide supporting information for the workshop slides. As this is the first workshop we will start with a brief introduction to the practicals and the software we will be using.",
+    "crumbs": [
+      "**Workshops**",
+      "Workshop 1"
+    ]
+  },
+  {
+    "objectID": "module01/w01-intro.html#software",
+    "href": "module01/w01-intro.html#software",
+    "title": "Workshop 1",
+    "section": "Software",
+    "text": "Software\n\nR and RStudio\n\nDownload R here.\nDownload RStudio Desktop from here.\nIf necessary, you can sign up to RStudio Cloud here. This applies to those of you who have trouble installing R and RStudio on your computer, and somehow still prefer this to the other software options.\n\nYou must have both installed on your computer. If you already have them installed, please make sure they are up-to-date. Once installed, make sure that you run R via RStudio Desktop and not the base R GUI.\n\n\nJamovi an JASP\n\nDownload Jamovi from here.\nUnless you have reason to not use Jamovi, download JASP from here.\nFor JASP, refer to JASP Materials for documentation and more. We will not support JASP in BEDA this year.\n\nFor Jamovi, the current branch is recommended. Remember – if you are on a Mac with Apple Silicon, download the arm64 version for a slightly better performance.\n\n\nSPSS\n\nSPSS is only available on University computers. Check your lab computers for availability.\nAlternatively, you can use the University’s Citrix Workspaceto access SPSS.\n\nWhile I don’t use SPSS myself, we do provide support for it in BEDA. It is somewhat of mixed bag right now as it has R integration, is point-and-click, and also has a syntax editor for scripting analyses. SPSS is perhaps required in other Modules so it is good to know how to access it if you need it.\n\n\nPRIMER v7\n\nThis software is only used in Module 3 when we cover multivariate analysis.\nSimilar to SPSS, PRIMER is only available on University computers. Check your lab computers for availability.\nIt might be available on Citrix Workspace but will have licence restrictions (i.e. a limited number of concurrent users).",
+    "crumbs": [
+      "**Workshops**",
+      "Workshop 1"
+    ]
+  },
+  {
+    "objectID": "module01/w02-tidy-data.html",
+    "href": "module01/w02-tidy-data.html",
+    "title": "Workshop 2",
+    "section": "",
+    "text": "Workshop slides are on Canvas.\n🚧 Under construction. 🚧",
+    "crumbs": [
+      "**Workshops**",
+      "Workshop 2"
+    ]
+  },
+  {
+    "objectID": "module01/w03-model-fitting-assumptions.html",
+    "href": "module01/w03-model-fitting-assumptions.html",
+    "title": "Workshop 3",
+    "section": "",
+    "text": "Workshop slides are on Canvas.\n🚧 Under construction. 🚧",
+    "crumbs": [
+      "**Workshops**",
+      "Workshop 3"
+    ]
+  },
+  {
     "objectID": "module02/201-intro.html",
     "href": "module02/201-intro.html",
     "title": "Module 2 (Weeks 4 – 8)",
