@@ -26,6 +26,11 @@ book:
       - module01/105-images.qmd
       - module01/106-species-id.qmd
       - module01/104-week03.qmd
+    - part: "**Workshops**"
+      chapters:
+      - module01/w01-intro.qmd
+      - module01/w02-tidy-data.qmd
+      - module01/w03-model-fitting-assumptions.qmd
     - "---"
     - part: "**Module 2**"
       chapters:
