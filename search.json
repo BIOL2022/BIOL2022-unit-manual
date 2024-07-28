@@ -958,7 +958,17 @@
     "href": "04-cheatsheets.html",
     "title": "Cheatsheets",
     "section": "",
-    "text": "R\nboxplots | scatterplots | histograms\none-sample t-test | two-sample t-test | paired t-test",
+    "text": "R",
+    "crumbs": [
+      "**Cheatsheets**"
+    ]
+  },
+  {
+    "objectID": "04-cheatsheets.html#r",
+    "href": "04-cheatsheets.html#r",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "importing data into R\nboxplots | scatterplots | histograms\none-sample t-test | two-sample t-test | paired t-test",
     "crumbs": [
       "**Cheatsheets**"
     ]
