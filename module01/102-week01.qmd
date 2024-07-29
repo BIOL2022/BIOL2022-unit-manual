@@ -165,6 +165,7 @@ If you can **plot** it, you are already **modelling** it!
 
 - MS Excel or similar: to read the files.
 - MS Word, Google Docs, pen and paper, or similar: to plan and visuaise your models.
+- R, Jamovi, SPSS, or similar: to try out plotting your data as models.
 - Data: penguins.csv and possum.xlsx, available on Canvas.
 
 #### Instructions 
@@ -177,6 +178,8 @@ If you can **plot** it, you are already **modelling** it!
 - **Step 3.** For plots that compare two variables or more, consider how you could alter the way you collect data to use a different model. Also consider this: is the alteration logical and feasible?
 - **Step 4.** These plots are often associated with specific empirical models and statistical analyses, which we will cover in the upcoming weeks. Can you predict what sort of statistical model you would use to analyse the data in Step 1 and Step 2? **It is ok if you do not know most of the answers to this question yet.** Discuss this with your peers and demonstrators.
 
+**You can either hand-draw or graphically plot the models using your software package of choice. This is a good time to try out different software!**
+
 
 ::: {.callout-note collapse="true"}
 ## Example
@@ -185,9 +188,20 @@ If you can **plot** it, you are already **modelling** it!
 3. Different model: *Age data to be collected in years, rather than categories. This would allow us to use a scatterplot to model the data. But it may not be possible to age possums as we do not know their birth dates, so this may not be feasible.*
 4. *The first model is probably a two-sample t-test, while the second model could be a linear regression.* 
 
-Notice that in the example above, you have not performed any data analysis. You are simply considering how to interpret the data, which is an important step in study design. This helps you determine the type of data you need to collect and how to analyse it.
+A model that looks at the differences in weight between juvenile and adult possums could be visualised as a boxplot or barplot. Below is a boxplot of the possum data:
 
-If you look at the data closely, **there is only one juvenile possum in the dataset**, so you would not have been able to analyse this data anyway!
+```{r}
+#| code-fold: true
+library(readxl)
+possums <- read_excel("possums.xlsx", sheet = 2)
+
+library(ggplot2)
+ggplot(possums, aes(x = Age, y = BW)) +
+  geom_boxplot() +
+  theme_classic()
+```
+
+Notice that in the example above, we are considering how to interpret the data, which is an important step in study design. This helps us determine the type of data we need to collect and how to analsze it. However, it's important to note that there is only one juvenile possum in the dataset, so we would not have been able to analyse this data anyway. It also brings into question the study design -- perhaps age is a random variable and not a fixed one (if we were to use it in our model), which would change the way we interpret the data. More on this in the upcoming weeks!
 :::
 
 
