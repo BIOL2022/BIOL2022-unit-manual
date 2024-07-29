@@ -44,7 +44,7 @@ Requirements:
 
 ## SPSS
 
-[boxplots](https://envx-resources.github.io/cheatsheet-spss-boxplot/) | scatterplots | histograms
+[boxplots](https://envx-resources.github.io/cheatsheet-spss-boxplot/) | [scatterplots](https://usyd-soles-edu.github.io/cheatsheet-spss-scatterplot/) | histograms
 
 one-sample *t*-test | two-sample *t*-test | paired *t*-test
 

@@ -39,11 +39,15 @@ The workshop should take no more than 30 minutes (**unless Januar talks too much
 In this short exercise we will introduce you to **cheatsheets**, which are quick reference guides that help you remember important functions and commands. Choose a cheatsheet and try to complete the task(s) within.
 
 ### Try out a cheatsheet
-You will need to use a web browser to access the cheatsheets. Check with your demonstrators if you are unsure how to do this. For those of you who are already reading this on the web, you can simply click[**here**](../04-cheatsheets.qmd). The cheatsheets section will always be visible at the bottom of the sidebar.
+You will need to use a web browser to access the cheatsheets. Check with your demonstrators if you are unsure how to do this. For those of you who are already reading this on the web, you can simply click [**here**](../04-cheatsheets.qmd). The cheatsheets section will always be visible at the bottom of the sidebar.
 
 1. In the **Cheatsheets** section, you will find a list of cheatsheets. More will come soon depending on feedback and discussions on Ed.
 2. **Choose a cheatsheet** that you would like to try out -- it could be something that you are *not* familiar with, or you could also choose one that you have some experience with to see if it aids your understanding.
 3. **Follow the steps on the cheatsheet**. If you get stuck, don't worry! You can ask your peers or the demonstrators for help, and you may provide feedback so that it can be improved.
+
+::: callout-tip
+Now is the time to test out different software to perform the same task. This might help you decide which software you prefer to use. If you are experienced in R, you may be surprised at the ease of performing the same task in another software e.g. plots in Jamovi or SPSS.
+:::
 
 Once you are done, please provide feedback on the cheatsheet(s) you have tried out. You can do this by submitting a comment on the form provided to you on the cheatsheets page. The form will ask you to rate the cheatsheet, and should take no more than a minute to complete, so please help us out!
 
@@ -89,6 +93,8 @@ The above may look intimidating, but we can simplify it by thinking of it as a s
 
 $$y \sim x_1$$
 
+The above translates to "the value of $y$ is influenced by the value of $x_1$". Basically, it is a model that tells us that $y$ changes as $x_1$ changes.
+
 And so if $y$ is weight and $x_1$ is age, then it is interpreted as:
 
 $$\text{weight} \sim \text{age}$$
@@ -121,7 +127,7 @@ ggplot(data, aes(x = Age, y = Weight)) +
     scale_x_discrete(limits = c("Young", "Old"))
 ```
 
-Interestingly, how you consider your variables can drastically change the type of plot and model used for data analysis. For example, consider the same relationship as above, but plotted differently:
+Interestingly, how we consider your variables can drastically change the type of plot and model used for data analysis. For example, consider the same relationship as above, but plotted differently:
 
 ```{r}
 #| echo: false
@@ -146,7 +152,7 @@ ggplot(data, aes(x = Age, y = Weight)) +
   theme_classic()
 ```
 
-Notice how both plots explain the same kind of relationship, but their interpretation and the type of model used are different. This is the *essence* of study design and data analysis -- the model you select can drastically change the data and results you get, **and planning for it is crucial to the success of your study**.
+Notice how both plots explain the same kind of relationship, but their interpretation and the type of model used are different. This is the *essence* of study design and data analysis -- the model we select can drastically change the data and results we get, **and planning for it is crucial to the success of your study**.
 
 ::: callout-tip
 If you can **plot** it, you are already **modelling** it!
@@ -157,9 +163,9 @@ If you can **plot** it, you are already **modelling** it!
 
 #### Preparation 
 
-- MS Excel or similar: to read the files
-- MS Word, Google Docs or similar: to write your answers
-- Data: penguins.csv and possum.xlsx
+- MS Excel or similar: to read the files.
+- MS Word, Google Docs, pen and paper, or similar: to plan and visuaise your models.
+- Data: penguins.csv and possum.xlsx, available on Canvas.
 
 #### Instructions 
 - **Step 1.** Download and explore the data: penguins.csv and possum.xlsx.
