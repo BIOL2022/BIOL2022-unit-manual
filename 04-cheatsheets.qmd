@@ -1,4 +1,4 @@
-# **Cheatsheets** {.unnumbered}
+# **Cheatsheets & other resources** {.unnumbered}
 
 
 <!-- 
@@ -44,12 +44,10 @@ Requirements:
 
 ## SPSS
 
-[boxplots](https://envx-resources.github.io/cheatsheet-spss-boxplot/) | [scatterplots](https://usyd-soles-edu.github.io/cheatsheet-spss-scatterplot/) | histograms
-
-one-sample *t*-test | two-sample *t*-test | paired *t*-test
+- [boxplots](https://envx-resources.github.io/cheatsheet-spss-boxplot/) | [scatterplots](https://usyd-soles-edu.github.io/cheatsheet-spss-scatterplot/) | [using the chart builder](https://usyd-soles-edu.github.io/cheatsheet-spss-chart-builder/) 
+- one-sample *t*-test | two-sample *t*-test | paired *t*-test
 
 ## Jamovi
 
-[boxplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-boxplot/) | [scatterplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-scatterplot/) | [histograms](https://usyd-soles-edu.github.io/cheatsheet-jamovi-histogram/)
-
-one-sample *t*-test | two-sample *t*-test | paired *t*-test
+- [boxplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-boxplot/) | [scatterplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-scatterplot/) | [histograms](https://usyd-soles-edu.github.io/cheatsheet-jamovi-histogram/)
+- one-sample *t*-test | two-sample *t*-test | paired *t*-test
