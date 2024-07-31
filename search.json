@@ -1004,7 +1004,7 @@
     "section": "",
     "text": "R",
     "crumbs": [
-      "**Cheatsheets & other resources**"
+      "Cheatsheets & other resources"
     ]
   },
   {
@@ -1014,7 +1014,7 @@
     "section": "",
     "text": "importing data into R\nboxplots | scatterplots | histograms\none-sample t-test | two-sample t-test | paired t-test",
     "crumbs": [
-      "**Cheatsheets & other resources**"
+      "Cheatsheets & other resources"
     ]
   },
   {
@@ -1024,7 +1024,7 @@
     "section": "SPSS",
     "text": "SPSS\n\nboxplots | scatterplots | using the chart builder\none-sample t-test | two-sample t-test | paired t-test",
     "crumbs": [
-      "**Cheatsheets & other resources**"
+      "Cheatsheets & other resources"
     ]
   },
   {
@@ -1034,7 +1034,17 @@
     "section": "Jamovi",
     "text": "Jamovi\n\nboxplots | scatterplots | histograms\none-sample t-test | two-sample t-test | paired t-test",
     "crumbs": [
-      "**Cheatsheets & other resources**"
+      "Cheatsheets & other resources"
+    ]
+  },
+  {
+    "objectID": "05-feedback.html",
+    "href": "05-feedback.html",
+    "title": "Feedback on cheatsheets",
+    "section": "",
+    "text": "Note\n\n\n\nThe feedback form is public and anonymous, which means that anyone can fill it. If it is not visible, I might have pulled it down for security reasons. Please check back later.\nYou can also access the form externally, here.",
+    "crumbs": [
+      "Feedback on cheatsheets"
     ]
   }
 ]
