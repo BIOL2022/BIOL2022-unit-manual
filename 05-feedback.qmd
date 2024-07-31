@@ -1,0 +1,11 @@
+# Feedback on cheatsheets {-}
+
+::: callout-note
+The feedback form is public and anonymous, which means that *anyone* can fill it. If it is not visible, I might have pulled it down for security reasons. Please check back later.
+
+You can also access the form externally, [here](https://forms.office.com/r/Pr6Ek91xCu).
+:::
+
+
+
+<iframe width="800" height="2000" src="https://forms.office.com/r/Pr6Ek91xCu?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>

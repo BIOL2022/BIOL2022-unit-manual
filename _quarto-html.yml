@@ -48,6 +48,7 @@ book:
       - module03/305-week12.qmd
     - "---"
     - 04-cheatsheets.qmd
+    - 05-feedback.qmd
 bibliography: references.bib
 
 format:

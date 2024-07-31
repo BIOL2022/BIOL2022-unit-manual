@@ -1,4 +1,4 @@
-# **Cheatsheets & other resources** {.unnumbered}
+# Cheatsheets & other resources {-}
 
 
 <!-- 
@@ -51,3 +51,4 @@ Requirements:
 
 - [boxplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-boxplot/) | [scatterplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-scatterplot/) | [histograms](https://usyd-soles-edu.github.io/cheatsheet-jamovi-histogram/)
 - one-sample *t*-test | two-sample *t*-test | paired *t*-test
+
