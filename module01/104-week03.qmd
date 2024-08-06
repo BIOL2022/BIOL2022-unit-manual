@@ -23,7 +23,7 @@ By the end of this practical, you should be able to:
 
 ## Workshop
 
-In today's workshop we will go through **Reproducible analyses and why R is good at it**. We will also demonstrate some AI workflows that are implemented in RStudio. Workshop slides are available on Canvas.
+In today's workshop we will go through ~~**Reproducible analyses and why R is good at it**. We will also demonstrate some AI workflows that are implemented in RStudio.~~ **general linear modelling** and **performing traditional statistics** in Jamovi and R. *Reproducible analyses in R and AI workflows will now be implemented as cheatsheets.* Workshop slides are available on Canvas.
 
 ## Lab activity
 
