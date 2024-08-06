@@ -6,6 +6,11 @@ title: Week 2 - Study design
 
 Welcome to the Week 2 practical. Today we will be focusing on data collection and how to prepare your data for analysis.
 
+::: callout-important
+**You will be working in groups of at least 4 students in this practical.**
+:::
+
+
 ## Learning objectives
 
 By the end of this practical, you should be able to:
@@ -17,7 +22,7 @@ By the end of this practical, you should be able to:
 
 ### What to submit at the end of the practical
 
-1. **A simple study design**, documented on Google Docs. In groups, you will describe your model and sampling schemes on a shared document.
+1. **A simple study design**, documented on Google Docs. In groups, you will describe your model and sampling schemes on a shared document (maybe).
 2. **Data** -- your collected data will need to be submitted to your demonstrators for analysis next week.
 
 ## Workshop
@@ -60,6 +65,16 @@ Please check the online Unit Manual for the link to the images. Your demonstrato
 
 ### Study design
 
+::: callout-important
+**Focus on the sampling design as you work on your model.** Keep this in mind as you work through the exercise. If overwhelmed, think simple -- the focus is on working through these sampling design considerations:
+
+- Control
+- Replication
+- Randomisation
+
+See [Lecture 3 slides](https://biol2022.github.io/L02a-represenative-sampling/#/title-slide) for more information.
+:::
+
 You should have a clear model in mind before collecting data. The model determines your sampling strategy and the type of data you need. Consider the following:
 
 - **What is the purpose of your model?** Think about the biological question you are trying to answer, and the kinds of data you need to collect to answer it.
@@ -74,7 +89,7 @@ While you may not have all the answers right away, it's important to have a roug
 
 ### Task
 
-A Google Docs page will be shared with you to record your responses. Please make sure that all group members have access to this document. On the document, claim a page and write your group name and the title of your project.
+A [Google Docs page](https://docs.google.com/document/d/1JhSevrzpLlDsD0a4225h_dcC4i5ZOII7dkTr8u4gCgs/edit#heading=h.rc1vfwuebyac) is available for you as a guide to record your responses. **On the document, select File > Download to save the file to use in your group.** Note that this document is a guide and you may choose to use a different format to record your progress.
 
 Then, address your study design by answering the following questions:
 
@@ -170,7 +185,7 @@ gt(messy_data) |>
 ```
 
 
-Note: Tidy data will reduce the amount of time you spend cleaning your data during data analysis, but you can also choose not to follow these principles if you prefer.
+Note: tidy data will reduce the amount of time you spend cleaning your data during data analysis, but you can also choose not to follow these principles if you prefer.
 
 :::
 
@@ -180,4 +195,4 @@ Demonstrators will provide you with a USB drive to submit your data. Please make
 
 ## End of practical
 
-Don't forget to submit your data! You should also start to look at the [projects available for Module 2](../module02/203-projects.qmd), as you will sign up for one of them next week to work on Report 1.
+Don't forget to submit your data! You should also start to look at the [projects available for Module 2](../module02/203-projects.qmd), as you will sign up for one of them **next week** to work on Report 1.
