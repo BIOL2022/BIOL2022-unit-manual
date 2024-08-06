@@ -463,7 +463,7 @@
     "href": "module01/104-week03.html#workshop",
     "title": "3  Week 3 – Data analysis",
     "section": "Workshop",
-    "text": "Workshop\nIn today’s workshop we will go through Reproducible analyses and why R is good at it. We will also demonstrate some AI workflows that are implemented in RStudio. Workshop slides are available on Canvas.",
+    "text": "Workshop\nIn today’s workshop we will go through Reproducible analyses and why R is good at it. We will also demonstrate some AI workflows that are implemented in RStudio. general linear modelling and performing traditional statistics in Jamovi and R. Reproducible analyses in R and AI workflows will now be implemented as cheatsheets. Workshop slides are available on Canvas.",
     "crumbs": [
       "**Module 1**",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 -- Data analysis</span>"
