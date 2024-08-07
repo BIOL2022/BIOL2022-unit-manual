@@ -99,7 +99,7 @@ Then, address your study design by answering the following questions:
 
 ::: {.callout-note collapse="true"}
 ## Example
-Note that this example will probably not be relevant to your images, but it should give you an idea of what is expected.
+Note that this example will probably not work for the images, but it should give you an idea of what is expected. Also note that you do not need to follow the template exactly!
 
 - **Project title:** Does rock size influence the number of species that can be found on a rocky shore?
 - **Group name**: Schist happens
@@ -112,7 +112,7 @@ Note that this example will probably not be relevant to your images, but it shou
    - We need to measure the number of species and the size of the rocks. 
    - Number of species is an integer variable.
    - Size of the rocks is continuous variable.
-3. **Data collection**: 
+3. **Sampling design, control, replication, randomisation**: 
    - For each image, we will divide it into a 10x10 grid.
    - 3 random quadrats will be selected from each grid.
    - The size of all visible rocks will be measured in each quadrat.
