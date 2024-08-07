@@ -1,5 +1,5 @@
 ---
-lightbox: auto
+lightbox: true
 ---
 
 # Intertidal sites {.unnumbered}
