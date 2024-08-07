@@ -32,7 +32,7 @@ Workshop slides are available on Canvas.
 ## Exercise 1 -- Modelling from observations
 
 ::: callout-important
-Remember, the best models are often the simplest. Focus on logical and critical thinking when designing your study. **The sampling design is usually more important than the statistical model.** Keep this in mind as you work through the exercise!
+Remember, the best models are often the simplest. Focus on logical and critical thinking when designing your study. **The sampling design certainly the bigger focus here in this short exercise.** Keep this in mind as you work through the exercise!
 :::
 
 ### Background
