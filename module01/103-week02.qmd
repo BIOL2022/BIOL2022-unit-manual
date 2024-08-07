@@ -193,6 +193,10 @@ Note: tidy data will reduce the amount of time you spend cleaning your data duri
 
 Demonstrators will provide you with a USB drive to submit your data. Please make sure that your data are saved in a format that can be opened by Excel or Google Sheets. **Your group will be using this data next week so make sure that we have it!**
 
+::: callout-note
+Alternatively, upload to Google Drive [here](https://drive.google.com/drive/folders/1vt91fyawYoYxv4xAkqFJMG-fFK-au5e7?usp=drive_link). Make sure to rename your file... it's key to data management!
+:::
+
 ## End of practical
 
 Don't forget to submit your data! You should also start to look at the [projects available for Module 2](../module02/203-projects.qmd), as you will sign up for one of them **next week** to work on Report 1.
