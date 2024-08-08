@@ -20,15 +20,21 @@ We *do* expect you to have a go at telling us what you *think* the answer is. Th
 We don’t judge you by the questions you ask, but by what you end up learning. 
 
 
-## About this Module
+## What this module is about
+In Module 1, you have learnt the principles for converting a biological observation or question of interest into practice. Here, you will build on this skill. You will sign up to a research project and go through the process of converting a biological idea into a research experiment, which you and your group will then do from start to finish, to answer it.
 
-In Module 1, you have learnt the principles for converting a biological observation or question of interest into practice. Here, you will build on this skill. You will sign up to a research project and go through the process of converting a biological idea into a research experiment, which you and your group will then do from start to finish, to answer it. **You must draw on all the lectures we present to you in this unit, so COME / LISTEN to them as soon as we give them.** You will need to use the information immediately in these practicals. You will use your knowledge and experience to design your project, collect the data, and analyse and interpret it appropriately. 
+**READ THE LAB MANUAL BEFORE EACH PRAC.**
+
+**COME/LISTEN TO EACH LECTURE on the day we give them & before the prac.**
+
+You will need to use the lecture information immediately in these pracs. You will use your knowledge and experience to design your project, collect the data, and analyse and interpret it appropriately. 
+
 
 ## What you need to submit for this practical component
 
 This assessment requires two separate submissions in Canvas:
 
-1. **Report 1 Dataset Submission**: The Excel file (spreadsheets) containing your Group’s data. This needs to be submitted by one group member on behalf of your group.
+1. **Report 1 Group Data**: The Excel file (spreadsheets) containing your Group’s data. This needs to be submitted by one group member on behalf of your group.
 2. **Report 1**:Your Individual Report on your experiment, in the format of a short scientific article (worth 25% of the total unit mark).
 
 ## How you will get feedback
