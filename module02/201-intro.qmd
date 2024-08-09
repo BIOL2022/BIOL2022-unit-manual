@@ -44,4 +44,5 @@ This assessment requires two separate submissions in Canvas:
 - Should you want feedback beyond this, please reflect on your report and write a summary of how your report compares to the best one, addressing each of the marking criteria. Once you’ve done that, please email me to request an appointment, attaching your summary to the email message. BUT please note that because of the large class size, I may not be able to meet with everyone who wants to. As I am sure you will appreciate, I will give priority to any students with low/fail marks.
 
 
-\includepdf[pages=1-5, landscape=true, pagecommand={\thispagestyle{plain}}]{assets/timeline_v2.pdf} 
+<!-- \includepdf[pages=1-3, landscape=false, pagecommand={\thispagestyle{plain}}]{assets/timeline_v3.pdf}  -->
+\includepdf[pages=1-3, landscape=false]{assets/timeline_v3.pdf} 
