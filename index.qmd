@@ -20,6 +20,7 @@ Please read all the sections before the practicals as they contain important hou
 
 ## Your lecturers
 
+::: {.content-visible when-format="html"}
 ::: {.grid}
 
 ::: {.g-col-4}
@@ -48,11 +49,39 @@ Room 225c, A08 -- Heydon-Laurence Building
 :::
 :::
 
-## Your technical officer
+## Technical officer
 
 ![](assets/heather.jpg){height=150px}
 
 **Heather Sowden**
 Senior Technical Officer  
 F07 - Carslaw Building (F07) 
+:::
+
+::: {.content-visible when-format="pdf"}
+
+##### Dr Januar Harianto
+Module 1 Lecturer  
+Rm 364, C81 -- Biomedical Building  
+**Unit Coordinator**  
+email: januar.harianto@sydney.edu.au
+
+##### Prof. Clare McArthur
+Module 2 Lecturer  
+Room 303, A08 -- Heydon-Laurence Building  
+email: clare.mcarthur@sydney.edu.au 
+
+##### Prof. Mat Crowther
+Module 3 Lecturer  
+Room 225c, A08 -- Heydon-Laurence Building  
+email: mathew.crowther@sydney.edu.au 
+
+## Technical officer
+
+##### Heather Sowden
+Senior Technical Officer  
+F07 - Carslaw Building (F07)  
+email: heather.sowden@sydney.edu.au
+:::
+
 
