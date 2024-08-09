@@ -1,3 +1,5 @@
+# @format
+
 project:
   type: book
   output-dir: _pdfdocx
@@ -8,12 +10,12 @@ date-format: "[Semester 2,] YYYY"
 book:
   title: Biology Experimental Design and Analysis
   subtitle: BIOL2022 Unit Manual
-  author: 
+  author:
     - Dr. Januar Harianto
     - Prof. Clare McArthur
     - Prof. Matthew Crowther
   date: today
-  chapters: 
+  chapters:
     - index.qmd
     - 01-outline.qmd
     - 02-policies.qmd
@@ -38,23 +40,27 @@ format:
     # pdf-engine-opt: -xelatex
     documentclass: scrbook # scrreport scrbook
     classoption: ["twoside", "open=any"] #"open=any"
+    geometry:
+      - lmargin=2cm
+      - rmargin=3cm
+      - tmargin=2.5cm
+      - bmargin=2.5cm
     papersize: a4
     toc: true
     number-sections: false
     number-depth: 1
-    fontsize: 11pt
+    fontsize: 10pt
     block-headings: true
     colorlinks: true
     linestretch: 1.1
     template-partials:
       - "template/before-title.tex"
       - "template/before-body.tex"
-      - "template/_titlepage.tex" 
-    # include-in-header: 
+      - "template/_titlepage.tex"
+    # include-in-header:
     #   - "template/in-header.tex"
   docx:
     toc: true
 
-
-execute: 
+execute:
   freeze: auto
