@@ -2,7 +2,7 @@
 title: Timeline
 ---
 
-If you wish to download the timeline as a table, click [here](../assets/timeline_v2.pdf).
+If you wish to download the timeline as a table, click [here](../assets/timeline_v3.pdf).
 
 Otherwise, click on the tabs below to see what you need to do each week.
 
