@@ -1,0 +1,21 @@
+---
+title: Report 1 -- **Resources**
+---
+
+- Here are two examples: template1 and template2 for Excel group data collection. Generate and complete your group's own Excel file (could be from a GoogleSheets file) BEFORE Week 8 prac.
+- Here is a guide to choosing appropriate stats and a guide to using the stats program SPSS
+- Practice Excel file for ANOVA or Randomised Block design/GLM and associated paper
+- Practice Excel file for linear regression (or correlation) and associated paper
+- Practice Excel file for logistic regression and associated paper
+- And an interesting article called "The importance of stupidity in scientific research: directed at PhD students but also, I think, relevant to our Module projects where you take a step into the unknown. Hope you enjoy it.
+
+
+## BIRD GROUPS ONLY - important Animal Ethics information
+
+Please use this monitoring sheet for your data collection
+
+As part of the Animal Ethics requirements each bird group must submit
+
+1. at least one example of this completed monitoring sheet, along with
+2. a pdf document summarising (a) the sites visited (names with  suburb, and if possible GPS coords and site photos),
+ and (b) the total number of (i) native birds and (ii) invasive birds you estimate you have counted across all your sites.
