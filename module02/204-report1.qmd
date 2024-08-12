@@ -30,12 +30,14 @@ If you wish to opt out of this, please make a statement to this effect on your r
  
 ## Requirements for your report
 
+- You will be marked according to the criteria in the marking rubric for this module. Read and USE this rubric as a check-list before, during and after writing your report and before you submit it.
 - Use minimum of 12 pt font and no less than 2 cm margins all around. 
-- You must write all your report yourself, in your own words, on the experimental research project you have done. 
-- Your report should follow the format and general content of a **real scientific article**. To get a feel for what we expect and how to present each part of your report, read the published literature in your subject area. 
+- You must write all your report yourself, in your own words, on the experimental research project you have done. **If you use AI, you must follow the university guidelines and you must provide a statement on its use (or if not, state that instead).**
+- Your report should follow the format and general content of a real scientific article. To get a feel for what we expect and how to present each part of your report, read the published literature in your subject area. 
 - Choose a relevant journal style and follow it (but don’t use “newsprint” columns); e.g. note that figure headings are below and table headings are above the figures/tables. 
 - We expect information from the primary literature; i.e. academic peer-reviewed sources, particularly scientific journals. Avoid websites: they usually lack quality control, and they come and go. I recommend that you use:
-Web of Science (and Google Scholar) as your main portal for accessing journal articles, searched using key words and EndNote, Mendeley or Zotero for organising your references (but it is not essential). Consult the Library for short courses on how to use these if you don’t know already. 
+  - Web of Science (and Google Scholar) as your main portal for accessing journal articles, searched using key words and 
+  - EndNote or Mendeley for organising your references (but it is not essential). Consult the Library for short courses on how to use these if you don’t know already. 
 - **If you are uncertain about anything seek help early from the teaching staff in class.**
 
 
@@ -47,7 +49,7 @@ A great reference on how to write well:
 
 **START EARLY, START EARLY, START EARLY**: you can start to draft your introduction as early as Week 5, once you have read the literature on the topic and have a feel for what your experiment will cover. Don’t try to make it perfect – just get some words down. You can also start to draft your Materials and Methods section once you have started your experiment and before Week 7. You should be able to draft your result section after Week 7 and then finalise your whole report, including your discussion, in Week 8 and before submitting in Week 9.
 
-Title: keep it brief, relevant, informative and interesting.
+**Title**: keep it brief, **relevant**, informative and interesting.
 
 ### Abstract
 - Brief abstract (max. 120 words), including (1) background. (providing the context for your problem/project), (2) hypotheses or aims, (3) what you did, (4) what you found, (5) what it means, hence could be five sentences.
@@ -68,7 +70,7 @@ Title: keep it brief, relevant, informative and interesting.
 - Statistical analyses used, including which are dependent/independent variable(s) (if applicable), unit of replication, actual test(s) & why they are appropriate, statistical package(s).
 
 ### Results 
-- Written statements describing results (data and stats). Refer to tables and figures as needed. Do NOT simply provide the tables and figures without supporting text.
+- Written statements describing results (data and stats). Refer to tables and figures as needed. **Do NOT simply provide the tables and figures without supporting text.**
 - Summary presentation of data (no raw data) as tables, figures or in text as appropriate. Use tables for large amounts of data where detail is important, use figures to illustrate patterns. Indicate sample size and errors, and note whether the latter are standard errors or standard deviations... Format consistently. Make sure decimal places reflect your real capability to measure (e.g. can you really measure a 1 kg plant to 6 decimal places?)
 - Results of statistical analyses presented either in text, on figures, or in tables.
 
