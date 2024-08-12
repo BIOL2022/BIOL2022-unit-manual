@@ -1,7 +1,7 @@
 # Preface {.unnumbered}
 
 ::: {.content-visible when-format="html"}
-{{< downloadthis _pdfdocx/Biology-Experimental-Design-and-Analysis.pdf dname="Biology-Experimental-Design-and-Analysis" label="Download this book in PDF" icon="database-fill-down" type="info" >}}
+{{< downloadthis _pdf/Biology-Experimental-Design-and-Analysis.pdf dname="Biology-Experimental-Design-and-Analysis" label="Download this book in PDF" icon="database-fill-down" type="info" >}}
 :::
 
 Welcome to Biology Experimental Design and analysis, also known as **BEDA**. This book contains all of the information you need to navigate your way around the practicals for this unit. It also contains some additional 'housekeeping' information that you may find useful.

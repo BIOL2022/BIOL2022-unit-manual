@@ -2,7 +2,7 @@
 
 project:
   type: book
-  output-dir: _pdfdocx
+  output-dir: _pdf
 
 date: today
 date-format: "[Semester 2,] YYYY"
@@ -20,18 +20,24 @@ book:
     - 01-outline.qmd
     - 02-policies.qmd
     - 03-study.qmd
-    - module01/101-intro.qmd
-    - module01/102-week01.qmd
-    - module01/103-week02.qmd
-    - module01/104-week03.qmd
-    - module02/201-intro.qmd
-    - module02/203-projects.qmd
-    - module02/204-report1.qmd
-    - module03/301-intro.qmd
-    - module03/302-week09.qmd
-    - module03/303-week10.qmd
-    - module03/304-week11.qmd
-    - module03/305-week12.qmd
+    - part: "**Module 1**"
+      chapters:
+        - module01/101-intro.qmd
+        - module01/102-week01.qmd
+        - module01/103-week02.qmd
+        - module01/104-week03.qmd
+    - part: "**Module 2**"
+      chapters:
+        - module02/201-intro.qmd
+        - module02/203-projects.qmd
+        - module02/204-report1.qmd
+    - part: "**Module 3**"
+      chapters:
+        - module03/301-intro.qmd
+        - module03/302-week09.qmd
+        - module03/303-week10.qmd
+        - module03/304-week11.qmd
+        - module03/305-week12.qmd
 bibliography: references.bib
 
 format:
@@ -59,8 +65,6 @@ format:
       - "template/_titlepage.tex"
     # include-in-header:
     #   - "template/in-header.tex"
-  docx:
-    toc: true
 
 execute:
   freeze: auto
