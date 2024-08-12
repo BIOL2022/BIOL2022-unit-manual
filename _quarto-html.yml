@@ -1,7 +1,9 @@
+# @format
+
 book:
   title: Biology Experimental Design and Analysis
   subtitle: BIOL2022 Unit Manual
-  author: 
+  author:
     - Dr. Januar Harianto
     - Prof. Clare McArthur
     - Prof. Matthew Crowther
@@ -12,7 +14,7 @@ book:
     logo: assets/bedalogo.svg
     search: true
     style: floating
-  chapters: 
+  chapters:
     - index.qmd
     - 01-outline.qmd
     - 02-policies.qmd
@@ -20,17 +22,17 @@ book:
     - "---"
     - part: "**Module 1**"
       chapters:
-      - module01/101-intro.qmd
-      - module01/102-week01.qmd
-      - module01/103-week02.qmd
-      - module01/105-images.qmd
-      - module01/106-species-id.qmd
-      - module01/104-week03.qmd
+        - module01/101-intro.qmd
+        - module01/102-week01.qmd
+        - module01/103-week02.qmd
+        - module01/105-images.qmd
+        - module01/106-species-id.qmd
+        - module01/104-week03.qmd
     - part: "**Workshops**"
       chapters:
-      - module01/w01-intro.qmd
-      - module01/w02-tidy-data.qmd
-      - module01/w03-model-fitting-assumptions.qmd
+        - module01/w01-intro.qmd
+        - module01/w02-tidy-data.qmd
+        - module01/w03-model-fitting-assumptions.qmd
     - "---"
     - part: "**Module 2**"
       chapters:
@@ -38,14 +40,15 @@ book:
         - module02/202-timeline.qmd
         - module02/203-projects.qmd
         - module02/204-report1.qmd
+        - module02/205-resources.qmd
     - "---"
     - part: "**Module 3**"
       chapters:
-      - module03/301-intro.qmd
-      - module03/302-week09.qmd
-      - module03/303-week10.qmd
-      - module03/304-week11.qmd
-      - module03/305-week12.qmd
+        - module03/301-intro.qmd
+        - module03/302-week09.qmd
+        - module03/303-week10.qmd
+        - module03/304-week11.qmd
+        - module03/305-week12.qmd
     - "---"
     - 04-cheatsheets.qmd
     - 05-feedback.qmd
