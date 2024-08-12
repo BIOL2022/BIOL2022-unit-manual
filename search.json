@@ -20,11 +20,11 @@
     ]
   },
   {
-    "objectID": "index.html#your-technical-officer",
-    "href": "index.html#your-technical-officer",
+    "objectID": "index.html#technical-officer",
+    "href": "index.html#technical-officer",
     "title": "Biology Experimental Design and Analysis",
-    "section": "Your technical officer",
-    "text": "Your technical officer\n\nHeather Sowden Senior Technical Officer\nF07 - Carslaw Building (F07)",
+    "section": "Technical officer",
+    "text": "Technical officer\n\nHeather Sowden Senior Technical Officer\nF07 - Carslaw Building (F07)",
     "crumbs": [
       "Preface"
     ]
@@ -448,11 +448,22 @@
     ]
   },
   {
+    "objectID": "module01/104-week03.html#welcome",
+    "href": "module01/104-week03.html#welcome",
+    "title": "3  Week 3 – Data analysis",
+    "section": "",
+    "text": "Important\n\n\n\nYou will be working in the same groups as last week. If you were not present last week, join the group closest to you and work with them.",
+    "crumbs": [
+      "**Module 1**",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 -- Data analysis</span>"
+    ]
+  },
+  {
     "objectID": "module01/104-week03.html#learning-objectives",
     "href": "module01/104-week03.html#learning-objectives",
     "title": "3  Week 3 – Data analysis",
     "section": "Learning objectives",
-    "text": "Learning objectives\nBy the end of this practical, you should be able to:\n\nUnderstand the importance of reproducible analyses.\nFit a model to your data.\nCheck if the data meets the assumptions of the model.\nInterpret the model output.\n\n\nWhat to submit at the end of the practical\nYour plot and model output, on Google Docs (or equivalent). We will spend some time discussing the results at the end of the tutorial.",
+    "text": "Learning objectives\nBy the end of this practical, you should be able to:\n\nFit a model to your data.\nCheck if the data meets the assumptions of the model.\nInterpret the model output.\n(optional) have working templates for different types of analyses that are GLM equivalents of the t-test, ANOVA and regression.\n\n\nWhat to submit at the end of the practical\nYour plot and model output, on Google Drive. We will spend some time discussing the results at the end of the tutorial.",
     "crumbs": [
       "**Module 1**",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 -- Data analysis</span>"
@@ -463,7 +474,7 @@
     "href": "module01/104-week03.html#workshop",
     "title": "3  Week 3 – Data analysis",
     "section": "Workshop",
-    "text": "Workshop\nIn today’s workshop we will go through Reproducible analyses and why R is good at it. We will also demonstrate some AI workflows that are implemented in RStudio. general linear modelling and performing traditional statistics in Jamovi and R. Reproducible analyses in R and AI workflows will now be implemented as cheatsheets. Workshop slides are available on Canvas.",
+    "text": "Workshop\nIn today’s workshop we will go through general linear modelling and performing traditional statistics in Jamovi and R. The planned workshop on reproducible analyses in R and AI workflows will now be implemented as cheatsheets on a later date.\nWorkshop slides are available on Canvas.",
     "crumbs": [
       "**Module 1**",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 -- Data analysis</span>"
@@ -474,7 +485,7 @@
     "href": "module01/104-week03.html#lab-activity",
     "title": "3  Week 3 – Data analysis",
     "section": "Lab activity",
-    "text": "Lab activity\nWhen ready, work with your group to analyse the data you collected in the previous lab. You will need to:\n\nFit your intended model to the data.\nCheck if the data meets the assumptions of the model.\nInterpret the model output.\n\nOf particular importance is the assessment of assumptions using residual plots, rather than formal tests of assumptions.\nYour demonstrators are ready to help. We expect you to be able to select the appropriate model to your data, but you can consult our cheatsheets and your demonstrators for help.",
+    "text": "Lab activity\n\nGoogle Drive\nWhen ready, work with your group to analyse the data you collected in the previous lab using a general linear model. Click on the link above to access the data that you have collected.\nYou will need to:\n\nFit your intended model to the data.\nCheck if the data meets the assumptions of the model.\nInterpret the model output.\n\nOf particular importance is the assessment of assumptions using residual plots, rather than formal tests of assumptions.\nYour demonstrators are ready to help. We expect you to be able to select the appropriate model to your data, but you can consult our cheatsheets and your demonstrators for help.\n\n\n\n\n\n\nIf using Jamovi\n\n\n\nPlease install the GAMLj3 module in Jamovi. This will allow you to run general linear models in Jamovi with a lot of options:\n\nSelect the Analyses tab.\nClick on the Modules button and select jamovi library.\nIn the Available tab, search for GAMLj3 and click on the INSTALL button.",
     "crumbs": [
       "**Module 1**",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 -- Data analysis</span>"
@@ -496,7 +507,18 @@
     "href": "module01/104-week03.html#exercise-2-data-analysis",
     "title": "3  Week 3 – Data analysis",
     "section": "Exercise 2 – Data analysis",
-    "text": "Exercise 2 – Data analysis\n\nFitting a model to data\nRecall that you have an empirical model e.g. y ~ x. You will need to use an appropriate statistical model to fit this relationship to your data.\n\n\n\n\n\n\nNote\n\n\n\nYou should already know what model you are fitting to your data as it it part of your study design!\n\n\n\n\nChecking assumptions\nAssumptions need to be checked as they basically tell you whether the model you have fitted is appropriate for your data. If the assumptions are not met, you may need to transform your data or use a different model.\nCommon assumptions include:\n\nNormality (of residuals)\nHomogeneity of variance\nIndependence of observations\n\nWe recommend looking at residual plots, rather than formal tests of assumptions. Formal tests of assumptions can be overly sensitive to large sample sizes and can lead to you rejecting a model that is actually appropriate for your data.\nWhat to do if assumptions are not met? This is a common problem in data analysis, and interestingly, it is not always a problem. Provided that you have ensured that your data is representative of the population you are interested in, violations of normality can actually be ignored in many cases, although you should still report them. A larger problem is homogeneity of variance.\nNevertheless, you get to decide on what to do here to avoid violation of assumptions. The first step would be to try and transform your data. If this does not work, you will need to use a different model or a non-parametric equivalent of the model you are using.\n\n\nStatistical testing\nRunning the statistical test is probably the least eventful part of the analytical workflow and will take you a few seconds regardless of the software you are using. Make sure that you record the software used and the specific statistical technique selected such that the analysis is reproducible.\n\n\nInterpretation\nInterpreting the output of a statistical test is a skill that takes time to develop. You will need to be able to:\n\nUnderstand the important parts of the output e.g. F-statistic, p-value, degrees of freedom, etc.\nExplain what the output means in the context of your data.\nExplain what the output means in the context of your research question.\n\nYour lectures and this week’s workshop will help you develop these skills.",
+    "text": "Exercise 2 – Data analysis\n\nFitting a model to data\nRecall that you have an empirical model e.g. y ~ x. You will need to use an appropriate statistical model to fit this relationship to your data.\n\n\n\n\n\n\nNote\n\n\n\nYou should already know what model you are fitting to your data as it it part of your study design!\n\n\n\n\nChecking assumptions\nAssumptions need to be checked as they basically tell you whether the model you have fitted is appropriate for your data. If the assumptions are not met, you may need to transform your data or use a different model.\nCommon assumptions include:\n\nNormality (of residuals)\nHomogeneity of variance\nIndependence of observations\n\nWe recommend looking at residual plots, rather than formal tests of assumptions. Formal tests of assumptions can be overly sensitive to large sample sizes and can lead to you rejecting a model that is actually appropriate for your data.\nWhat to do if assumptions are not met? This is a common problem in data analysis, and interestingly, it is not always a problem. Provided that you have ensured that your data is representative of the population you are interested in, violations of normality can actually be ignored in many cases, although you should still report them. A larger problem is homogeneity of variance.\nNevertheless, you get to decide on what to do here to avoid violation of assumptions. The first step would be to try and transform your data. If this does not work, you will need to use a different model or a non-parametric equivalent of the model you are using.\n\n\nStatistical testing\nRunning the statistical test is probably the least eventful part of the analytical workflow and will take you a few seconds regardless of the software you are using, especially if you are running GLMs. Make sure that you record the software used and the specific statistical technique selected such that the analysis is reproducible.\n\n\nInterpretation\nInterpreting the output of a statistical test is a skill that takes time to develop. You will need to be able to:\n\nUnderstand the important parts of the output e.g. F-statistic, p-value, degrees of freedom, etc.\nExplain what the output means in the context of your data.\nExplain what the output means in the context of your research question.\n\nYour lectures and this week’s workshop will help you develop these skills.\nYour data may not be interpretable due to the way it was collected. This is ok – a lesson learnt. You can still discuss the issues with the data and what you would do differently next time. Meanwhile, you can still practice your data analysis skills on your data (or download another group’s data).",
+    "crumbs": [
+      "**Module 1**",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 -- Data analysis</span>"
+    ]
+  },
+  {
+    "objectID": "module01/104-week03.html#exercise-3-putting-it-all-together",
+    "href": "module01/104-week03.html#exercise-3-putting-it-all-together",
+    "title": "3  Week 3 – Data analysis",
+    "section": "Exercise 3 – putting it all together",
+    "text": "Exercise 3 – putting it all together\nThe general linear modelling framework is incredibly intuitive for building statistical models. Use the datasets below to repeat Exercises 1 and 2. Some hints:\n\nTry to add more than one predictor to your model and see how the output changes.\nUse your understanding of data structure to determine if you have set your model up correctly – i.e. is that variable really numeric?\nThe data may need to be cleaned before you can analyse it. This is a good opportunity to practice your data cleaning skills.\n\n\n\n\n\n\n\nNote\n\n\n\nOn top of what you have been taught so far (linear regression and t-test), you will most likely create models that are equivalent to Analysis of Variance, Multiple Linear Regression and Analysis of Covariance techniques. These will be touched on in the next few weeks but you can get a head start now – that’s the beauty of GLMs!\n\n\n\nWeight data for domestic cats\nHandy hints:\n\nRead the metadata if you are unsure what the variables mean.\nYou can look at the relationships between the continuous variables for each gender of cat. Is there a way to combine these relationships into one model?\nCan Sex be used as a response variable in this model? You don’t have to do this, but it is an interesting question to consider.\n\n Download cats.xlsx \n\n\nCherry trees\nHandy hints:\n\nThis dataset seems very simple and should be easy to analyse… or is it?\nUse what you have learnt about simple linear regression and add more predictors to your model!\nThink about the assumptions of the model and whether they are met. Do you need to alter your interpretation of these diagnostic plots in any way?\n\n Download cherry.xlsx \n\n\nEffects of dietary protein on pigs\nHandy hints:\n\nThis dataset is messy and may need to be tidied up before you can analyse it.\nThink of how the idea of a t-test, which compares two groups, can be extended to this dataset where you are comparing multiple groups. Does this change the way you need to set up your model?\nAre you brave enough to look for interactions between variables?\n\n Download pigs.xlsx \n\n\nSugar cane disease data\nHandy hints:\n\nThis dataset is a bit more complex than the others. You may need to spend some time understanding the variables before you can analyse the data.\nYou do not need to use all the variables in your analysis. There are two possible response variables in this dataset - you can choose which one to use.\n\n Download cane.xlsx",
     "crumbs": [
       "**Module 1**",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 -- Data analysis</span>"
@@ -507,7 +529,7 @@
     "href": "module01/104-week03.html#submit-your-results",
     "title": "3  Week 3 – Data analysis",
     "section": "Submit your results",
-    "text": "Submit your results\nOnce complete, please upload your results to Google Docs (or equivalent) and share the link with your demonstrator. We will discuss the results together.",
+    "text": "Submit your results\nOnce complete, please upload your results to Google Drive for archival. If there’s time, we will discuss the results together.",
     "crumbs": [
       "**Module 1**",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 -- Data analysis</span>"
@@ -518,7 +540,7 @@
     "href": "module01/104-week03.html#end",
     "title": "3  Week 3 – Data analysis",
     "section": "End",
-    "text": "End\nThat’s it. Three weeks in and Module 1 is almost over We hope that the content has been useful and that you are starting to see how study design and data analysis are interlinked. In Module 2, you will need to use the skills you have developed to design and analyse an experiment for Report 1.",
+    "text": "End\nThat’s it. Module 1 practicals are now complete. I hope you have learnt a few things about experimental design and data analysis. We will continue to build on these skills in the next module using real-world data.",
     "crumbs": [
       "**Module 1**",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 -- Data analysis</span>"
@@ -635,11 +657,11 @@
     ]
   },
   {
-    "objectID": "module02/201-intro.html#about-this-module",
-    "href": "module02/201-intro.html#about-this-module",
+    "objectID": "module02/201-intro.html#what-this-module-is-about",
+    "href": "module02/201-intro.html#what-this-module-is-about",
     "title": "Module 2 (Weeks 4 – 8)",
-    "section": "About this Module",
-    "text": "About this Module\nIn Module 1, you have learnt the principles for converting a biological observation or question of interest into practice. Here, you will build on this skill. You will sign up to a research project and go through the process of converting a biological idea into a research experiment, which you and your group will then do from start to finish, to answer it. You must draw on all the lectures we present to you in this unit, so COME / LISTEN to them as soon as we give them. You will need to use the information immediately in these practicals. You will use your knowledge and experience to design your project, collect the data, and analyse and interpret it appropriately.",
+    "section": "What this module is about",
+    "text": "What this module is about\nIn Module 1, you have learnt the principles for converting a biological observation or question of interest into practice. Here, you will build on this skill. You will sign up to a research project and go through the process of converting a biological idea into a research experiment, which you and your group will then do from start to finish, to answer it.\nREAD THE LAB MANUAL BEFORE EACH PRAC.\nCOME/LISTEN TO EACH LECTURE on the day we give them & before the prac.\nYou will need to use the lecture information immediately in these pracs. You will use your knowledge and experience to design your project, collect the data, and analyse and interpret it appropriately.",
     "crumbs": [
       "**Module 2**",
       "Module 2 (Weeks 4 -- 8)"
@@ -650,7 +672,7 @@
     "href": "module02/201-intro.html#what-you-need-to-submit-for-this-practical-component",
     "title": "Module 2 (Weeks 4 – 8)",
     "section": "What you need to submit for this practical component",
-    "text": "What you need to submit for this practical component\nThis assessment requires two separate submissions in Canvas:\n\nReport 1 Dataset Submission: The Excel file (spreadsheets) containing your Group’s data. This needs to be submitted by one group member on behalf of your group.\nReport 1:Your Individual Report on your experiment, in the format of a short scientific article (worth 25% of the total unit mark).",
+    "text": "What you need to submit for this practical component\nThis assessment requires two separate submissions in Canvas:\n\nReport 1 Group Data: The Excel file (spreadsheets) containing your Group’s data. This needs to be submitted by one group member on behalf of your group.\nReport 1:Your Individual Report on your experiment, in the format of a short scientific article (worth 25% of the total unit mark).",
     "crumbs": [
       "**Module 2**",
       "Module 2 (Weeks 4 -- 8)"
@@ -686,7 +708,7 @@
     "text": "Project 1 – Plant-herbivore interactions: Does previous damage to tomato plants affect their vulnerability to subsequent herbivory? Does the amount of previous damage matter?\nBackground: Many plants have plant secondary metabolites (PSMs), which often play a role in defence against herbivores. In some plant species, PSMs can be induced (levels increase) after damage from herbivores chewing on leaves. This change can take place within a day, affecting subsequent leaf damage by herbivores, and result in less subsequent damage. Is the evidence consistent with this idea in tomatoes?\nVariation: If you want to answer a more complicated question, you could ask whether the amount of initial damage (a little versus lots?) affects the outcome.",
     "crumbs": [
       "**Module 2**",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Report 1 -- Projects</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Report 1 -- **Projects**</span>"
     ]
   },
   {
@@ -697,7 +719,7 @@
     "text": "Animal Ethics requirements for Projects on birds\nIf you sign up to these projects, you must follow the animal ethics requirements as approved by the University of Sydney Animal Ethics Committee: Project “Ecology teaching – bird surveys”. Project Number: 2022/2148.\nYou may collect data for up to 10 visits per site over a 2 to 4 week period. For the bird survey, you may observe birds, count them and identify each to species if you can, using binoculars where needed. You may observe birds at a site for up to ~ one hour per visit, but must not interfere with nor handle the birds.\nAt a given site, the surveyor (1 to 5 students per site) will find a suitable location to observe birds. They will stand or sit still for 15 to 30 minutes per location and count the birds they can see in their site. They may need to move to up to five other locations per site if they have difficulty identifying the birds from afar. The number of each species will be recorded with reference to bird guides, and a total of about one hour will be spent at each site per observation period.\nDepending on your project, you may quantify other data, such as vegetation assessments and size of any habitat types including water bodies, at each site, enabling a test of the factors affecting bird abundance and species diversity.\nObservers will remain far enough from birds that the birds are not visibly affected by them (i.e. do not alter their behaviour, either by moving away or by altering what they are doing). This avoids any potential impact of the observer on time or energy budgets of the birds (as described in Bateman et al. 2011).\nReference: Bateman, P. W., and P. A. Fleming. 2011. Who are you looking at? Hadeda ibises use direction of gaze, head orientation and approach speed in their risk assessment of a potential predator. Journal of Zoology 285:316-323.\n\nConditions of bird project approval:\n\nYou must use the approved monitoring sheet “Bird survey monitoring sheet.xls” which will be provided to you. You may add additional columns or have additional sheets, as you decide, appropriate to your study.\nYou must take photos of the fieldwork sites and the observers watching the birds (i.e. to see the relative locations of the observers to the birds).\nBy the end of Week 9, you must post on Canvas:\n\nA complete legible copy of the final monitoring sheets from (1)\nA summary of the total number of (i) native birds, (ii) invasive birds hence (iii) all birds you counted at each site and across all sites over the course of your project, and a list of the sites you monitored, with GPS coordinates.\nClearly and informatively labelled photos from (2).\n\nInjured birds: In the very unlikely event that birds are found injured on site: you must:\n\nseek advice from Clare McArthur (clare.mcarthur@sydney.edu.au, subject heading: “BIOL2022 URGENT - bird project”) or other academic in the unit of study,\nwhile ensuring your own safety first, if necessary arrange to appropriately transport seriously injured animals to the nearest veterinarian for treatment, AND\nyou must notify Clare McArthur by email within 24h, summarising what has occurred (this will be reported as an adverse event to the Animal Ethics Committee even if you played no part in the injury).",
     "crumbs": [
       "**Module 2**",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Report 1 -- Projects</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Report 1 -- **Projects**</span>"
     ]
   },
   {
@@ -708,7 +730,7 @@
     "text": "About",
     "crumbs": [
       "**Module 2**",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- Instructions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- **Instructions**</span>"
     ]
   },
   {
@@ -716,10 +738,10 @@
     "href": "module02/204-report1.html#about",
     "title": "6  Report 1 – Instructions",
     "section": "",
-    "text": "The written report is the individual component of this assessment It is submitted via the Canvas assignment called Report 1.\nThe other component of this assignment is the data file, which should be submitted by one group member via the Canvas assignment called Report 1: Group data.\nDate due: Week 9, 11:59 pm on the day of your prac session.\nLate penalty: you will incur a penalty of 5% (5 points out of 100) for each 24 hours or part thereof after the deadline (weekends and public holidays included), unless you have Special Consideration.\nLength penalty: you will incur a penalty of 5% (5 points out of 100; up to 30 points) for each page or part thereof over the page limit.",
+    "text": "The project written report is the individual component of this assessment It is submitted via the Canvas assignment called Report 1.\nThe other component of this assignment is the data file, which should be submitted by one group member via the Canvas assignment called Report 1: Group data submission.\nDate due: Week 9, 11:59 pm on the day of your prac session.\nLate penalty: you will incur a penalty of 5% (5 points out of 100) for each 24 hours or part thereof after the deadline (weekends and public holidays included), unless you have Special Consideration.\nLength penalty: you will incur a penalty of 5% (5 points out of 100; up to 30 points) for each page or part thereof over the page limit.",
     "crumbs": [
       "**Module 2**",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- Instructions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- **Instructions**</span>"
     ]
   },
   {
@@ -727,10 +749,10 @@
     "href": "module02/204-report1.html#a-note-about-plagiarism",
     "title": "6  Report 1 – Instructions",
     "section": "A note about plagiarism",
-    "text": "A note about plagiarism\nDo not plagiarise or you will face penalties. Check the academic integrity website for access to:\n\nthe policies and codes covering academic honesty and conduct at the University\na link to the AHEM (Academic Honesty Education Module); complete the module if you haven’t already done so. You cannot submit your report if you have not completed this module\nIf you are still unsure about how to avoid plagiarism, check with Clare McArthur well before submitting your report.\nYour report will be checked for plagiarism using software.",
+    "text": "A note about plagiarism\nDo not plagiarise or you will face penalties. Check the academic integrity website for access to:\n\nthe policies and codes covering academic honesty and conduct at the University.\na link to the AHEM (Academic Honesty Education Module); complete the module if you haven’t already done so. You cannot submit your report if you have not completed this module.\nIf you are still unsure about how to avoid plagiarism, check with Clare McArthur well before submitting your report.\nYour report will be checked for plagiarism using software.",
     "crumbs": [
       "**Module 2**",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- Instructions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- **Instructions**</span>"
     ]
   },
   {
@@ -738,10 +760,10 @@
     "href": "module02/204-report1.html#submitting-your-individual-report",
     "title": "6  Report 1 – Instructions",
     "section": "Submitting your individual report",
-    "text": "Submitting your individual report\n\nSubmitting your anonymous report for marking:\n\nONE electronic document through Canvas. As this needs to be anonymous, do not include your name anywhere in the report.\nUse a filename of the form “Day-Time-Project-Your SID”, e.g. “WED2-4pmProj4A-Your SID”\n\nUsing your report to help other students: so we can provide useful feedback using real examples, your report or parts of it may be used as (anonymous) examples for current and future students. If you wish to opt out of this, please make a statement to this effect on your report.\nPage limit: maximum 10 pages double-spaced, including everything (i.e. abstract, references, your statement about use of AI, and everything else).\nReferences: minimum of 10 key references from the primary scientific literature, probably a mix of key recent and older papers. They must be relevant, demonstrating that you have read about the topic comprehensively. You will use them to show how you understand what people have already done and how your work fits into and/or extends what is already known, and that you have used the references to help understand what you have found.",
+    "text": "Submitting your individual report\n\nSubmitting your anonymous report for marking:\n\nONE electronic document through Canvas. As this needs to be anonymous, do not include your name anywhere in the report.\nUse a filename of the form “Day-Time-Project-Your SID”, e.g. “WED2-4pmProj4A-Your SID”.\n\nUsing your report to help other students: so we can provide useful feedback using real examples, your report or parts of it may be used as (anonymous) examples for current and future students. If you wish to opt out of this, please make a statement to this effect on your report.\nPage limit: maximum 10 pages double-spaced, including everything (i.e. abstract, references, your statement about use of AI, and everything else).\nReferences: minimum of 10 key references from the primary scientific literature, probably a mix of key recent and older papers. They must be relevant, demonstrating that you have read about the topic comprehensively. You will use them to show how you understand what people have already done and how your work fits into and/or extends what is already known, and that you have used the references to help understand what you have found.",
     "crumbs": [
       "**Module 2**",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- Instructions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- **Instructions**</span>"
     ]
   },
   {
@@ -749,10 +771,10 @@
     "href": "module02/204-report1.html#requirements-for-your-report",
     "title": "6  Report 1 – Instructions",
     "section": "Requirements for your report",
-    "text": "Requirements for your report\n\nUse minimum of 12 pt font and no less than 2 cm margins all around.\nYou must write all your report yourself, in your own words, on the experimental research project you have done.\nYour report should follow the format and general content of a real scientific article. To get a feel for what we expect and how to present each part of your report, read the published literature in your subject area.\nChoose a relevant journal style and follow it (but don’t use “newsprint” columns); e.g. note that figure headings are below and table headings are above the figures/tables.\nWe expect information from the primary literature; i.e. academic peer-reviewed sources, particularly scientific journals. Avoid websites: they usually lack quality control, and they come and go. I recommend that you use: Web of Science (and Google Scholar) as your main portal for accessing journal articles, searched using key words and EndNote, Mendeley or Zotero for organising your references (but it is not essential). Consult the Library for short courses on how to use these if you don’t know already.\nIf you are uncertain about anything seek help early from the teaching staff in class.",
+    "text": "Requirements for your report\n\nYou will be marked according to the criteria in the marking rubric for this module. Read and USE this rubric as a check-list before, during and after writing your report and before you submit it.\nUse minimum of 12 pt font and no less than 2 cm margins all around.\nYou must write all your report yourself, in your own words, on the experimental research project you have done. If you use AI, you must follow the university guidelines and you must provide a statement on its use (or if not, state that instead).\nYour report should follow the format and general content of a real scientific article. To get a feel for what we expect and how to present each part of your report, read the published literature in your subject area.\nChoose a relevant journal style and follow it (but don’t use “newsprint” columns); e.g. note that figure headings are below and table headings are above the figures/tables.\nWe expect information from the primary literature; i.e. academic peer-reviewed sources, particularly scientific journals. Avoid websites: they usually lack quality control, and they come and go. I recommend that you use:\n\nWeb of Science (and Google Scholar) as your main portal for accessing journal articles, searched using key words and\nEndNote or Mendeley for organising your references (but it is not essential). Consult the Library for short courses on how to use these if you don’t know already.\n\nIf you are uncertain about anything seek help early from the teaching staff in class.",
     "crumbs": [
       "**Module 2**",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- Instructions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- **Instructions**</span>"
     ]
   },
   {
@@ -760,10 +782,10 @@
     "href": "module02/204-report1.html#clares-tips-on-writing-your-report",
     "title": "6  Report 1 – Instructions",
     "section": "Clare’s tips on writing your report",
-    "text": "Clare’s tips on writing your report\nA great reference on how to write well:\n\nMensh B, Kording K (2017) Ten simple rules for structuring papers. PLoS Comp. Biol. 13. doi: 10.1371/journal.pcbi.1005619\n\nSTART EARLY, START EARLY, START EARLY: you can start to draft your introduction as early as Week 5, once you have read the literature on the topic and have a feel for what your experiment will cover. Don’t try to make it perfect – just get some words down. You can also start to draft your Materials and Methods section once you have started your experiment and before Week 7. You should be able to draft your result section after Week 7 and then finalise your whole report, including your discussion, in Week 8 and before submitting in Week 9.\nTitle: keep it brief, relevant, informative and interesting\n\nAbstract\n\nBrief abstract (max. 120 words), including (1) background (providing the context for your problem/project), (2) hypotheses or aims, (3) what you did, (4) what you found, (5) what it means, hence could be five sentences\nDo NOT include references or details of statistical results (e.g. no F or P values)\n\n\n\nIntroduction\n\nWhat do we know already? Make sure it leads logically to your aim(s). Provide the context - previous studies on the subject, using published (mainly) primary scientific literature, NOT websites. Integrate information clearly and concisely without loss of original meaning, to provide a logical, well-interpreted review of existing research and other information.\nAim of the experiment and biological hypotheses (IF…) and predictions (THEN…)\nWhy is the study important and/or interesting\nStudy system – species, location of experiment (brief)\nDefinitions of scientific terms (if needed).\n\n\n\nMaterials and Methods\n\nPilot study (if needed, keep it brief)\nSet-up of experiment\nSampling design\nData / variables recorded and how\nStatistical analyses used, including which are dependent/independent variable(s) (if applicable), unit of replication, actual test(s) & why they are appropriate, statistical package(s)\n\n\n\nResults\n\nWritten statements describing results (data and stats). Refer to tables and figures as needed. Do NOT simply provide the tables and figures without supporting text.\nSummary presentation of data (no raw data) as tables, figures or in text as appropriate. Use tables for large amounts of data where detail is important, use figures to illustrate patterns. Indicate sample size and errors, and note whether the latter are standard errors or standard deviations… Format consistently. Make sure decimal places reflect your real capability to measure (e.g. can you really measure a 1 kg plant to 6 decimal places?)\nResults of statistical analyses presented either in text, on figures, or in tables.\n\n\n\nDiscussion\n\nMain conclusions or findings\nInterpret results – what do they mean? How do they relate to original aims?\nCompare with and discuss in context of previously published work\nEvery single study has some limitations to its approach or methods. This does NOT mean it is necessarily flawed. Take a positive approach to your research, given the usual constraints of ANY study, and if you do want to mention/discuss these constraints, do not reduce your discussion to a lengthy apology.\nFuture studies – what would you do next to extend our understanding of the subject and/or improve what you did? Keep this brief.\n\n\n\nGeneral\n\nWrite in PLAIN English\n\nBe succinct and avoid trying to sound “scientific”\nread it out aloud, if it sounds pompous it is, and it should NOT be\n\nCorrect presentation (format/length)\nReferences used and cited correctly. You are expected to use at least 10 relevant references from the primary literature",
+    "text": "Clare’s tips on writing your report\nA great reference on how to write well:\n\nMensh B, Kording K (2017) Ten simple rules for structuring papers. PLoS Comp. Biol. 13. doi: 10.1371/journal.pcbi.1005619\n\nSTART EARLY, START EARLY, START EARLY: you can start to draft your introduction as early as Week 5, once you have read the literature on the topic and have a feel for what your experiment will cover. Don’t try to make it perfect – just get some words down. You can also start to draft your Materials and Methods section once you have started your experiment and before Week 7. You should be able to draft your result section after Week 7 and then finalise your whole report, including your discussion, in Week 8 and before submitting in Week 9.\nTitle: keep it brief, relevant, informative and interesting.\n\nAbstract\n\nBrief abstract (max. 120 words), including (1) background. (providing the context for your problem/project), (2) hypotheses or aims, (3) what you did, (4) what you found, (5) what it means, hence could be five sentences.\nDo NOT include references or details of statistical results (e.g. no F or P values).\n\n\n\nIntroduction\n\nWhat do we know already? Make sure it leads logically to your aim(s). Provide the context - previous studies on the subject, using published (mainly) primary scientific literature, NOT websites. Integrate information clearly and concisely without loss of original meaning, to provide a logical, well-interpreted review of existing research and other information.\nAim of the experiment and biological hypotheses (IF…) and predictions (THEN…).\nWhy is the study important and/or interesting.\nStudy system – species, location of experiment (brief).\nDefinitions of scientific terms (if needed).\n\n\n\nMaterials and Methods\n\nPilot study (if needed, keep it brief).\nSet-up of experiment.\nSampling design.\nData / variables recorded and how.\nStatistical analyses used, including which are dependent/independent variable(s) (if applicable), unit of replication, actual test(s) & why they are appropriate, statistical package(s).\n\n\n\nResults\n\nWritten statements describing results (data and stats). Refer to tables and figures as needed. Do NOT simply provide the tables and figures without supporting text.\nSummary presentation of data (no raw data) as tables, figures or in text as appropriate. Use tables for large amounts of data where detail is important, use figures to illustrate patterns. Indicate sample size and errors, and note whether the latter are standard errors or standard deviations… Format consistently. Make sure decimal places reflect your real capability to measure (e.g. can you really measure a 1 kg plant to 6 decimal places?)\nResults of statistical analyses presented either in text, on figures, or in tables.\n\n\n\nDiscussion\n\nMain conclusions or findings\nInterpret results – what do they mean? How do they relate to original aims?\nCompare with and discuss in context of previously published work.\nEvery single study has some limitations to its approach or methods. This does NOT mean it is necessarily flawed. Take a positive approach to your research, given the usual constraints of ANY study, and if you do want to mention/discuss these constraints, do not reduce your discussion to a lengthy apology.\nFuture studies – what would you do next to extend our understanding of the subject and/or improve what you did? Keep this brief.\n\n\n\nGeneral\n\nWrite in PLAIN English:\n\nBe succinct and avoid trying to sound “scientific”.\nread it out aloud, if it sounds pompous it is, and it should NOT be.\n\nCorrect presentation (format/length).\nReferences used and cited correctly. You are expected to use at least 10 relevant references from the primary literature.",
     "crumbs": [
       "**Module 2**",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- Instructions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- **Instructions**</span>"
     ]
   },
   {
@@ -771,10 +793,32 @@
     "href": "module02/204-report1.html#more-tips-on-writing-your-report",
     "title": "6  Report 1 – Instructions",
     "section": "More tips on writing your report",
-    "text": "More tips on writing your report\nThe following is a summary written by Clare’s Lab Group of PhD and Honours students after critically discussing two papers — not for content — but for how they were written.\n\nStructuring Research Papers: by Clare’s Lab Group\n“Rules” based on Mensh B, Kording K (2017) Ten simple rules for structuring papers. PLoS Comput Biol 13(9): e1005619. https://doi.org/10.1371/journal.pcbi.1005619\n\nPapers discussed:\n\nCline, B. B. and Hunter, M. L. (2014), Different open‐canopy vegetation types affect matrix permeability for a dispersing forest amphibian. J Appl Ecol, 51: 319-329. doi:10.1111/1365-2664.12197\n\n\nPalmer, M. S., Fieberg, J. , Swanson, A. , Kosmala, M. and Packer, C. (2017), A ‘dynamic’ landscape of fear: prey responses to spatiotemporal variations in predation risk across the lunar cycle. Ecol Lett, 20: 1364-1373. doi:10.1111/ele.12832\n\n\n\n\nGeneral notes\n\nDo write for your reader, do not write for yourself\nIf you read the first sentence of every paragraph, it should tell a story\nThe order of your ideas in each section should be the same; i.e. consistent order in intro, MM, R and probably D of your aims, methods for each aim (provided that works), results and discussion of your results associated with each aim\nSubheadings can make sections easier to read and understand the flow of ideas\nAvoid zigzagging ideas, i.e. you should never need to say “as mentioned above”\nUse consistent wording – DO NOT use a variety of words to mean the same thing because it is confusing for readers. They will not know if you are referring to one thing or several. DO: pick one name for a variable and stick to it.\nTake the reader by the hand. DO NOT assume they know what you know. DO lead them through your work and explain things as you go along. Justify your decisions. Think like a reviewer: what will they want to know? Pre-empt it by being transparent, explaining what you decided to do and why.\n\n\nIntroduction\n\nThere will generally be more references in the intro than the discussion. The focus of the intro is on: what do we know already?\nReferences are used to provide background of the research area – do not just list references on a topic. Instead, use them to summarise what we know and understand as a result of these studies. Make it clear what we know from (a) empirical evidence (with examples, i.e. do we know it for lots of individuals/species/contexts/ecosystems or whatever? which? Just one? which?) OR (b) what we think we know (conceptual hypotheses).\n\n\n\nSuggested Paragraph 1:\n\nIntroduce the broad topic\nDescribe what research has been done on this topic\n\n\n\nSuggested Paragraph 2:\n\nStart to narrow down what area in this topic your paper will be covering  Introduce gaps in knowledge  Possibly describe issues with previous studies (that your paper will address)\nThis information can show the importance of your paper\n\n\n\nSuggested Paragraph 3 to 5:\n\nSpecifically describe what your paper will investigate\nState your aims and hypotheses/predictions. These should follow and funnel down from your background. If you put your hand over your aims, you should be able to guess them from the background you provide above\nBriefly describe how you investigated the topic\nState any predictions with information to backup these predictions\n\n\n\nDiscussion\n\nThe focus is now on what you found, what it means and so how you have advanced our state of knowledge & understanding as a result of what you have done.\nTherefore: generally fewer references in the discussion than the introduction\nReferences should be used to support your idea or relate your conclusions/results to previous studies\nThe following paragraph order makes sense but you can obviously increase or decrease the number of paragraphs depending on the context and size of your study.\n\n\n\nSuggested Paragraph 1:\n\nState any broad results that you found\nProvide evidence from your results that enabled you to come to that conclusion\nCompare the result to any predictions you made or previous studies\n\n\n\nSuggested Paragraph 2 to 4:\n\nState more detailed results (e.g. species specific results if dealing with multiple species)\nProvide evidence from your results that enabled you to come to that conclusion\nCompare the result to any predictions made or previous studies\n\n\n\nSuggested Paragraph 5:\n\nLimitations of your study\n\nNo study can answer everything and every study is limited in some way in what is achieves! Don’t worry! That’s life!\nDon’t dwell on this or go too much in depth – especially do not be apologetic.\nBe positive: just outline the boundaries of the conclusions that can be made with your results\n\nSuggested direction of future studies i.e. what could be done next to move forward in our understanding and/or resolving any unanswered questions given what you have now discovered – again keep this brief\n\n\n\nSuggested Paragraph 6:\n\nWhat are the implications of your study for your field of research\nDescribe what this information can affect or be used for (e.g. management decisions)\n\n\n\nSuggested Paragraph 7:\n\nYou do not need a concluding paragraph – but if you do, it is not just a summary.\nIt should be more big picture stuff but take care: it should not state something that could have been said whether or not you had done your study. It must rest on your study.",
+    "text": "More tips on writing your report\nThe following is a summary written by Clare’s Lab Group of PhD and Honours students after critically discussing two papers — not for content — but for how they were written.\n\nStructuring Research Papers: by Clare’s Lab Group\n“Rules” based on Mensh B, Kording K (2017) Ten simple rules for structuring papers. PLoS Comput Biol 13(9): e1005619. https://doi.org/10.1371/journal.pcbi.1005619\n\nPapers discussed:\n\nCline, B. B. and Hunter, M. L. (2014), Different open‐canopy vegetation types affect matrix permeability for a dispersing forest amphibian. J Appl Ecol, 51: 319-329. doi:10.1111/1365-2664.12197\n\n\nPalmer, M. S., Fieberg, J. , Swanson, A. , Kosmala, M. and Packer, C. (2017), A ‘dynamic’ landscape of fear: prey responses to spatiotemporal variations in predation risk across the lunar cycle. Ecol Lett, 20: 1364-1373. doi:10.1111/ele.12832\n\n\n\n\nGeneral notes\n\nDo write for your reader, do not write for yourself.\nIf you read the first sentence of every paragraph, it should tell a story.\nThe order of your ideas in each section should be the same; i.e. consistent order in intro, MM, R and probably D of your aims, methods for each aim (provided that works), results and discussion of your results associated with each aim.\nSubheadings can make sections easier to read and understand the flow of ideas.\nAvoid zigzagging ideas, i.e. you should never need to say “as mentioned above”.\nUse consistent wording – DO NOT use a variety of words to mean the same thing because it is confusing for readers. They will not know if you are referring to one thing or several. DO: pick one name for a variable and stick to it.\nTake the reader by the hand. DO NOT assume they know what you know. DO lead them through your work and explain things as you go along. Justify your decisions. Think like a reviewer: what will they want to know? Pre-empt it by being transparent, explaining what you decided to do and why.\n\n\nIntroduction\n\nThere will generally be more references in the intro than the discussion. The focus of the intro is on: what do we know already?\nReferences are used to provide background of the research area – do not just list references on a topic. Instead, use them to summarise what we know and understand as a result of these studies. Make it clear what we know from (a) empirical evidence (with examples, i.e. do we know it for lots of individuals/species/contexts/ecosystems or whatever? which? Just one? which?) OR (b) what we think we know (conceptual hypotheses).\n\n\n\nSuggested Paragraph 1:\n\nIntroduce the broad topic.\nDescribe what research has been done on this topic.\n\n\n\nSuggested Paragraph 2:\n\nStart to narrow down what area in this topic your paper will be covering\n\nIntroduce gaps in knowledge.\nPossibly describe issues with previous studies (that your paper will address).\n\nThis information can show the importance of your paper.\n\n\n\nSuggested Paragraph 3 to 5:\n\nSpecifically describe what your paper will investigate.\nState your aims and hypotheses/predictions. These should follow and funnel down from your background. If you put your hand over your aims, you should be able to guess them from the background you provide above.\nBriefly describe how you investigated the topic.\nState any predictions with information to backup these predictions.\n\n\n\nDiscussion\n\nThe focus is now on what you found, what it means and so how you have advanced our state of knowledge & understanding as a result of what you have done.\nTherefore: generally fewer references in the discussion than the introduction.\nReferences should be used to support your idea or relate your conclusions/results to previous studies.\nThe following paragraph order makes sense but you can obviously increase or decrease the number of paragraphs depending on the context and size of your study.\n\n\n\nSuggested Paragraph 1:\n\nState any broad results that you found.\nProvide evidence from your results that enabled you to come to that conclusion.\nCompare the result to any predictions you made or previous studies.\n\n\n\nSuggested Paragraph 2 to 4:\n\nState more detailed results (e.g. species specific results if dealing with multiple species).\nProvide evidence from your results that enabled you to come to that conclusion.\nCompare the result to any predictions made or previous studies.\n\n\n\nSuggested Paragraph 5:\n\nLimitations of your study\n\nNo study can answer everything and every study is limited in some way in what is achieves! Don’t worry! That’s life!\nDon’t dwell on this or go too much in depth – especially do not be apologetic.\nBe positive: just outline the boundaries of the conclusions that can be made with your results.\n\nSuggested direction of future studies i.e. what could be done next to move forward in our understanding and/or resolving any unanswered questions given what you have now discovered – again keep this brief.\n\n\n\nSuggested Paragraph 6:\n\nWhat are the implications of your study for your field of research\nDescribe what this information can affect or be used for (e.g. management decisions).\n\n\n\nSuggested Paragraph 7:\n\nYou do not need a concluding paragraph – but if you do, it is not just a summary.\nIt should be more big picture stuff but take care: it should not state something that could have been said whether or not you had done your study. It must rest on your study.",
     "crumbs": [
       "**Module 2**",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- Instructions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Report 1 -- **Instructions**</span>"
+    ]
+  },
+  {
+    "objectID": "module02/205-resources.html",
+    "href": "module02/205-resources.html",
+    "title": "7  Report 1 – Resources",
+    "section": "",
+    "text": "BIRD GROUPS ONLY - important Animal Ethics information\nPlease use this monitoring sheet for your data collection\nAs part of the Animal Ethics requirements each bird group must submit",
+    "crumbs": [
+      "**Module 2**",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Report 1 -- **Resources**</span>"
+    ]
+  },
+  {
+    "objectID": "module02/205-resources.html#bird-groups-only---important-animal-ethics-information",
+    "href": "module02/205-resources.html#bird-groups-only---important-animal-ethics-information",
+    "title": "7  Report 1 – Resources",
+    "section": "",
+    "text": "at least one example of this completed monitoring sheet, along with\na pdf document summarising (a) the sites visited (names with suburb, and if possible GPS coords and site photos), and (b) the total number of (i) native birds and (ii) invasive birds you estimate you have counted across all your sites.",
+    "crumbs": [
+      "**Module 2**",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Report 1 -- **Resources**</span>"
     ]
   },
   {
@@ -835,232 +879,232 @@
   {
     "objectID": "module03/302-week09.html",
     "href": "module03/302-week09.html",
-    "title": "7  Week 9 – Part 1",
+    "title": "8  Week 9 – Part 1",
     "section": "",
     "text": "Outline\nFor this specific practical you will:",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#outline",
     "href": "module03/302-week09.html#outline",
-    "title": "7  Week 9 – Part 1",
+    "title": "8  Week 9 – Part 1",
     "section": "",
     "text": "Use PCA to analyse “lecturer perceptions” data gathered in previous years.\nDesign an investigation using a model system to test multivariate hypotheses (in groups) for your reports.",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#what-you-need-to-submit-in-module-3",
     "href": "module03/302-week09.html#what-you-need-to-submit-in-module-3",
-    "title": "7  Week 9 – Part 1",
+    "title": "8  Week 9 – Part 1",
     "section": "What you need to submit in Module 3",
     "text": "What you need to submit in Module 3\nThe assessment for Module 3 requires two separate submissions in Canvas:\n\nThe Excel file (spreadsheets) containing your group’s data. This needs to be submitted by one group member on behalf of your group and will cover both the species data and habitat data. This must be submitted by 8am on the day of your prac session in Week 11 (worth 5% of the total unit mark).\nReport 2: your individual report on your study. The report must be submitted in the format of a short scientific article (worth 15% of the total unit mark) – see assessment information for when this is due.\n\n\nAnalyses covered in this practical\n\nPCA – Principal components analysis is essentially a way to extract a reduced set of variables from a larger dataset, accounting for as much variance as possible in the original more complex dataset.",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#part-1-principal-components-analysis-perceptions-of-biology-lecturers",
     "href": "module03/302-week09.html#part-1-principal-components-analysis-perceptions-of-biology-lecturers",
-    "title": "7  Week 9 – Part 1",
+    "title": "8  Week 9 – Part 1",
     "section": "Part 1: Principal components analysis – “perceptions of biology lecturers”",
     "text": "Part 1: Principal components analysis – “perceptions of biology lecturers”\nYou will use PCA to reduce your set of measured variables into a coherent smaller dataset. In addition, you will be comparing your lecturer perceptions between preferred systems (marine, freshwater or terrestrial), preferred taxon (animals or plants) and gender (male or female) using conventional univariate approaches (t-tests/ANOVAs). To perform these univariate approaches, make sure that you not only create the principal components (PCs) but also save the scores (see below) for each component.\nThe process in SPSS is listed below. R instructions are given on Canvas in an R Studio file\n\n1. Running the PCA\n\nImport your lecturer data from excel into SPSS. On the command bar, click Analyze, Dimension Reduction, Factor. Move the variables of interest into the Variables Box.\nClick Descriptives and then check Initial Solution, Coefficients, and KMO and Bartlett’s Test of Sphericity. Click Continue.\nClick Extraction and then select Correlation Matrix, Unrotated Factor Solution, Scree Plot, and Eigenvalues Over 1. Click Continue.\nClick Rotation. Select Varimax and Rotated Solution. Click Continue.\nClick Scores and select Save Scores.\nClick Options. Select Exclude Cases Listwise and Sorted By Size. Click Continue.\nClick OK, and SPSS completes the Principal Components Analysis.\nTake a good look at the correlation matrix. The PCA captures the essence of the correlations in this matrix. If there are any variables that are not correlated with the other variables, you might as well delete them prior to the PCA. Since we are using PCA to reduce the set of variables to a smaller set of components to be used in additional analyses, you can always reintroduce the unique variables (i.e. those not correlated with other variables) at that time.\nBartlett’s Test of Sphericity, can be used to test the null hypothesis that our sample was randomly drawn from a population in which the correlation matrix was an identity matrix (a matrix full of zeros, except, for ones on the main diagonal). An identity matrix would occur only if each variable only correlated with itself and not any other variable. However, it is easier and more interpretable if you look at your data instead.\n\n\n\n2. Interpreting the PCA\nYou need to:\n\nLook at the correlation matrix.\nExamine the scree plot and determine how many PCs you can identify (eigenvalues &gt;1, Kaiser’s Criterion).\nEstablish a meaningful name for each component based on the loadings for individual variables in the rotated solutions.\n\n\n\n3. After the PCA\nExamine whether gender, system biases (marine v. terrestrial) and taxon (animal v. plant) biases may affect the perceptions of biology lecturers. You will need to code the columns for each factor (i.e. males = 0, females = 1) for SPSS to perform its standard one-way ANOVAs or t-tests.\nQuestions to consider:\n\nDo males and females perceive lecturer qualities the same way?\nDo botanists and zoologists perceive lecturer qualities the same way?\nDo marine and terrestrial folk perceive lecturer qualities the same way?",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#part-2-designing-your-multivariate-experiment",
     "href": "module03/302-week09.html#part-2-designing-your-multivariate-experiment",
-    "title": "7  Week 9 – Part 1",
+    "title": "8  Week 9 – Part 1",
     "section": "Part 2: designing your multivariate experiment",
     "text": "Part 2: designing your multivariate experiment\n\nThe data and your model system\nBiologists are becoming more interested in multivariate approaches because the questions we ask and the data we collect tend to be inherently multivariate, relating to both biotic and abiotic variables when dealing with assemblages and habitat assessments respectively. In groups, you will generate your own multivariate datasets using non-biological model systems like cars and the car parks they inhabit, gargoyles and the buildings they live on, or beer types and the type of drinking establishment in which they congregate.\n\n\nAn example of a non-biological model system\nCars have proven a useful vehicle for understanding analytical techniques in ecology (Gaston et al. 1993) and they are a good model system for our needs. We can study the assemblages of different cars (as analogues of “species”) that inhabit different suburbs and look at some characteristics of their car parks (as analogues of “habitat use”). See the sample proforma attached illustrating how we can generate a multivariate system with testable hypotheses using car assemblages and the car parks they inhabit as an example.\n\n\nGroups\nIn groups, you will need to create your own non-biological multivariate system. Using this model system, come up with several (2 to 3) multivariate hypotheses relating to the assemblages of “species” in different “treatments” (2 factor design is encouraged) and the “habitat variables” that may be influencing “habitat use”. Make sure that your treatments are adequately replicated (you will need at least 3 of each treatment). You will need to make a sampling technique in your groups that will allow you to collect the data necessary to test your hypotheses. You should also decide who will co-ordinate the data preparation.\nEach group will present a short (&lt;5 min) presentation during the practical session in Week 11 (week 2 of the pracs). For this, you will have a short powerpoint presentation containing the following information. This is compulsory for this unit: This enables staff to give feedback so you can collect the appropriate data for analyses in the next 2 weeks. Note this feedback is meant to be friendly, we are not upset or angry if we point out flaws in your design.\n\nan introduction to your system (model species and your treatments);\nyour hypotheses (there should be 2 or 3);\na description of your taxonomy;\nyour sampling design (including information on sampling effort and sample sizes);\nthe habitat variables you will be measuring at each site (and how you will measure them);\na map of your sites",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#assessment",
     "href": "module03/302-week09.html#assessment",
-    "title": "7  Week 9 – Part 1",
+    "title": "8  Week 9 – Part 1",
     "section": "Assessment",
     "text": "Assessment\nTo make sure that you get the most time to analyse the data and understand its interpretation, you will bring your data in week 11 to be checked by demonstrators. This is a group assessment so only one member of your group needs submit the data file for the whole group. This is worth 5% of your assessment, with near perfect datasets getting the full 5%. It is a group assessment, so Special Considerations, Simple Extensions and Academic Plans do not apply.\nFor the final assessment, each student will write a short report. The emphasis on the report will be on the methods and results sections, reflected in the attached marking scheme. You do not have to use your imagination in regard to references/ reasons for the study, but are welcome to. You do need to include your hypotheses in the Introduction section.\nThe report will consider the work you did and the ways you analysed it. It must be no longer than four single-spaced typed pages (not including the cover sheet, a title page with the abstract or any pages of references, figures and tables) and will be in the form of a manuscript suitable for submission to Austral Ecology. This report will focus on the methods you used, in particular how you describe your analyses, the type(s) of data you collected and how you present your results.\nYour report is due at 11:59pm on Sunday, before STUVAC. We hope to return reports with summative feedback a week later. Your report should be submitted electronically, anonymously (use your SID for identification) through Canvas.\nDo not plagiarise or copy from others:\n\nCheck the website http://sydney.edu.au/students/academic-integrity.html for access to the policies and codes covering academic honesty and conduct at the University\nWe will take marks off if you have obviously used ChatGPT. You are welcome to use it to check grammar, or even R codes, but we can tell if you have used it extensively to write your reports. The “Notice to Contributors” for Austral Ecology is available at http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1442-9993/homepage/ForAuthors.html",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#template",
     "href": "module03/302-week09.html#template",
-    "title": "7  Week 9 – Part 1",
+    "title": "8  Week 9 – Part 1",
     "section": "Template",
     "text": "Template\nA template for your study design is provided. You can download it here.",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/302-week09.html#references",
     "href": "module03/302-week09.html#references",
-    "title": "7  Week 9 – Part 1",
+    "title": "8  Week 9 – Part 1",
     "section": "References",
     "text": "References\nSee annotated reading list with lectures posted on unit web site.\n\nGaston, K. J., T. M. Blackburn, Lawton. J. (1993). Comparing Animals and Automobiles – a Vehicle for Understanding Body Size and Abundance Relationships in Species Assemblages. Oikos 66: 172-179.\nQuinn G.P. and M.J. Keough. (2002). Experimental design and data analysis for biologists. Cambridge: Cambridge University Press. (appropriate chapters)\nQuinn G.P. and M.J. Keough. (2023). Experimental design and data analysis for biologists. 2nd edn Cambridge: Cambridge University Press. (appropriate chapters)",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 9 -- Part 1</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html",
     "href": "module03/303-week10.html",
-    "title": "8  Week 10 – Part 2",
+    "title": "9  Week 10 – Part 2",
     "section": "",
     "text": "Outline\nFor this specific practical you will:",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#outline",
     "href": "module03/303-week10.html#outline",
-    "title": "8  Week 10 – Part 2",
+    "title": "9  Week 10 – Part 2",
     "section": "",
     "text": "Present group presentations of model systems and experimental design.\nAnalyse sample data in the software package PRIMER or R to:\n\nvisualize data using cluster analysis and nMDS.\ntest one and two factor multivariate hypotheses using ANOSIM and PERMANOVA with a focus on permutational techniques (PERMANOVA).\ndetermine variables contributing to the differences between groups using SIMPER.",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#analyses-covered-in-practical-2",
     "href": "module03/303-week10.html#analyses-covered-in-practical-2",
-    "title": "8  Week 10 – Part 2",
+    "title": "9  Week 10 – Part 2",
     "section": "Analyses covered in practical 2",
     "text": "Analyses covered in practical 2\n\nnMDS and multivariate hypothesis testing (ANOSIM, PERMANOVA and SIMPER) – Mainly used to produce an ordination in order to visualize patterns in the multivariate cloud of data (by reducing dimensions in some way) and also to rigorously test explicit hypotheses concerning those patterns by reference to a priori groups or relationships with predictors, such as environmental variables.\nANOSIM –- testing hypotheses comparing different groups based on their similarity (Among c.f. within) using distance measures. Most effective with simple designs.\nPERMANOVA –- more powerful approach to multivariate hypothesis testing using permutational methods, capable of analysing more complex designs.\nSIMPER –- used when a significant difference is found to identify which components of the data set are driving the differences (e.g. the contribution each species makes to differences among communities.",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#community-structureassemblage-structure",
     "href": "module03/303-week10.html#community-structureassemblage-structure",
-    "title": "8  Week 10 – Part 2",
+    "title": "9  Week 10 – Part 2",
     "section": "Community structure/Assemblage structure",
     "text": "Community structure/Assemblage structure\nThe process for looking at community structure is straight forward. We will use both cluster analysis and nMDS/ANOSIM/SIMPER to do this. This involves;\n\nTransforming/standardising your data as appropriate.\nCalculating Bray Curtis dissimilarities (you could use something else from BC if the data are suitable) and generating dissimilarity matrix.\nPerforming MDS (and follow on below).\nPERMANOVA (or ANOSIM) to test for difference between treatments.\nSIMPER for identifying which variables contribute to the differences.",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#using-primer-r-instructions-are-given-on-canvas-within-an-r-studio-files",
     "href": "module03/303-week10.html#using-primer-r-instructions-are-given-on-canvas-within-an-r-studio-files",
-    "title": "8  Week 10 – Part 2",
+    "title": "9  Week 10 – Part 2",
     "section": "Using PRIMER (R instructions are given on Canvas within an R Studio files)",
     "text": "Using PRIMER (R instructions are given on Canvas within an R Studio files)\n\nPERMANOVA, SIMPER and MDS analysis with PRIMER\n\nOpen the Excel document you wish to analyse.\nOpen PRIMER\nIn PRIMER go to Open and select Excel file you wish to analyse.\nSelect worksheet to be analysed. Keep “Data Type” as Sample Data. Clear button “Title”.\nCheck to ensure you have the correct number of rows and columns and all looks well.\nGo to Edit, go to Factors, go to Add and name your new factor(s) appropriately, code each site for that factor and press OK.\nGo to Pre-treatment and then to Transform (overall), and select an appropriate transformation for your data. (4th root or presence/absence, etc1.)\nTo make an nMDS plot: Go to Analyse then Resemblance and click ‘analyse between samples’ and ‘Bray-Curtis similarity’. Go to Analyse then to Non-metric MDS, change number of restarts to 20 and select configuration plot. You can modify how the nMDS plot is displayed by right clicking on the figure.\nTo perform a PERMANOVA you need to firstly create a PERMANOVA design, and then run the PERMANOVA you have designed\n\nTo create a PERMANOVA design: Return to the resemblance matrix. Go to PERMANOVA+ then Create PERMANOVA design. Create a title for the design and select appropriate number of factors. Enter in each factor you want to incorporate into the design, and code as either fixed or random factor. Complex designs can be created at this point.\nTo run the PERMANOVA: Return to the resemblance matrix. Go to PERMANOVA+ then PERMANOVA. Select the correct design (usually the highest number). Select Mains test and your permutational method (reduced model is usually fine), the sum of squares type (type III) and the number of permutations (999 recommended) then OK.\n\nInterpret the PERMANOVA output. If one or more of your factors are significant, then you run the PERMANOVA design again, selecting Pair-wise test and select the factor/interaction of interest. Press OK.\nIf appropriate, return to transformed data set and go to Analyse and then SIMPER. Select appropriate factor and click OK.\nSave result(s) to a file.\n\n\n\nANOSIM\nAs an alternative to PERMANOVA, many studies will test differences between treatments using Analysis of Similarities (ANOSIM). Unlike PERMANOVA which can be used for multi-factorial designs, ANOSIM is best used for simple one-factor analyses. PERMANOVA and ANOSIM will generate the same (or very similar results) for one-factor analyses.\n\nTo perform an ANOSIM\nReturn to resemblance matrix, go to Analyse then to ANOSIM, select appropriate factor which you added before.\nSignificance level in % in ANOSIM becomes probability if divided by 100. e.g. 0.2 ÷ 100 = 0.002 = P (in this case P &lt; 0.05). If ‘Significance level of sample statistic’ in ‘Global Test’ section of the output is more than 5 (which is &gt; 0.05), than there is no significant difference among any of the treatments even if ‘Pairwise Tests’ section has significant differences between pairs of particular treatments. ANOSIM results are presented as: (P = 0.076, Global R = 0.148, 999 permutations) where P is a global significance level.",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#for-next-week",
     "href": "module03/303-week10.html#for-next-week",
-    "title": "8  Week 10 – Part 2",
+    "title": "9  Week 10 – Part 2",
     "section": "For next week",
-    "text": "For next week\nOur first steps involve organizing the data so that we can get it into our analytical software (SPSS, PRIMER, R etc,) and generating summary statistics and figures. Different analytical software requires slightly different formats but there are usually some generalities that apply across programs.\nFor the start of next week’s practical each group will need to have collated their group data into three spreadsheets; These spreadsheets will be marked out of 5 by demonstrators.\n\nHabitat data: an SPSS or R ready excel file with sites as rows and habitat variables as columns (see below)\nAssemblage/Community data: a PRIMER or R ready excel file with species ID as rows and sites as columns (see below)\nSummary statistics: additional excel files as above (1 and 2) but with summary statistics (numbers of spp., individuals, habitat variables etc.) calculated for your data. This may be done on a site specific or treatment specific basis depending on your question.\n\n\n1. Your habitat data for PCA\nHabitat data – You will need to enter your data on habitat characteristics into SPSS or R for analysis next week. Make sure you are familiar with how to organise it for SPSS. Every site needs its own row where every habitat variable measured is listed, i.e. every site assessment has an independent row. If you have treatments you need to include a column labeling those treatments too (in addition to “site name”).\n\n\n2. Organising and entering assemblage data for PRIMER\nAssemblage/Community data – You will need to generate your spp*site matrix into a PRIMER ready file so that we are ready to analyse your data at the labs next week. These will take the form of a spreadsheet with a single column identifying species (unique species identifiers are fine) with the abundances for each site in rows (page 22). This sheet must start in the top left cell of that worksheet with only a single row of column labels. Make sure that you keep a reference file where you have recorded the specific identity of the unique species identifiers (e.g. A= Toyota Corolla, B= Leyland P76 etc.).\n\n\n3. Generating summary statistics for additional (univariate) analyses\nOn an additional spreadsheet/workspace, you should calculate summary statistics to perform additional univariate analyses. Create a copy of your completed excel file and or worksheet. You should generate a column in the far right of your spreadsheet summing the number of things in each row. You can then sort the data (REMEMBER TO SELECT IT ALL!) by that column and delete all the zero rows (i.e. no evidence of that species in your system).\nOwing to the high degree of variation and the number of singletons you will encounter it is possible (and likely) that some groups will pool species into more coarse groupings (i.e. “genera” or “family”).\nThe easiest way to calculate some of these summary statistics will be to use the pivot table command in Excel to sort your data for you. To do this:\n\nHighlight the dataset you want to use\nChoose Pivot Table from the Data menu\nWork through the wizard creating a pivot table in a new worksheet\nThen change the drop down menu in the box to “to data area” and click on the different sites to add them.\n\nYou should have a functional summary pivot table of your data. You can change the pivot tables to look at “counts” (equivalent of presence absence data) or “sums” (abundance data) for your spreadsheet.  \n\n\n\n\n\n\nFigure 8.1: Example of data sheet for importing data into SPSS for PCA\n\n\n\n\n\n\n\n\n\nFigure 8.2: Example of data sheet for importing data into PRIMER",
+    "text": "For next week\nOur first steps involve organizing the data so that we can get it into our analytical software (SPSS, PRIMER, R etc,) and generating summary statistics and figures. Different analytical software requires slightly different formats but there are usually some generalities that apply across programs.\nFor the start of next week’s practical each group will need to have collated their group data into three spreadsheets; These spreadsheets will be marked out of 5 by demonstrators.\n\nHabitat data: an SPSS or R ready excel file with sites as rows and habitat variables as columns (see below)\nAssemblage/Community data: a PRIMER or R ready excel file with species ID as rows and sites as columns (see below)\nSummary statistics: additional excel files as above (1 and 2) but with summary statistics (numbers of spp., individuals, habitat variables etc.) calculated for your data. This may be done on a site specific or treatment specific basis depending on your question.\n\n\n1. Your habitat data for PCA\nHabitat data – You will need to enter your data on habitat characteristics into SPSS or R for analysis next week. Make sure you are familiar with how to organise it for SPSS. Every site needs its own row where every habitat variable measured is listed, i.e. every site assessment has an independent row. If you have treatments you need to include a column labeling those treatments too (in addition to “site name”).\n\n\n2. Organising and entering assemblage data for PRIMER\nAssemblage/Community data – You will need to generate your spp*site matrix into a PRIMER ready file so that we are ready to analyse your data at the labs next week. These will take the form of a spreadsheet with a single column identifying species (unique species identifiers are fine) with the abundances for each site in rows (page 22). This sheet must start in the top left cell of that worksheet with only a single row of column labels. Make sure that you keep a reference file where you have recorded the specific identity of the unique species identifiers (e.g. A= Toyota Corolla, B= Leyland P76 etc.).\n\n\n3. Generating summary statistics for additional (univariate) analyses\nOn an additional spreadsheet/workspace, you should calculate summary statistics to perform additional univariate analyses. Create a copy of your completed excel file and or worksheet. You should generate a column in the far right of your spreadsheet summing the number of things in each row. You can then sort the data (REMEMBER TO SELECT IT ALL!) by that column and delete all the zero rows (i.e. no evidence of that species in your system).\nOwing to the high degree of variation and the number of singletons you will encounter it is possible (and likely) that some groups will pool species into more coarse groupings (i.e. “genera” or “family”).\nThe easiest way to calculate some of these summary statistics will be to use the pivot table command in Excel to sort your data for you. To do this:\n\nHighlight the dataset you want to use\nChoose Pivot Table from the Data menu\nWork through the wizard creating a pivot table in a new worksheet\nThen change the drop down menu in the box to “to data area” and click on the different sites to add them.\n\nYou should have a functional summary pivot table of your data. You can change the pivot tables to look at “counts” (equivalent of presence absence data) or “sums” (abundance data) for your spreadsheet.  \n\n\n\n\n\n\nFigure 9.1: Example of data sheet for importing data into SPSS for PCA\n\n\n\n\n\n\n\n\n\nFigure 9.2: Example of data sheet for importing data into PRIMER",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/303-week10.html#footnotes",
     "href": "module03/303-week10.html#footnotes",
-    "title": "8  Week 10 – Part 2",
+    "title": "9  Week 10 – Part 2",
     "section": "",
     "text": "When you are analyzing your group data (week 11), you will be able to apply multiple transformations to your data. I’d encourage you to use a range of them to see how it affects your data. Note that PRIMER will be reluctant to undertake any analyses when data are not transformed!↩︎",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 10 -- Part 2</span>"
     ]
   },
   {
     "objectID": "module03/304-week11.html",
     "href": "module03/304-week11.html",
-    "title": "9  Week 11 – Part 3",
+    "title": "10  Week 11 – Part 3",
     "section": "",
     "text": "Outline\nAt the end of the practical you should have:",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
     ]
   },
   {
     "objectID": "module03/304-week11.html#outline",
     "href": "module03/304-week11.html#outline",
-    "title": "9  Week 11 – Part 3",
+    "title": "10  Week 11 – Part 3",
     "section": "",
     "text": "Appropriate outputs for your community structure analyses:\n\nCluster analysis details and dendrogram (if appropriate)\nnMDS (saved as suitable image file)\nPERMANOVA results (in rtf/doc file)\nSIMPER if justified\n\nAppropriate outputs for your PCA:\n\nRTF file with SPSS or R output\n\nUnivariate tests using your PCA results\n\nRTF file with SPSS or R output with Regression and/or ANOVA results (testing hypotheses using your newly derived PCs)",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
     ]
   },
   {
     "objectID": "module03/304-week11.html#your-own-data",
     "href": "module03/304-week11.html#your-own-data",
-    "title": "9  Week 11 – Part 3",
+    "title": "10  Week 11 – Part 3",
     "section": "Your own data",
     "text": "Your own data\nAt this stage it’s very easy to fiddle with your data – is there any reason you might want to standardise or transform your data in any way? Some things to consider at this stage:\n\nDo the abundances matter?\nAre you intending to make every sample equal?\nWould it be worth analysing using your data at a higher “taxonomic” level?",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
     ]
   },
   {
     "objectID": "module03/304-week11.html#tips-for-primer",
     "href": "module03/304-week11.html#tips-for-primer",
-    "title": "9  Week 11 – Part 3",
+    "title": "10  Week 11 – Part 3",
     "section": "Tips for PRIMER",
     "text": "Tips for PRIMER\nThe graphics are not fantastic – for some outputs you may need to save the coordinates and make a new graph. You can save the images as a windows metafile or bitmap if you wish, they are good enough for your report. Resolution is too low for most journals. You should save appropriate output files using standard formats you can incorporate into your report.\nIf you don’t complete your analyses, I will make the program available to you outside of prac times. There will also be time in Week 12 to do any extras.",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 11 -- Part 3</span>"
     ]
   },
   {
     "objectID": "module03/305-week12.html",
     "href": "module03/305-week12.html",
-    "title": "10  Week 12 – Support session",
+    "title": "11  Week 12 – Support session",
     "section": "",
     "text": "Outline\nThis week we will be in the lab to help with any analyses that groups wish to undertake. This may involve integrating the analyses (e.g. testing the relationships between PCs and univariate measures) or tweaking (not twerking) your analyses by examining subsets of your data using the options available in PRIMER.",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 12 -- Support session</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 12 -- Support session</span>"
     ]
   },
   {
     "objectID": "module03/305-week12.html#marking-scheme",
     "href": "module03/305-week12.html#marking-scheme",
-    "title": "10  Week 12 – Support session",
+    "title": "11  Week 12 – Support session",
     "section": "Marking scheme",
     "text": "Marking scheme\nThe marking scheme can be found on Canvas, in the Assignments section under Report 2.",
     "crumbs": [
       "**Module 3**",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week 12 -- Support session</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week 12 -- Support session</span>"
     ]
   },
   {
@@ -1098,7 +1142,7 @@
     "href": "04-cheatsheets.html#jamovi",
     "title": "Cheatsheets & other resources",
     "section": "Jamovi",
-    "text": "Jamovi\n\nboxplots | scatterplots | histograms\none-sample t-test | two-sample t-test | paired t-test",
+    "text": "Jamovi\n\nboxplots | scatterplots | histograms\nt-tests",
     "crumbs": [
       "Cheatsheets & other resources"
     ]
