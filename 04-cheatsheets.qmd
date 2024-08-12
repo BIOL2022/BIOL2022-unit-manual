@@ -40,7 +40,7 @@ Requirements:
 
 - [importing data into R](https://usyd-soles-edu.github.io/cheatsheet-r-data-import/)
 - [boxplots](https://usyd-soles-edu.github.io/cheatsheet-R-boxplot/) | [scatterplots](https://usyd-soles-edu.github.io/cheatsheet-r-scatterplot/) | [histograms](https://usyd-soles-edu.github.io/cheatsheet-r-histogram/)
-- one-sample *t*-test | two-sample *t*-test | paired *t*-test
+- [one-sample *t*-test](https://usyd-soles-edu.github.io/cheatsheet-r-ttest/) | two-sample *t*-test | paired *t*-test
 
 ## SPSS
 
@@ -50,5 +50,5 @@ Requirements:
 ## Jamovi
 
 - [boxplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-boxplot/) | [scatterplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-scatterplot/) | [histograms](https://usyd-soles-edu.github.io/cheatsheet-jamovi-histogram/)
-- one-sample *t*-test | two-sample *t*-test | paired *t*-test
+- *t*-tests
 
