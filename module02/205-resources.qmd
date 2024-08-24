@@ -16,7 +16,7 @@ title: Report 1 -- **Resources**
 ## BIRD GROUPS ONLY
 ::: callout-important
 ## Important Animal Ethics information
-Please use [this monitoring sheet](assets/2022%20Bird%20survey%20monitoring%20sheet-V1.pdf) for your data collection.
+Please use [this monitoring sheet](assets/2024%20Bird%20survey%20monitoring%20sheet.xlsx) for your data collection.
 
 As part of the Animal Ethics requirements each bird group must submit:
 
