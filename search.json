@@ -1133,7 +1133,7 @@
     "href": "04-cheatsheets.html#r",
     "title": "Cheatsheets & other resources",
     "section": "",
-    "text": "importing data into R\nboxplots | scatterplots | histograms\none-sample t-test | two-sample t-test | paired t-test",
+    "text": "importing data into R\nboxplots | scatterplots | histograms\none-sample t-test | two-sample t-test | ANOVA | regression\nPublishing ANOVA/regression tables in R",
     "crumbs": [
       "Cheatsheets & other resources"
     ]
@@ -1143,7 +1143,7 @@
     "href": "04-cheatsheets.html#spss",
     "title": "Cheatsheets & other resources",
     "section": "SPSS",
-    "text": "SPSS\n\nboxplots | scatterplots | using the chart builder\none-sample t-test | two-sample t-test | paired t-test",
+    "text": "SPSS\n\n\n\n\n\n\nNote\n\n\n\nDevelopment for SPSS is paused for now.\n\n\n\nboxplots | scatterplots | using the chart builder",
     "crumbs": [
       "Cheatsheets & other resources"
     ]
@@ -1153,7 +1153,17 @@
     "href": "04-cheatsheets.html#jamovi",
     "title": "Cheatsheets & other resources",
     "section": "Jamovi",
-    "text": "Jamovi\n\nboxplots | scatterplots | histograms\nt-tests",
+    "text": "Jamovi\n\nboxplots | scatterplots | histograms\nt-tests/ANOVA | regression",
+    "crumbs": [
+      "Cheatsheets & other resources"
+    ]
+  },
+  {
+    "objectID": "04-cheatsheets.html#general",
+    "href": "04-cheatsheets.html#general",
+    "title": "Cheatsheets & other resources",
+    "section": "General",
+    "text": "General\n\nPublication-ready ANOVA tables\nPublication-ready regression tables",
     "crumbs": [
       "Cheatsheets & other resources"
     ]
