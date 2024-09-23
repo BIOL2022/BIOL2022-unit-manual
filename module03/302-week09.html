@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -430,6 +433,12 @@ Objectives
 <li>Take a good look at the correlation matrix. The PCA captures the essence of the correlations in this matrix. If there are any variables that are not correlated with the other variables, you might as well delete them prior to the PCA. Since we are using PCA to reduce the set of variables to a smaller set of components to be used in additional analyses, you can always reintroduce the unique variables (i.e.&nbsp;those not correlated with other variables) at that time.</li>
 <li>Bartlett’s Test of Sphericity, can be used to test the null hypothesis that our sample was randomly drawn from a population in which the correlation matrix was an identity matrix (a matrix full of zeros, except, for ones on the main diagonal). An identity matrix would occur only if each variable only correlated with itself and not any other variable. However, it is easier and more interpretable if you look at your data instead.</li>
 </ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../assets/spss-pca-analysis.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Click to enlarge. PCA analysis in SPSS. Note that this analysis selects ALL numerical variables, which may not be necessary depending on the research question."><img src="../assets/spss-pca-analysis.gif" class="img-fluid figure-img" alt="Click to enlarge. PCA analysis in SPSS. Note that this analysis selects ALL numerical variables, which may not be necessary depending on the research question."></a></p>
+<figcaption>Click to enlarge. PCA analysis in SPSS. Note that this analysis selects ALL numerical variables, which may not be necessary depending on the research question.</figcaption>
+</figure>
+</div>
 </section>
 <section id="interpreting-the-pca" class="level3">
 <h3 class="anchored" data-anchor-id="interpreting-the-pca">2. Interpreting the PCA</h3>
@@ -464,7 +473,7 @@ Objectives
 <section id="groups" class="level3">
 <h3 class="anchored" data-anchor-id="groups">Groups</h3>
 <p>In groups, you will need to create your own non-biological multivariate system. Using this model system, come up with several (2 to 3) multivariate hypotheses relating to the assemblages of “species” in different “treatments” (2 factor design is encouraged) and the “habitat variables” that may be influencing “habitat use”. Make sure that your treatments are adequately replicated (you will need at least 3 of each treatment). You will need to make a sampling technique in your groups that will allow you to collect the data necessary to test your hypotheses. You should also decide who will co-ordinate the data preparation.</p>
-<p>Each group will present a short (&lt;5 min) presentation during the practical session in Week 11 (week 2 of the pracs). For this, you will have a short powerpoint presentation containing the following information. This is compulsory for this unit: This enables staff to give feedback so you can collect the appropriate data for analyses in the next 2 weeks. Note this feedback is meant to be friendly, we are not upset or angry if we point out flaws in your design.</p>
+<p>Each group will present a short (&lt;5 min) presentation during the practical session in Week 10 (week 2 of the pracs). For this, you will have a short powerpoint presentation containing the following information. This is compulsory for this unit: This enables staff to give feedback so you can collect the appropriate data for analyses in the next 2 weeks. Note this feedback is meant to be friendly, we are not upset or angry if we point out flaws in your design.</p>
 <ul>
 <li>an introduction to your system (model species and your treatments);</li>
 <li>your hypotheses (there should be 2 or 3);</li>
@@ -937,6 +946,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
