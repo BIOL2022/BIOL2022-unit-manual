@@ -1,5 +1,6 @@
 ---
 title: Week 9 -- Part 1
+lightbox: true
 ---
 
 :::{.callout-tip appearance="simple"}
@@ -47,6 +48,11 @@ f. Click Options. Select Exclude Cases Listwise and Sorted By Size. Click Contin
 g. Click OK, and SPSS completes the Principal Components Analysis.
 h. Take a good look at the correlation matrix. The PCA captures the essence of the correlations in this matrix. If there are any variables that are not correlated with the other variables, you might as well delete them prior to the PCA. Since we are using PCA to reduce the set of variables to a smaller set of components to be used in additional analyses, you can always reintroduce the unique variables (i.e. those not correlated with other variables) at that time.
 i. Bartlett’s Test of Sphericity, can be used to test the null hypothesis that our sample was randomly drawn from a population in which the correlation matrix was an identity matrix (a matrix full of zeros, except, for ones on the main diagonal). An identity matrix would occur only if each variable only correlated with itself and not any other variable. However, it is easier and more interpretable if you look at your data instead.
+
+::: {.content-visible unless-format="pdf"}
+![Click to enlarge. PCA analysis in SPSS. Note that this analysis selects ALL numerical variables, which may not be necessary depending on the research question.](../assets/spss-pca-analysis.gif)
+:::
+
 
 ### 2. Interpreting the PCA
 
