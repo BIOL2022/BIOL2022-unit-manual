@@ -57,6 +57,7 @@ Development for SPSS is paused for now.
 
 - [boxplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-boxplot/) | [scatterplots](https://usyd-soles-edu.github.io/cheatsheet-jamovi-scatterplot/) | [histograms](https://usyd-soles-edu.github.io/cheatsheet-jamovi-histogram/)
 - [*t*-tests/ANOVA](https://usyd-soles-edu.github.io/cheatsheet-jamovi-anova/) | regression
+- [Principal Component Analysis (PCA)](https://usyd-soles-edu.github.io/cheatsheet-jamovi-pca/)
 
 ## General
 
