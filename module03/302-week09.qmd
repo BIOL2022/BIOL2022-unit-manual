@@ -82,7 +82,7 @@ Cars have proven a useful vehicle for understanding analytical techniques in eco
 ### Groups
 In groups, you will need to create your own non-biological multivariate system. Using this model system, come up with several (2 to 3) multivariate hypotheses relating to the assemblages of “species” in different “treatments” (2 factor design is encouraged) and the “habitat variables” that may be influencing “habitat use”. Make sure that your treatments are adequately replicated (you will need at least 3 of each treatment). You will need to make a sampling technique in your groups that will allow you to collect the data necessary to test your hypotheses. You should also decide who will co-ordinate the data preparation. 
 
-Each group will present a short (<5 min) presentation during the practical session in Week 11 (week 2 of the pracs). For this, you will have a short powerpoint presentation containing the following information. This is compulsory for this unit: This enables staff to give feedback so you can collect the appropriate data for analyses in the next 2 weeks. Note this feedback is meant to be friendly, we are not upset or angry if we point out flaws in your design. 
+Each group will present a short (<5 min) presentation during the practical session in Week 10 (week 2 of the pracs). For this, you will have a short powerpoint presentation containing the following information. This is compulsory for this unit: This enables staff to give feedback so you can collect the appropriate data for analyses in the next 2 weeks. Note this feedback is meant to be friendly, we are not upset or angry if we point out flaws in your design. 
 
 - an introduction to your system (model species and your treatments);
 - your hypotheses (there should be 2 or 3);
