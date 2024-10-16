@@ -98,7 +98,7 @@ You should have a functional summary pivot table of your data. You can change th
 
 ![Example of data sheet for importing data into SPSS for PCA ](../assets/spss.png){#fig-spss}
 
-![Example of data sheet for importing data into PRIMER](../assets/spss.png){#fig-primer}
+![Example of data sheet for importing data into PRIMER](../assets/primer.png){#fig-primer}
 
 
 
